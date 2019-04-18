@@ -1,0 +1,29 @@
+server:
+  port: 9005
+  ssl:
+    enabled: false
+
+debug: false
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://server-api-db.c1yne3bmdpup.us-east-2.rds.amazonaws.com:5432/server_db?ApplicationName=java-api-local
+    username: ndakic
+    password: postgres
+    platform:
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        jdbc:
+          use_get_generated_keys: true
+        temp:
+          use_jdbc_metadata_defaults: false
+        cache:
+          use_second_level_cache: false
+          use_query_cache: false
