@@ -1,0 +1,15 @@
+.laptop-container {
+    display:flex;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+}
+
+.laptop-list {
+    flex-grow: 1;
+}
+
+.scrapper-status {
+    flex-grow: 1;
+}
