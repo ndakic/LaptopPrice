@@ -20,6 +20,15 @@ export class LaptopService {
     (catchError(this.handleError));
   }
 
+  getScraperInfo() {
+    const httpHeaders = new HttpHeaders({
+      'Content-Type': 'application/json'
+    });
+    
+    return this.http.get(environment.apiUrlPrefix + '/api/scraper/all', { headers: httpHeaders}).pipe
+    (catchError(this.handleError));
+  }
+
 
   private handleError(error: HttpErrorResponse) {
     if (error.error instanceof ErrorEvent) {

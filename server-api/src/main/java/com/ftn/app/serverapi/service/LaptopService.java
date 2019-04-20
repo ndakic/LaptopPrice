@@ -3,6 +3,8 @@ package com.ftn.app.serverapi.service;
 import com.ftn.app.serverapi.model.Laptop;
 import com.ftn.app.serverapi.repository.LaptopRepository;
 import lombok.AllArgsConstructor;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -14,19 +14,18 @@ import javax.persistence.*;
 public class Laptop {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
-
     private String brand;
-    private String product;
     private String processorBrand;
     private String processorModel;
-    private Integer cores;
+    private String cores;
     private String ramGeneration;
-    private Integer ramAmount;
+    private String ramAmount;
     private String storageType;
-    private Integer storageAmount;
-    private Integer screenSize;
-    private Integer price;
+    private String storageAmount;
+    private String screenSize;
+    private String price;
+    private String condition;
+    private String url;
 
 }

@@ -9,12 +9,12 @@ import { LaptopService } from './services/laptop.service';
 export class LaptopComponent implements OnInit {
 
   public laptops: any;
+  public scraperInfo: any;
 
   constructor(public laptopService: LaptopService) { }
 
   ngOnInit() {
-
-    this.laptopService.getLaptops().subscribe(laptops => this.laptops = laptops);
+    this.laptopService.getLaptops().subscribe(response => this.laptops = response);
+    this.laptopService.getScraperInfo().subscribe(response => this.scraperInfo = response);
   }
-
 }
