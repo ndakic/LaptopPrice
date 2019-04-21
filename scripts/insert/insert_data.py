@@ -8,13 +8,14 @@ import datetime
 
 from model.laptop import Laptop
 
+root_path = sys.argv[1]
 
 laptops = []
 
 
 def load_laptops(file_name):
 
-	with open('../data/' + file_name + '.csv', 'rt') as csvfile:
+	with open(root_path + "data/" + file_name + '.csv', 'rt') as csvfile:
 		loaded_data = list(csv.reader(csvfile, delimiter=","))[1:] # skip header
 
 		for laptop in loaded_data:

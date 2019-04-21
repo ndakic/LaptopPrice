@@ -15,12 +15,14 @@ from pathlib import Path
 from model.link import Link
 from model.laptop import Laptop
 
+root_path = sys.argv[1]
+
 links = []
 laptops = []
 
 def check_file_name(file_name):
 
-	my_file = Path("../data/" + file_name + ".csv")
+	my_file = Path(root_path + "data/" + file_name + ".csv")
 
 	if my_file.exists():
 		file_name = file_name + str(random.randint(1, 1000) * 5)
@@ -29,7 +31,7 @@ def check_file_name(file_name):
 	return file_name
 
 def check_does_file_exist(filename):
-	my_file = Path("../data/" + filename + ".csv")
+	my_file = Path(root_path + "data/"+ filename + ".csv")
 
 	if my_file.exists():
 		return True
@@ -38,7 +40,7 @@ def check_does_file_exist(filename):
 
 def save_data(file_name, purpose):
 
-	with open('../data/' + file_name +'.csv', 'wt', 1) as myfile:
+	with open(root_path + "data/" + file_name +'.csv', 'wt', 1) as myfile:
 		wr = csv.writer(myfile, delimiter=",", quoting=csv.QUOTE_MINIMAL)
 		if purpose == 'urls':
 			wr.writerow(['laptop_id', 'laptop_url'])
@@ -58,7 +60,7 @@ def save_data(file_name, purpose):
 
 def load_links(file_name):
 
-	with open('../data/' + file_name + '.csv', 'rt') as csvfile:
+	with open(root_path + "data/" +file_name + '.csv', 'rt') as csvfile:
 		loaded_data = list(csv.reader(csvfile, delimiter=","))[1:] # skip header
 
 		for link in loaded_data:
@@ -70,7 +72,7 @@ def load_links(file_name):
 
 def load_laptops(file_name):
 
-	with open('../data/' + file_name + '.csv', 'rt') as csvfile:
+	with open(root_path + "data/" + file_name + '.csv', 'rt') as csvfile:
 		loaded_data = list(csv.reader(csvfile, delimiter=","))[1:] # skip header
 
 		for laptop in loaded_data:
@@ -111,7 +113,7 @@ def get_links(base_url):
 	chrome_options.add_argument('--dns-prefetch-disable')
 	chrome_options.add_argument("--disable-dev-shm-usage")
 
-	driver = webdriver.Chrome(executable_path="/home/daka/Desktop/PredictPrice/scrape_kupindo/chromedriver", chrome_options=chrome_options)
+	driver = webdriver.Chrome(executable_path=root_path + "scraper/chromedriver", chrome_options=chrome_options)
 	driver.set_page_load_timeout(30)
 
 	pagination_limit = "1"
@@ -222,7 +224,7 @@ def get_laptop_info():
 	chrome_options.add_argument('--dns-prefetch-disable')
 	chrome_options.add_argument("--disable-dev-shm-usage")
 
-	driver = webdriver.Chrome(executable_path="/home/daka/Desktop/PredictPrice/scrape_kupindo/chromedriver", chrome_options=chrome_options)
+	driver = webdriver.Chrome(executable_path=root_path + "scraper/chromedriver", chrome_options=chrome_options)
 	driver.set_page_load_timeout(30)
 
 	count = 0
