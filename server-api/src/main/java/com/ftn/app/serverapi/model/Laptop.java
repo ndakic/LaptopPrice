@@ -24,7 +24,7 @@ public class Laptop {
     private String storageType;
     private String storageAmount;
     private String screenSize;
-    private String price;
+    private Integer price;
     private String condition;
     private String url;
 

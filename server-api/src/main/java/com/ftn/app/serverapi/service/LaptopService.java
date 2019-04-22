@@ -25,6 +25,6 @@ public class LaptopService {
     }
 
     public List<Laptop> getAllLaptops(){
-        return laptopRepository.findAll();
+        return laptopRepository.findAllByOrderByPriceDesc();
     }
 }

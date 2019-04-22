@@ -14,7 +14,7 @@ public class ScraperService {
     private ScraperRepository scraperRepository;
 
     public List<Scraper> getAll(){
-        return scraperRepository.findAll();
+        return scraperRepository.findAllByOrderByDateDesc();
     }
 
 }

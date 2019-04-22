@@ -13,4 +13,6 @@ public interface LaptopRepository extends JpaRepository<Laptop, Long> {
 
     Optional<Laptop> getOneById(Long id);
 
+    List<Laptop> findAllByOrderByPriceDesc();
+
 }
