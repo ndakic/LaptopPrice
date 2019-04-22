@@ -6,11 +6,17 @@ import { AppComponent } from './app.component';
 import { LaptopComponent } from './laptop/laptop.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NgxPaginationModule } from 'ngx-pagination';
+import { AboutComponent } from './about/about.component';
+import { HomeComponent } from './home/home.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LaptopComponent
+    LaptopComponent,
+    AboutComponent,
+    HomeComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
@@ -22,6 +28,6 @@ import { NgxPaginationModule } from 'ngx-pagination';
   bootstrap: [AppComponent],
   exports: [
     HttpClientModule
-  ]
+  ],
 })
 export class AppModule { }
