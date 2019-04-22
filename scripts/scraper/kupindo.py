@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*- 
+
 import sys
 reload(sys)
 sys.setdefaultencoding('utf8')
@@ -96,6 +99,19 @@ def check_does_exist(laptop_id, purpose):
 				status = True
 		
 	return status
+
+def translate_condition(condition):
+	if condition.lower() == "novo":
+		return "new"
+	if condition.lower() == "nekorišćen":
+		return "new"
+	if condition.lower() == "polovan bez oštećenja":
+		return "used"
+	if condition.lower() == "polovan sa vidljivim znacima korišćenja":
+		return "defective"
+
+	return condition
+
 
 def get_links(base_url):
 
@@ -251,6 +267,8 @@ def get_laptop_info():
 					condition = condition_search[1].text
 				else:
 					condition = laptop_page.find("table", attrs={'class': 'table table-predmet table-predmet-info table-clear'}).find_all('tr')[1].find_all('td')[1].text
+
+				condition = translate_condition(condition)
 
 				search_status = True
 				description = laptop_page.find('div', attrs={'id': 'opis'}).find_all('p')

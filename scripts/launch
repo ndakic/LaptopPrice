@@ -2,5 +2,5 @@
 
 root="/home/daka/Desktop/LaptopPrice/scripts/"
 
-python scraper/kupindo.py $root
+# python scraper/kupindo.py $root
 python insert/insert_data.py $root
