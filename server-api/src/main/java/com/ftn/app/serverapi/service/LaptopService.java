@@ -3,8 +3,6 @@ package com.ftn.app.serverapi.service;
 import com.ftn.app.serverapi.model.Laptop;
 import com.ftn.app.serverapi.repository.LaptopRepository;
 import lombok.AllArgsConstructor;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -26,5 +24,45 @@ public class LaptopService {
 
     public List<Laptop> getAllLaptops(){
         return laptopRepository.findAllByOrderByPriceDesc();
+    }
+
+    public List<String> getAllLaptopBrands(){
+        return laptopRepository.findAllLaptopBrands();
+    }
+
+    public List<String> getAllLaptopProcessorBrands(){
+        return laptopRepository.findAllLaptopProcessorBrands();
+    }
+
+    public List<String> getAllLaptopProcessorModels(){
+        return laptopRepository.findAllLaptopProcessorModels();
+    }
+
+    public List<String> getAllLaptopCores(){
+        return laptopRepository.findAllLaptopCores();
+    }
+
+    public List<String> getAllLaptopRamGenerations(){
+        return laptopRepository.findAllLaptopRamGenerations();
+    }
+
+    public List<String> getAllLaptopRamAmounts(){
+        return laptopRepository.findAllLaptopRamAmounts();
+    }
+
+    public List<String> getAllLaptopStorageTypes(){
+        return laptopRepository.findAllLaptopStorageTypes();
+    }
+
+    public List<String> getAllLaptopStorageAmounts(){
+        return laptopRepository.findAllLaptopStorageAmounts();
+    }
+
+    public List<String> getAllLaptopScreenSizes(){
+        return laptopRepository.findAllLaptopScreenSizes();
+    }
+
+    public List<String> getAllLaptopConditions(){
+        return laptopRepository.findAllLaptopConditions();
     }
 }
