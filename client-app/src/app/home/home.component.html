@@ -1,7 +1,91 @@
 <div class="home-container text-center">
-  <p>
-    Home works!
-  </p>
+  <h3> Please choose your laptop information</h3>
+  
+  <form class="laptop-form" [formGroup]="inputForm" #formDir="ngForm" (ngSubmit)="test()">
+    <div class="select-width">
+      <mat-form-field>
+        <mat-label>Laptop Brand</mat-label>
+        <mat-select formControlName="laptopBrand">
+          <mat-option *ngFor="let brand of laptopBrands" value="{{brand}}">{{brand}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-form-field>
+          <mat-label>Processor Brand</mat-label>
+          <mat-select formControlName="processorBrand">
+            <mat-option *ngFor="let brand of processorBrands" value="{{brand}}">{{brand}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+    </div>
+          
+    <div class="select-width">
+      <mat-form-field>
+        <mat-label>Processor Model</mat-label>
+        <mat-select formControlName="processorModel">
+          <mat-option *ngFor="let model of processorModels" value="{{model}}">{{model}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-form-field>
+          <mat-label>Processor Cores</mat-label>
+          <mat-select formControlName="processorCore">
+            <mat-option *ngFor="let core of processorCores" value="{{core}}">{{core}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+    </div>
+    
+    <div class="select-width">
+      <mat-form-field>
+        <mat-label>RAM Generation</mat-label>
+        <mat-select formControlName="ramGeneration">
+          <mat-option *ngFor="let generation of ramGenerations" value="{{generation}}">{{generation}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-form-field>
+          <mat-label>RAM Amount</mat-label>
+          <mat-select formControlName="ramAmount">
+            <mat-option *ngFor="let amount of ramAmounts" value="{{amount}}">{{amount}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+    </div>
+
+    <div class="select-width">
+      <mat-form-field>
+        <mat-label>Storage Type</mat-label>
+        <mat-select formControlName="storageType">
+          <mat-option *ngFor="let type of storageTypes" value="{{type}}">{{type}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-form-field>
+          <mat-label>Storage Amount</mat-label>
+          <mat-select formControlName="storageAmount">
+            <mat-option *ngFor="let amount of storageAmounts" value="{{amount}}">{{amount}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+    </div>
+
+
+    <div class="select-width">
+      <mat-form-field>
+        <mat-label>Screen Size</mat-label>
+        <mat-select formControlName="screenSize">
+          <mat-option *ngFor="let size of screenSizes" value="{{size}}">{{size}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-form-field>
+          <mat-label>Laptop Condition</mat-label>
+          <mat-select formControlName="laptopCondition">
+            <mat-option *ngFor="let condition of laptopConditions" value="{{condition}}">{{condition}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+    </div>
+      <div class="confirm-button">
+          <button type="submit" mat-raised-button [color]="'success'">Confirm</button>
+      </div>
+  </form>
 </div>
 
 
