@@ -20,9 +20,9 @@ public class Laptop {
     private String processorModel;
     private String cores;
     private String ramGeneration;
-    private String ramAmount;
+    private Integer ramAmount;
     private String storageType;
-    private String storageAmount;
+    private Integer storageAmount;
     private String screenSize;
     private Integer price;
     private String condition;

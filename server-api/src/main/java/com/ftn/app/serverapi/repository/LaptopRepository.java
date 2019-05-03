@@ -15,34 +15,34 @@ public interface LaptopRepository extends JpaRepository<Laptop, Long> {
 
     List<Laptop> findAllByOrderByPriceDesc();
 
-    @Query(value = "SELECT DISTINCT brand from Laptop")
+    @Query(value = "SELECT DISTINCT brand from Laptop WHERE brand <> '' order by brand asc")
     List<String> findAllLaptopBrands();
 
-    @Query(value = "SELECT DISTINCT processorBrand from Laptop")
+    @Query(value = "SELECT DISTINCT processorBrand from Laptop WHERE processorBrand <> '' order by processorBrand asc")
     List<String> findAllLaptopProcessorBrands();
 
-    @Query(value = "SELECT DISTINCT processorModel from Laptop")
+    @Query(value = "SELECT DISTINCT processorModel from Laptop WHERE processorModel <> '' order by processorModel asc")
     List<String> findAllLaptopProcessorModels();
 
-    @Query(value = "SELECT DISTINCT cores from Laptop")
+    @Query(value = "SELECT DISTINCT cores from Laptop WHERE cores <> '' order by cores asc")
     List<String> findAllLaptopCores();
 
-    @Query(value = "SELECT DISTINCT ramGeneration from Laptop")
+    @Query(value = "SELECT DISTINCT ramGeneration from Laptop WHERE ramGeneration <> '' order by ramGeneration asc")
     List<String> findAllLaptopRamGenerations();
 
-    @Query(value = "SELECT DISTINCT ramAmount from Laptop")
+    @Query(value = "SELECT DISTINCT ramAmount from Laptop order by ramAmount asc")
     List<String> findAllLaptopRamAmounts();
 
-    @Query(value = "SELECT DISTINCT storageType from Laptop")
+    @Query(value = "SELECT DISTINCT storageType from Laptop WHERE storageType <> '' order by storageType asc")
     List<String> findAllLaptopStorageTypes();
 
-    @Query(value = "SELECT DISTINCT storageAmount from Laptop")
+    @Query(value = "SELECT DISTINCT storageAmount from Laptop order by storageAmount asc")
     List<String> findAllLaptopStorageAmounts();
 
-    @Query(value = "SELECT DISTINCT screenSize from Laptop")
+    @Query(value = "SELECT DISTINCT screenSize from Laptop WHERE screenSize <> '' order by screenSize asc")
     List<String> findAllLaptopScreenSizes();
 
-    @Query(value = "SELECT DISTINCT condition from Laptop")
+    @Query(value = "SELECT DISTINCT condition from Laptop WHERE condition <> '' order by condition asc")
     List<String> findAllLaptopConditions();
 
 }
