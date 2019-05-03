@@ -1,281 +1,332 @@
 laptop_brand,processor_brand,processor_number,number_of_cores,ram_generation,ram_amount,storage_type,storage_amount,screen_size,price,condition,url,laptop_id
-Asus,intel,i7,4,ddr4,16gb,hdd,256gb,17.3`,264990,new,https://www.kupindo.com/showcontent/2143/Laptopovi/48707351_ASUS-NOVO-NEKORISCENO-br-2-Akcija,48707351
-Asus,intel,i7,2,ddr4,16gb,ssd,256gb,17.3`,249990,new,https://www.kupindo.com/showcontent/2143/Laptopovi/48705427_ASUS-NOVO-NEKORISCENO-Akcija,48705427
-Hewlett Packard,intel,i7,4,ddr4,8 gb,ssd,256 gb,15.6`,189990,new,https://www.kupindo.com/showcontent/2143/Laptopovi/48815537_HP-Laptop-Omen-15-NOVO-NEKORISCENO-Akcija,48815537
-Hewlett Packard,intel,i7,4,ddr4,8 gb,ssd,256 gb,17.3`,184990,new,https://www.kupindo.com/showcontent/2135/Laptopovi/48813673_HP-Laptop-Omen-17-NOVO-NEKORISCENO-Akcija,48813673
-Hewlett Packard,intel,i7,2,ddr3,8gb,hdd,128gb,13.3`,159990,new,https://www.kupindo.com/showcontent/2135/Laptopovi/48774057_HP-notebook-13-NOVO-NEKORISCENO-Akcija,48774057
-Hewlett Packard,intel,i5,4,ddr4,8gb,ssd,256gb,17.3`,149990,new,https://www.kupindo.com/showcontent/2139/Laptopovi/48819125_HP-Laptop-Omen-17-NOVO-NEKORISCENO-Akcija,48819125
-Hewlett Packard,intel,i7,2,ddr4,16 gb,hdd,1TB,16``,146800,new,https://www.kupindo.com/showcontent/2139/Laptopovi/54152203_HP-ProBook-450-G5-2UB57EAR-i7-8550U-16GB-SSD512GB-1-TB-,54152203
-Hewlett Packard,intel,i7,2,ddr4,16 gb,hdd,1TB,16``,146800,new,https://www.kupindo.com/showcontent/2139/Laptopovi/54152323_HP-ProBook-470-G5-2XZ77ESR-i7-8550U-16GB-SSD256GB-1-TB-,54152323
-Hewlett Packard,intel,i5,2,ddr4,16gb,ssd,256gb,17.3`,122990,new,https://www.kupindo.com/Laptopovi/48814321_HP-Laptop-17-NOVO-NEKORISCENO-Akcija,48814321
-Hewlett Packard,intel,i5,2,ddr4,8gb,hdd,256gb,15.6`,101990,new,https://www.kupindo.com/Laptopovi/48814889_HP-Laptop-250-NOVO-NEKORISCENO-Akcija,48814889
-Hewlett Packard,intel,i5,2,ddr4,8gb,ssd,256 gb,15.6`,96990,new,https://www.kupindo.com/Laptopovi/48814789_HP-Laptop-15-NOVO-NEKORISCENO-Akcija,48814789
-HP,intel,i5,2,ddr4,8 gb,hdd,1TB,15``,94000,new,https://www.kupindo.com/Laptopovi/53429017_HP-Pavilion-Gaming-15-Novo,53429017
-Dell,intel,i5,2,ddr4,4gb,ssd,256gb,15.6`,91990,new,https://www.kupindo.com/Laptopovi/48699879_DELL-Inspiron-15-NOVO-NEKORISCENO-Akcija,48699879
-Acer,intel,i7,2,ddr4,8gb,ssd,250gb,17.3,88500,used,https://www.kupindo.com/Laptopovi/50261069_Acer-Aspire-V-Nitro-Black-Edition-i7-6700HQ-8GB-GTX960,50261069
-Hewlett Packard,intel,i5,2,ddr4,4gb,hdd,256gb,15.6`,87990,new,https://www.kupindo.com/Laptopovi/48814601_HP-Laptop-250-NOVO-NEKORISCENO-Akcija,48814601
-Hewlett Packard,intel,i5,2,ddr4,8 gb,ssd,256 gb,15.6`,87990,new,https://www.kupindo.com/Laptopovi/48815445_HP-Laptop-250-NOVO-NEKORISCENO-Akcija,48815445
-Hewlett Packard,intel,i7,2,ddr4,16gb,ssd,256 gb,15.6`,80500,used,https://www.kupindo.com/Laptopovi/46556349_HP-EliteBook-i7-16gb-DDR4-256-GB-SSD-Akcija,46556349
-Lenovo,intel,i5,2,ddr4,8gb,ssd,256gb,15.6`,78990,new,https://www.kupindo.com/Laptopovi/48692583_LENOVO-laptop-NOVO-NEKORISCENO-Akcija,48692583
-Hewlett Packard,intel,i5,2,ddr4,8gb,hdd,256gb,15.6`,78990,new,https://www.kupindo.com/Laptopovi/48815105_HP-Laptop-250-NOVO-NEKORISCENO-Akcija,48815105
-Toshiba,intel,i7,2,,16 gb,hdd,1TB,15``,78600,used,https://www.kupindo.com/Laptopovi/50917069_TOSHIBA-15-6-4K-Touchscreen-i7-5500U-16GB-480SSD-69,50917069
-Hewlett Packard,intel,i5,2,ddr4,4gb,hdd,500gb,15.6`,77990,new,https://www.kupindo.com/Laptopovi/48812729_HP-Laptop-250-NOVO-NEKORISCENO-Akcija,48812729
-Dell,intel,i7,4,ddr3,16gb,ssd,256gb,17``,77000,used,https://www.kupindo.com/Laptopovi/54056701_DeLL-M6700-i7-3740-16gb-ddr3-256gb-ssd-500gb-Quadro-2gb,54056701
-Hewlett Packard,intel,i7,2,ddr4,8gb,ssd,256gb, 14``,76950,used,https://www.kupindo.com/Laptopovi/46243097_HP-EliteBook-i7-8gb-256-GB-SSD-Akcija,46243097
-Lenovo,intel,i5,2,ddr4,8 gb,hdd,1TB,15.6`,75990,new,https://www.kupindo.com/Laptopovi/48689315_LENOVO-320-NOVO-NEKORISCENO-Akcija,48689315
-CLEVO,intel,i7,2,ddr3,16 gb,ssd,128gb,15``,75000,used,https://www.kupindo.com/Laptopovi/52742321_CLEVO-i7-6700HQ-16gb-DDr3-128-ssd-500Gb-GTX960M-Full-HD,52742321
-Hewlett Packard,intel,i5,2,ddr4,4gb,hdd,128gb,15.6`,74990,new,https://www.kupindo.com/Laptopovi/48772897_HP-laptop-250-NOVO-NEKORISCENO-Akcija,48772897
-Hewlett Packard,intel,i7,2,ddr4,8gb,ssd,128 gb,"15,6`",74500,used,https://www.kupindo.com/Laptopovi/46556829_HP-EliteBook-i7-8gb-DDR4-128-GB-SSD-Akcija,46556829
-Lenovo,intel,i5,2,ddr4,8gb,ssd,120gb, 12``,74000,used,https://www.kupindo.com/Laptopovi/47265745_VRHUNSKI-Lenovo-ThinkPad-X270-i5-7-Generacija-,47265745
-Lenovo,intel,i5,2,,4 gb,hdd,500 gb,"15,6`",73990,new,https://www.kupindo.com/Laptopovi/48692207_LENOVO-V310-NOVO-NEKORISCENO-Akcija,48692207
-Toshiba,intel,i7,2,,8gb,hdd,1TB,15.6`,73000,used,https://www.kupindo.com/Laptopovi/50195893_Toshiba-L50-i7-4510U-8GB-1TB-dve-grafike-Akcija,50195893
-Dell,intel,i7,2,ddr3,16 gb,hdd,2TB,17``,72600,defective,https://www.kupindo.com/Laptopovi/50917761_DELL-17-3-FHD-i7-3630QM-16GB-RAM-512GB-SSD-2x1TB-111,50917761
-Acer,intel,i7,4,ddr3,20gb,hdd,1TB,"17,3` ",72000,used,https://www.kupindo.com/Laptopovi/46989565_Acer-Aspire-i7-20Gb-RAM-120GB-SSD-1TB-Akcija,46989565
-Hewlett Packard,intel,i3,2,ddr4,4gb,hdd,1TB,15.6`,71990,new,https://www.kupindo.com/Laptopovi/48814221_HP-Laptop-15-NOVO-NEKORISCENO-Akcija,48814221
-Hewlett Packard,intel,i5,2,ddr4,4 gb,hdd,500 gb,15.6`,70990,new,https://www.kupindo.com/Laptopovi/48773749_HP-laptop-15-NOVO-NEKORISCENO-Akcija,48773749
-Lenovo,intel,i7,2,ddr3,16gb,hdd,1TB,15``,70000,used,https://www.kupindo.com/Laptopovi/52925137_LENOVO-15-6-FULL-HD-i7-5600U-16GB-RAM-256GB-SSD-03,52925137
-Lenovo,intel,i7,2,ddr3,16gb,hdd,1TB,15``,70000,used,https://www.kupindo.com/Laptopovi/52925381_LENOVO-15-6-FULL-HD-i7-5600U-16GB-RAM-256GB-SSD-01,52925381
-Hewlett Packard,intel,i3,2,ddr4,4gb,ssd,256 gb,15.6`,65990,new,https://www.kupindo.com/Laptopovi/48815017_HP-Laptop-250-NOVO-NEKORISCENO-Akcija,48815017
-Dell,intel,i7,2,ddr3,8gb,hdd,500gb,15.6,65000,used,https://www.kupindo.com/Laptopovi/50390457_Dell-Precision-M4800-i7-4910-8Gb-500Gb-Qvadro-K2100M-2G,50390457
-Dell,intel,i7,2,,8gb,hdd,1TB,15``,65000,used,https://www.kupindo.com/Laptopovi/53903609_DELL-Gaming-i7-3GHz-8GB-1TB-15-6in-AMD-2GB,53903609
-Lenovo,intel,i5,2,,8gb,ssd,256 gb, 14``,63450,used,https://www.kupindo.com/Laptopovi/46865893_Lenovo-i5-6300U-256-GB-SSD-8GB-Intel-HD-Akcija,46865893
-Lenovo,intel,i5,2,ddr3,16gb,ssd,256gb,15``,62000,used,https://www.kupindo.com/Laptopovi/52712393_Lenovo-ThinkPad-T550-i5-5-Gen-16GB-250SSD-15-6-Full-HD,52712393
-Lenovo,intel,i5,2,ddr4,8gb,hdd,1TB,16``,60000,used,https://www.kupindo.com/Laptopovi/52131877_LENOVO-ideapad-520-i5-7200U-GTX940MX-4GB-DDR5-8GB-1TB,52131877
-Lenovo,intel,i3,2,ddr3,4gb,hdd,500gb,15.6`,59990,new,https://www.kupindo.com/Laptopovi/48531881_LENOVO-110-NOVO-NEKORISCENO-Akcija,48531881
-Asus,intel,i7,2,,4 gb,ssd,, 14``,59000,used,https://www.kupindo.com/Laptopovi/53496085_ASUS-Ultrabook-UX32VD-R4002H,53496085
-Lenovo,intel,i3,2,ddr4,4gb,hdd,1TB,15.6`,58990,new,https://www.kupindo.com/Laptopovi/48687395_LENOVO-V110-NOVO-NEKORISCENO-br-2-Akcija,48687395
-Hewlett Packard,intel,i5,2,ddr4,8gb,ssd,, 14``,57150,used,https://www.kupindo.com/Laptopovi/46243409_HP-EliteBook-i5-8gb-256-GB-SSD-Akcija,46243409
-Lenovo,intel,i5,2,,8gb,ssd,128 gb, 14``,57150,used,https://www.kupindo.com/Laptopovi/46866049_Lenovo-i5-6200U-128-GB-SSD-8GB-Intel-HD-Akcija,46866049
-Hewlett Packard,intel,i7,2,,8 gb,hdd,750 gb,"15,6`",56250,used,https://www.kupindo.com/Laptopovi/47009425_HP-Envy-i7-8-GB-RAM-750GB-dve-grafike-Akcija,47009425
-Lenovo,intel,i3,2,ddr4,4gb,hdd,500gb,15.6`,55990,new,https://www.kupindo.com/Laptopovi/48688031_LENOVO-320-NOVO-NEKORISCENO-Akcija,48688031
-Acer,intel,i7,2,ddr3,12gb,hdd,640gb,17.3,55500,used,https://www.kupindo.com/Laptopovi/53781701_Gamer-Acer-V3-772G-17-3-FullHD-i7-12Gb-Gtx850-2Gb-640Gb,53781701
-Dell,intel,i5,2,,8 gb,ssd,256 gb, 12``,55350,used,https://www.kupindo.com/Laptopovi/46608269_Dell-Latitude-i5-8gb-256-GB-SSD-Akcija,46608269
-Hewlett Packard,intel,i7,2,ddr3,8gb,hdd,1TB,15``,55000,used,https://www.kupindo.com/Laptopovi/52179165_HP-15-6-LED-Full-HD-i7-5500U-8GB-SSD-91,52179165
-Hewlett Packard,intel,i5,2,ddr3,8gb,ssd,128gb,15.6`,54500,used,https://www.kupindo.com/Laptopovi/46556257_HP-EliteBook-i5-8gb-RAM-128-GB-SSD-Akcija,46556257
-Hewlett Packard,intel,i3,2,ddr4,4gb,hdd,500gb,15.6`,53990,new,https://www.kupindo.com/Laptopovi/48812921_HP-Laptop-250-NOVO-NEKORISCENO-br-2-Akcija,48812921
-Hewlett Packard,intel,i7,2,ddr3,16gb,ssd,, 14``,52000,used,https://www.kupindo.com/Laptopovi/53957173_HP-zBook-14-fullHD-i7-4600U-16GB-256GB-SSD-nova-bat-,53957173
-Lenovo,intel,i7,2,ddr3,8gb,ssd,256gb,15``,52000,used,https://www.kupindo.com/Laptopovi/54093623_Vrhunski-Lenovo-ThinkPad-S540-i7-8GB-SSD-2GB-Grafika,54093623
-Hewlett Packard,intel,i5,2,ddr4,8gb,ssd,256gb,15.6`,51750,used,https://www.kupindo.com/Laptopovi/46702029_HP-ProBook-i5-8GB-256-GB-SSD-Akcija,46702029
-Samsung,intel,i7,4,,500gb,ssd,,17``,51500,used,https://www.kupindo.com/Laptopovi/47879749_Samsung-gejmer-i7-2670-8Gb-500Gb-HD6990-2Gb-DDR5,47879749
-Clevo,intel,i7,2,ddr3,8gb,hdd,1TB,17.3,51500,used,https://www.kupindo.com/Laptopovi/53640265_Clevo-Vision-gejmer-i7-4700-8Gb-1Tb-GTX765-2Gb,53640265
-Hewlett Packard,intel,i7,2,,8gb,hdd,750gb,17.3`,50500,used,https://www.kupindo.com/Laptopovi/46987637_HP-DV7-i7-8gb-RAM-750GB-2-grafike-Akcija,46987637
-Hewlett Packard,intel,i5,2,ddr3,8gb,ssd,128gb,15.6`,49950,used,https://www.kupindo.com/Laptopovi/46412881_HP-Elitebook-i5-8gb-128-GB-SSD-Akcija,46412881
-Apple,intel,i7,2,ddr3,6gb,hdd,250gb,15``,49500,used,https://www.kupindo.com/Laptopovi/52114741_Mac-Book-Pro-15-Late-2011-i7-2-2Gh-6Gb-250Gb-HD6750-512,52114741
-Fujitsu,intel,i5,2,ddr4,16gb,hdd,120gb,15``,48500,used,https://www.kupindo.com/Laptopovi/49619105_TOP-Masina-i5-6-Gen-16GB-DDR4-SSD-15-6-IPS,49619105
-Fujitsu,intel,i5,2,ddr4,16gb,hdd,120gb,15``,48500,used,https://www.kupindo.com/Laptopovi/49619125_TOP-Masina-druga-i5-6-Gen-16GB-DDR4-SSD-15-6-IPS,49619125
-Lenovo,intel,i5,2,ddr3,8gb,ssd,, 14``,48400,used,https://www.kupindo.com/Laptopovi/46413549_Lenovo-i5-8GB-Intel-HD-Graphics-256GB-SSD-Akcija,46413549
-Hewlett Packard,intel,i5,2,ddr4,8gb,ssd,,12.5`,48150,used,https://www.kupindo.com/Laptopovi/46547581_HP-EliteBook-i5-8GB-256-SSD-br-2-Akcija,46547581
-Dell,intel,i7,2,ddr3,8 gb,ssd,256 gb, 14``,48150,used,https://www.kupindo.com/Laptopovi/46607957_Dell-Latitude-i7-8gb-256-GB-SSD-Akcija,46607957
-Lenovo,intel,i5,2,ddr3,12gb,hdd,1TB, 14``,48000,used,https://www.kupindo.com/Laptopovi/51939873_LENOVO-14-1-LED-IPS-FHD-i5-5300U-12GB-256GB-SSD-18,51939873
-Dell,intel,i5,2,ddr4,8gb,ssd,256gb, 12``,48000,used,https://www.kupindo.com/Laptopovi/52703753_Ultrabook-Dell-Latitude-E7270-i5-6Gen-8GB-SSD-Full-HD,52703753
-Asus,intel,i7,2,ddr3,8 gb,hdd,500gb,15.6`,47500,used,https://www.kupindo.com/Laptopovi/47007701_Asus-i7-8GB-RAM-500-GB-dve-grafike-Akcija,47007701
-Dell,intel,i5,2,,8 gb,ssd,128 gb, 12``,47250,used,https://www.kupindo.com/Laptopovi/46608417_Dell-Latitude-i5-8gb-128-GB-SSD-Akcija,46608417
-Dell,intel,i7,2,ddr3,8gb,ssd,128gb, 14``,47000,used,https://www.kupindo.com/Laptopovi/46285893_Dell-Latitude-i7-8gb-RAM-128-SSD-2-Grafike-Akcija,46285893
-Lenovo,intel,i7,2,ddr3,8gb,ssd,8gb, 12``,46200,used,https://www.kupindo.com/Laptopovi/54056457_Lenovo-Yoga-12-i7-5500-8gb-ddr3-256gb-ssd-2u1-tablet-,54056457
-Lenovo,intel,i7,2,ddr3,8gb,ssd,256gb, 14``,46000,used,https://www.kupindo.com/Laptopovi/46437485_Lenovo-i7-8gb-256-ssd-Intel-HD-Graphics-4400-Akcija,46437485
-Dell,intel,i5,2,ddr3,4 gb,hdd,500 gb,15.6`,45500,used,https://www.kupindo.com/Laptopovi/46598385_Dell-Latitude-i5-4gb-500-GB-intel-HD-520-Akcija,46598385
-Hewlett Packard,intel,i5,2,,8gb,ssd,,12.5`,45450,used,https://www.kupindo.com/Laptopovi/46547453_HP-EliteBook-i5-8GB-256-SSD-Akcija,46547453
-Hewlett Packard,intel,i7,2,ddr3,8gb,hdd,500gb, 14``,44550,used,https://www.kupindo.com/Laptopovi/46426689_HP-EliteBook-i7-8gb-500-GB-Akcija,46426689
-Lenovo,intel,i5,2,ddr3,8gb,ssd,, 14``,43600,used,https://www.kupindo.com/Laptopovi/46557093_Lenovo-i5-8GB-Intel-HD-Graphics-128GB-SSD-Akcija,46557093
-Hewlett Packard,intel,i7,2,ddr3,8gb,hdd,,17.3`,43500,used,https://www.kupindo.com/Laptopovi/50086501_HP-DV7-i7-2630qm-8gb-750gb-AtiRadeon-Akcija,50086501
-Apple,intel,i5,2,ddr3,4gb,hdd,250gb, 13``,43500,used,https://www.kupindo.com/Laptopovi/53810969_MacBook-Pro-13-2011God-i5-2-3Gh-4Gb-250Gb-HD3000,53810969
-Hewlett Packard,intel,i7,2,,4gb,hdd,300 gb, 13``,43200,used,https://www.kupindo.com/Laptopovi/47494125_HP-EliteBook-820-G1-12-5-,47494125
-Dell,intel,i3,2,ddr4,4gb,hdd,1TB,16``,42570,new,https://www.kupindo.com/Laptopovi/53712617_DELL-Inspiron-15-3567-NOT12785-Intel-Core-i3-7020U-2-3,53712617
-Fujitsu,intel,i7,4,ddr3,8gb,ssd,500gb,15``,42500,used,https://www.kupindo.com/Laptopovi/46951893_Workstation-Fujitsu-CELSIUS-H720-i7-3-60GHz-8GB-SSD-500,46951893
-Hewlett Packard,intel,i3,2,ddr4,4 gb,hdd,500 gb,15``,42210,new,https://www.kupindo.com/Laptopovi/46718633_HP-15-bs008nw-1WA45EAR,46718633
-Apple,intel,i5,2,,500gb,hdd,, 13``,42000,used,https://www.kupindo.com/Laptopovi/53610393_MacBook-Pro-13-2012-i5-8GB-500GB-Mojave,53610393
-Lenovo,intel,i5,2,ddr3,8 gb,ssd,128 gb,12.5`,41400,used,https://www.kupindo.com/Laptopovi/46597537_Lenovo-i5-8gb-128-GB-SSD-Intel-HD-5500-Akcija,46597537
-Dell,intel,i7,2,ddr3,6gb,hdd,500gb,17.3,41000,used,https://www.kupindo.com/Laptopovi/44833365_DELL-XPS-17-Intel-Core-i7-2630Q-6Gb-500Gb-17-3Inch-Led,44833365
-Lenovo,intel,i5,2,ddr3,8gb,ssd,512gb, 14``,40050,used,https://www.kupindo.com/Laptopovi/46281981_Lenovo-i5-8gb-512-ssd-Intel-HD-Graphics-4000-Akcija,46281981
-Acer,intel,i5,2,ddr3,8gb,hdd,500gb,17.3,40000,used,https://www.kupindo.com/Laptopovi/53990297_Gejmer-Acer-Aspire-E1-572G-i5-4200U-8Gb-500Gb-GTX820,53990297
-Hewlett Packard,intel,i5,2,,8gb,ssd,, 14``,40000,defective,https://www.kupindo.com/Laptopovi/54145207_14-HP-ProBook-i5-4200m-8gb-RAM-128gb-SSD-HD,54145207
-Acer,intel,i3,2,ddr4,4gb,ssd,,15``,39000,new,https://www.kupindo.com/Laptopovi/53000769_Laptop-ACER-Aspire-3-120GB-SSD-5-Godina-Garancije,53000769
-Acer,intel,i5,2,ddr3,8 gb,ssd,8 gb,15``,38999,defective,https://www.kupindo.com/Laptopovi/54081749_Acer-Aspire-V5-i5-ram-8GB-GPU-4GB-ODLICAN-ZVER,54081749
-Hewlett Packard,intel,i5,2,ddr3,8gb,ssd,180 gb, 14``,37350,used,https://www.kupindo.com/Laptopovi/46703209_HP-EliteBook-i5-8GB-180-GB-SSD-Akcija,46703209
-Asus,intel,i7,2,ddr3,6gb,hdd,500gb,15.6`,37000,used,https://www.kupindo.com/Laptopovi/50109073_Asus-X53-i7-6gb-500gb-dve-grafike-Akcija,50109073
-Lenovo,intel,i5,2,ddr3,8gb,ssd,,16``,37000,used,https://www.kupindo.com/Laptopovi/51069889_BESPREKORAN-Lenovo-T530-i5-3320M-8gb-240gb-SSD-15-6inch,51069889
-Dell,intel,i7,4,ddr3,8gb,hdd,500gb,15``,37000,used,https://www.kupindo.com/Laptopovi/54215311_TOP-Masina-Dell-XPS-JBL-i7-QuadCore-8GB-Dve-grafike-2,54215311
-Lenovo,intel,i5,2,ddr4,8gb,ssd,500gb, 14``,36900,defective,https://www.kupindo.com/Laptopovi/45144977_Laptop-Fujitsu-LIFEBOOK-E736-i5-2-40GHz-8GBRAM-SSD-500G,45144977
-Acer,intel,i7,2,ddr3,8gb,hdd,500gb,15.6,36500,used,https://www.kupindo.com/Laptopovi/49833073_Acer-Aspire-V5-573-i7-4500u-8Gb-500Gb-HD4000,49833073
-Toshiba,intel,i5,2,ddr3,8gb,hdd,320gb,15``,36500,used,https://www.kupindo.com/Laptopovi/51669933_VRHUNSKA-Toshiba-tecra-A50-i5-4Gen-8GB-15-6-,51669933
-Lenovo,intel,i5,2,ddr3,4gb,ssd,16gb, 14``,36500,used,https://www.kupindo.com/Laptopovi/53449997_Vrhunski-Lenovo-ThinkPad-T440-i5-4GB-16GB-SSD-500Hdd,53449997
-Lenovo,intel,i5,2,ddr3,8gb,ssd,240gb, 14``,36400,used,https://www.kupindo.com/Laptopovi/46420249_Lenovo-i5-8gb-240-ssd-Intel-HD-Graphics-4000-Akcija,46420249
-Dell,intel,i5,2,ddr3,8 gb,hdd,1TB,15``,36300,used,https://www.kupindo.com/Laptopovi/51537345_DELL-15-6-LED-Full-HD-i5-4310M-8GB-RAM-240GB-SSD-15,51537345
-Hewlett Packard,intel,i5,2,ddr3,8gb,hdd,240gb, 12``,36000,used,https://www.kupindo.com/Laptopovi/53976981_HP-EliteBook-820-G1,53976981
-Dell,intel,i5,2,ddr3,8gb,ssd,, 14``,35550,used,https://www.kupindo.com/Laptopovi/46235253_Dell-Latitude-i5-8gb-RAM-128ssd-Dve-Grafike-Akcija,46235253
-Dell,intel,i7,2,,6gb,hdd,,15.6,35500,used,https://www.kupindo.com/Laptopovi/53990505_Dell-XPS-15-i7-2670-2-2Gh-6Gb-750Gb-GTX540-2Gb,53990505
-Sony,intel,i5,2,ddr3,8gb,hdd,120gb,15``,35000,used,https://www.kupindo.com/Laptopovi/51926593_Kao-NOV-Sony-VAIO-i5-8GB-SSD-Full-HD-Svetleca-Tastatu,51926593
-Lenovo,intel,i5,2,ddr3,8gb,hdd,1TB,15``,35000,used,https://www.kupindo.com/Laptopovi/53249273_Lenovo-IdeaPad-G50-80-i5-5-Gen-8GB-1TBhdd-15-6-,53249273
-Hewlett Packard,intel,i5,2,ddr3,8gb,ssd,, 14``,35000,used,https://www.kupindo.com/Laptopovi/53327729_HP-EliteBook-840-G2-i5-5300U-8Gb-120Gb-SSD-FHD-4h,53327729
- 14``,intel,i5,2,,8gb,ssd,,Ostalo,34800,used,https://www.kupindo.com/Laptopovi/52625409_HP-EliteBook-840,52625409
-Lenovo,intel,i5,2,ddr3,8 gb,ssd,,12.5`,34650,used,https://www.kupindo.com/Laptopovi/46427597_Lenovo-i5-8gb-256-gb-SSD-Intel-HD-4400-Akcija,46427597
-Lenovo,intel,i5,2,ddr3,4 gb,hdd,500 gb, 14``,34650,used,https://www.kupindo.com/Laptopovi/46597325_Lenovo-i5-4gb-500-GB-Intel-HD-4600-Akcija,46597325
-Hewlett Packard,intel,i7,2,ddr3,8gb,hdd,750gb,"12,5`",34650,used,https://www.kupindo.com/Laptopovi/47252925_HP-i7-8-GB-RAM-750-GB-Intel-HD-4000-Akcija,47252925
-Hewlett Packard,intel,i7,2,ddr3,4gb,ssd,120gb,15``,34500,used,https://www.kupindo.com/Laptopovi/44488121_Hp-8560P-i7-2640m-4gB-120gB-ssd-15-6iNCH-LED,44488121
-Asus,intel,i7,2,ddr3,8gb,hdd,500gb,15.6`,34000,used,https://www.kupindo.com/Laptopovi/46995633_Asus-i7-8gb-RAM-500gb-2-grafike-Akcija,46995633
-Lenovo,intel,i7,2,ddr3,8gb,ssd,500gb, 14``,34000,used,https://www.kupindo.com/Laptopovi/49996833_Laptop-Lenovo-ThinkPad-T430S-i7-2-90GHz-8GBRAM-SSD-500G,49996833
-Hewlett Packard,intel,i5,2,ddr3,6gb,ssd,240gb,15``,34000,used,https://www.kupindo.com/Laptopovi/53585401_Lep-HP-15-15-6-i5-4-Gen-6GB-SSD-2GB-Grafika-820M,53585401
-Hewlett Packard,intel,i5,2,ddr3,8gb,ssd,128 gb, 14``,33750,used,https://www.kupindo.com/Laptopovi/46546825_HP-ProBook-i5-8GB-128-SSD-Akcija,46546825
-Lenovo,intel,i5,2,ddr3,8gb,hdd,240 gb, 14``,33600,used,https://www.kupindo.com/Laptopovi/52663245_Lenovo-ThinkPad-T440,52663245
-Lenovo,intel,i5,2,ddr3,4 gb,hdd,500 gb, 14``,33200,used,https://www.kupindo.com/Laptopovi/46597013_Lenovo-i5-4gb-500-GB-Intel-HD-Graphics-4600-Akcija,46597013
-Hewlett Packard,intel,i5,2,ddr3,4gb,ssd,180 gb, 14``,32850,used,https://www.kupindo.com/Laptopovi/46703025_HP-EliteBook-i5-4GB-180-GB-SSD-Akcija,46703025
-Sony,intel,i5,2,ddr3,8gb,hdd,750gb,15``,32000,used,https://www.kupindo.com/Laptopovi/50783869_PRELEP-Sony-VAIO-i5-II-Gen-8GB-750hdd-1GB-Grafika,50783869
-Sony,intel,i5,2,ddr3,8gb,hdd,1TB,17``,32000,used,https://www.kupindo.com/Laptopovi/54115583_Sony-VAIO-17-3-i5-2-gen-8GB-1TBhdd-1GB-Grafika,54115583
-Asus,intel,i5,2,ddr3,6gb,hdd,500gb,"15,6`",31950,used,https://www.kupindo.com/Laptopovi/47253573_Asus-i5-6-GB-RAM-500-GB-DVE-GRAFIKE-Akcija,47253573
-Sony,intel,i7,2,,8gb,hdd,,16``,31500,used,https://www.kupindo.com/Laptopovi/34284135_SONY-VAIO-PCG-81112M,34284135
-Lenovo,intel,i5,2,ddr3,8gb,ssd,256gb, 14``,31050,used,https://www.kupindo.com/Laptopovi/46282013_Lenovo-i5-8gb-256-ssd-Intel-HD-Graphics-4000-Akcija,46282013
-Lenovo,intel,i7,2,,4gb,ssd,160gb,15.6`,31050,used,https://www.kupindo.com/Laptopovi/46870093_Lenovo-Intel-i7-4GB-160GB-SSD-Akcija,46870093
-Dell,intel,i5,2,ddr3,4gb,hdd,500 gb, 14``,31050,used,https://www.kupindo.com/Laptopovi/46993361_DELL-Latitude-i5-4GB-RAM-500GB-Akcija,46993361
-Dell,intel,i5,2,ddr3,8gb,ssd,128gb,"12,5`",31050,used,https://www.kupindo.com/Laptopovi/46993593_Dell-Latitude-i5-8gb-RAM-128gb-SSD-Akcija,46993593
-Samsung,intel,i5,2,ddr3,6gb,hdd,500gb,15``,31000,used,https://www.kupindo.com/Laptopovi/50941973_Samsung-RV520-i5-2-Gen-6GB-500hdd-1GB-Grafika-,50941973
-Hewlett Packard,intel,i5,2,ddr3,4gb,hdd,500 gb,15.6`,30800,used,https://www.kupindo.com/Laptopovi/46864633_HP-ProBook-i5-4200M-4GB-500-GB-Akcija,46864633
-Acer,intel,i5,2,ddr3,4gb,hdd,500gb,"15,6` ",30600,used,https://www.kupindo.com/Laptopovi/47005109_Acer-Aspire-i5-4gb-RAM-500-GB-dve-grafike-Akcija,47005109
-Dell,intel,i5,2,ddr3,4 gb,hdd,500gb,15.6`,30600,used,https://www.kupindo.com/Laptopovi/47102345_Dell-i5-4-GB-RAM-500-GB-Intel-HD-Akcija,47102345
-Hewlett Packard,intel,i5,2,ddr3,4gb,hdd,320gb,15.6`,30600,used,https://www.kupindo.com/Laptopovi/50224129_HP-8570p-i5-4GB-320GB-Intel-HD-4000-Akcija,50224129
-Lenovo,intel,i3,2,ddr3,8gb,hdd,1TB,15``,30600,defective,https://www.kupindo.com/Laptopovi/52056477_Laptop-Lenovo-i3-8GB-1TB-2GB-AMD,52056477
-Acer,intel,i5,2,ddr3,8gb,hdd,1TB,15``,30000,used,https://www.kupindo.com/Laptopovi/50844777_Acer-Aspire-E1-571-i5-3-Gen-8GB-1TBhdd-15-6,50844777
-Acer,intel,i5,2,ddr3,8gb,hdd,,15``,30000,defective,https://www.kupindo.com/Laptopovi/53956365_lap-top-Acer-v3-571g,53956365
-Hewlett Packard,intel,i5,2,ddr3,4 gb,hdd,, 14``,29999,defective,https://www.kupindo.com/Laptopovi/36864267_hp-eliteBook-8470p,36864267
-Lenovo,intel,i7,2,ddr3,4gb,hdd,320 gb, 14``,29500,used,https://www.kupindo.com/Laptopovi/46557329_Lenovo-i7-4gb-320-gb-dve-grafike-Akcija,46557329
-Lenovo,intel,i5,2,ddr3,8gb,ssd,128gb, 14``,29250,used,https://www.kupindo.com/Laptopovi/46282021_Lenovo-i5-8gb-128-ssd-Intel-HD-Graphics-4000-Akcija,46282021
-Dell,intel,i5,2,ddr3,4 gb,ssd,,15``,29100,used,https://www.kupindo.com/Laptopovi/53693169_Dell-Latitude-E6540-i5-4310M-ssd-128gb-full-HD,53693169
-Hewlett Packard,intel,i5,2,ddr3,8gb,ssd,, 13``,29000,used,https://www.kupindo.com/Laptopovi/53167989_HP-ProBook-430-G1-Intel-Core-i5-8GB-SSD-13-3-,53167989
-Dell,intel,i7,2,ddr3,8gb,ssd,,15``,29000,defective,https://www.kupindo.com/Laptopovi/53630005_Dell-Laptop-sa-4-jezgra-i-8-niti-8GB-Ram-120gb-SSD,53630005
-Clevo,intel,i5,2,ddr3,4gb,hdd,500gb,15``,28500,used,https://www.kupindo.com/Laptopovi/48672613_Gejmer-Clevo-W150HR-i5-2410-4Gb-500Gb-Gt555-2Gb,48672613
-Toshiba,intel,i5,2,ddr3,8gb,ssd,256 gb, 13``,28440,used,https://www.kupindo.com/Laptopovi/54056277_Toshiba-Z30-i5-4-gen-8gb-ddr3-256gb-SSD-licenca-w,54056277
-Lenovo,intel,i5,2,ddr3,4gb,hdd,500 gb, 14``,28440,used,https://www.kupindo.com/Laptopovi/54056413_Lenovo-T440p-i5-4-gen-4gb-DDR3-500gb-Win-10-licenca-G,54056413
-Dell,intel,i5,2,ddr3,8gb,hdd,500 gb, 14``,28440,used,https://www.kupindo.com/Laptopovi/54056489_DeLL-E7440-i5-4-gen-8gb-ddr3-500gb-Lic-Win-10-GTA,54056489
-Lenovo,intel,i7,2,ddr3,8gb,ssd,8gb, 11``,28440,used,https://www.kupindo.com/Laptopovi/54056501_Lenovo-Yoga-11-i7-3689Y-8gb-ddr3-256gb-ssd-2u1-tablet-,54056501
-Toshiba,intel,i5,2,ddr3,8gb,hdd,500 gb, 14``,28440,used,https://www.kupindo.com/Laptopovi/54056509_Toshiba-Z40-i5-4-gen-8gb-ddr3-500gb-HDMI-win-10-GTA-V,54056509
-Lenovo,intel,i5,2,ddr3,4gb,hdd,500 gb,15.6`,28400,used,https://www.kupindo.com/Laptopovi/46439809_Lenovo-i5-4gb-500-gb-Intel-HD-Graphics-4000-Akcija,46439809
-Hewlett Packard,intel,i5,2,ddr3,4gb,hdd,320 gb, 14``,28400,used,https://www.kupindo.com/Laptopovi/46547109_HP-ProBook-i5-4GB-320-GB-Akcija,46547109
-Hewlett Packard,intel,i7,2,ddr3,4gb,hdd,320gb,"12,5`",28350,used,https://www.kupindo.com/Laptopovi/47229953_HP-i7-4GB-RAM-320-GB-Intel-HD-4000-Akcija,47229953
-Fujitsu,intel,i7,4,ddr3,8gb,hdd,2gb,15``,28000,used,https://www.kupindo.com/Laptopovi/45148033_Workstation-Fujitsu-CELSIUS-H710-i7-3-30GHz-8GB-HDD-500,45148033
-Dell,intel,i7,4,ddr3,8gb,ssd,,17``,28000,used,https://www.kupindo.com/Laptopovi/54148971_Dell-Precision-M6500-Core-i7-8Gb-SSD-Nvidia-17-LED,54148971
-Lenovo,intel,i5,2,ddr3,8 gb,ssd,,12.5` ,27450,used,https://www.kupindo.com/Laptopovi/46429193_Lenovo-i5-8gb-256-gb-SSD-Intel-HD-4000-Akcija,46429193
-Lenovo,intel,i5,2,,4gb,hdd,500gb,15.6` ,27450,used,https://www.kupindo.com/Laptopovi/46870473_Lenovo-Intel-i5-4GB-500GB-Akcija,46870473
-Hewlett Packard,intel,i5,2,ddr3,8gb,hdd,320 gb,Ostalo,27300,used,https://www.kupindo.com/Laptopovi/53046981_HP-ProBook-6570b-Intel-Core-i5,53046981
-Hewlett Packard,intel,i5,2,ddr3,6gb,hdd,500gb,15``,27000,used,https://www.kupindo.com/Laptopovi/53449853_HP-Compaq-15-Intel-i5-3-Gen-6GB-500hdd-15-6-,53449853
-Acer,intel,i5,2,ddr3,4gb,hdd,750gb,17``,27000,used,https://www.kupindo.com/Laptopovi/53915333_Laptop-Acer-Aspire-7750G-17-3-Intel-i5-2450M-4GB-Grafi,53915333
-Lenovo,intel,i3,2,,4gb,ssd,, 13``,26991,used,https://www.kupindo.com/Laptopovi/49623509_lenovo-u330-i3-4th-Allu-Touch-SSD-Slim-Light-Keyboard,49623509
-Dell,intel,i5,2,ddr3,4gb,hdd,320gb, 14``,26799,used,https://www.kupindo.com/Laptopovi/40529895_Dell-Inspirion-4110-i5-laptop,40529895
-Lenovo,intel,i5,2,ddr3,8gb,ssd,, 12``,26500,defective,https://www.kupindo.com/Laptopovi/46569473_Lenovo-ThinkPad-X240-Core-i5-8Gb-120Gb-SSD-12-5-LED,46569473
-Asus,intel,i5,2,ddr3,4gb,hdd,500gb,15``,26500,used,https://www.kupindo.com/Laptopovi/48346621_GEJMER-Acer-Aspire-5755G-i5-2450M-4Gb-500Gb-GT630-2Gb,48346621
-Fujitsu,intel,i5,2,ddr3,8gb,hdd,500gb, 13``,26500,used,https://www.kupindo.com/Laptopovi/53493145_Laptop-Fujitsu-LIFEBOOK-E7-E734-i5-2-40GHz-8GBRAM-500GB,53493145
-Hewlett Packard,intel,i5,2,ddr3,8gb,ssd,, 14``,26500,used,https://www.kupindo.com/Laptopovi/54044237_HP-EliteBook-9470m-Folio-i5-3427U-8Gb-120Gb-SSD-3-4h,54044237
-Fujitsu,intel,i5,2,ddr3,4 gb,hdd,500 gb,15.6`,26400,used,https://www.kupindo.com/Laptopovi/46242573_Fujitsu-i5-4gb-ddr3-500-gb-intel-HD-4000-Akcija,46242573
-Dell,intel,i5,2,ddr3,8gb,hdd,320 gb, 14``,26100,used,https://www.kupindo.com/Laptopovi/46454661_Dell-Latitude-i5-8gb-320-GB-Intel-HD-Graphics-Akcija,46454661
-Acer,intel,i3,2,ddr3,4gb,hdd,500gb,"15,6`",26000,used,https://www.kupindo.com/Laptopovi/47005213_Acer-Aspire-i3-4gb-RAM-500-GB-Intel-HD-Akcija,47005213
-Asus,intel,i5,2,ddr3,8gb,ssd,240gb,15``,26000,defective,https://www.kupindo.com/Laptopovi/54150299_Asus-F555LN-i5-4Gen-8GB-240gbSSD-2GB-Grafika,54150299
-Lenovo,intel,i7,2,ddr3,8gb,hdd,250 gb, 12``,25900,used,https://www.kupindo.com/Laptopovi/53699261_Lenovo-ThinkPad-X220-i7-II-8GB-250GB,53699261
-Lenovo,intel,i5,4,ddr3,4gb,ssd,120gb, 14``,25650,used,https://www.kupindo.com/Laptopovi/47008061_Lenovo-i5-4gb-RAM-120gb-SSD-Akcija,47008061
-Hewlett Packard,intel,i5,2,ddr3,4gb,hdd,320gb,15``,25650,used,https://www.kupindo.com/Laptopovi/47122273_HP-i5-4-GB-RAM-500-GB-Intel-HD-Akcija,47122273
-Hewlett Packard,intel,i5,2,ddr3,8gb,hdd,320gb,"12,5`",25650,used,https://www.kupindo.com/Laptopovi/47252701_HP-i5-8-GB-RAM-320-GB-Intel-HD-4000-Akcija,47252701
-Fujitsu,intel,i5,2,ddr3,8gb,ssd,500gb, 14``,25600,used,https://www.kupindo.com/Laptopovi/48211801_Laptop-Fujitsu-LIFEBOOK-S752-i5-2-60GHz-8GBRAM-SSD-500G,48211801
-Dell,intel,i5,2,ddr3,4gb,ssd,120gb,15``,25199,used,https://www.kupindo.com/Laptopovi/53978485_GEJMER-I5-4310M\RAM4gb\ssd120gb\SVETLECA-TAST\bat-NOVA,53978485
-Lenovo,intel,i5,2,ddr3,4gb,hdd,500gb, 12``,25000,used,https://www.kupindo.com/Laptopovi/53245425_Lenovo-ThinkPad-X240-Tachscreen-i5-4Gen-4GB-500hdd,53245425
-Hewlett Packard,intel,i7,2,ddr3,6 gb,hdd,,17``,25000,used,https://www.kupindo.com/Laptopovi/54214635_HP-G72-i7-6gb-ram-500gb,54214635
-Lenovo,intel,i5,2,ddr3,4 gb,hdd,320 gb,12.5`,24750,used,https://www.kupindo.com/Laptopovi/46429313_Lenovo-i5-4gb-320-gb-Intel-HD-Graphics-4000-Akcija,46429313
-Hewlett Packard,intel,i5,2,ddr3,4gb,hdd,250 gb,15.6`,24750,used,https://www.kupindo.com/Laptopovi/50193405_HP-8560p-i5-2520M-4gb-250-GB-AMD-Radeon-4670-Akcija,50193405
-Lenovo,intel,i7,2,ddr3,8gb,hdd,320gb, 12``,24500,defective,https://www.kupindo.com/Laptopovi/53699965_Lenovo-ThinkPad-X230-i7-III-8GB-320GB,53699965
-Dell,intel,i3,2,,4 gb,hdd,320 gb,15.6`,24300,used,https://www.kupindo.com/Laptopovi/46608689_Dell-Latitude-i3-4gb-320-GB-intel-HD-Akcija,46608689
-Hewlett Packard,intel,i5,2,ddr3,4gb,hdd,250gb, 14``,24300,used,https://www.kupindo.com/Laptopovi/50223457_HP-8470p-i5-4GB-250GB-Intel-HD-4000-Akcija,50223457
-Lenovo,intel,i5,2,,4 gb,ssd,, 14``,24200,used,https://www.kupindo.com/Laptopovi/53966337_Lenovo-ThinkPad-L440-i5-4300M-320gb-4gb,53966337
-Lenovo,intel,i3,2,ddr3,4gb,hdd,,15.6,24000,used,https://www.kupindo.com/Laptopovi/52650349_Lenovo-G50-i3-4030-1-9Gh-4Gb-500Gb-Intel-HD,52650349
-Asus,intel,i5,2,ddr3,6gb,hdd,750gb,15``,24000,used,https://www.kupindo.com/Laptopovi/54070149_TOP-Masina-Asus-X53S-i3-2Gen-6GB-750hdd-Dve-Grafike-,54070149
-Dell,intel,i5,2,ddr3,4gb,hdd,320 gb, 14``,23850,used,https://www.kupindo.com/Laptopovi/46454505_Dell-Latitude-i5-4gb-320-GB-Intel-HD-Graphics-Akcija,46454505
-Hewlett Packard,intel,i5,2,ddr3,4gb,hdd,160 gb,Ostalo,23800,used,https://www.kupindo.com/Laptopovi/53047001_HP-ProBook-6570b-Intel-Core-i5,53047001
-Lenovo,intel,i5,2,ddr3,4gb,hdd,320 gb, 14``,23600,used,https://www.kupindo.com/Laptopovi/46557333_Lenovo-i5-4gb-320-gb-Intel-HD-Graphics-3000-Akcija,46557333
-Toshiba,intel,i5,2,ddr3,4gb,hdd,1TB,15``,23500,defective,https://www.kupindo.com/Laptopovi/54245807_Toshiba-Satellite-L50-B-i5-4Gen-4GB-1TBhdd-Dve-Grafike,54245807
-Hewlett Packard,intel,i5,2,ddr3,4gb,hdd,320gb,"14,1`",23400,used,https://www.kupindo.com/Laptopovi/46991841_HP-EliteBook-i5-4-GB-RAM-320GB-Akcija,46991841
-Hewlett Packard,intel,i5,2,ddr3,4gb,hdd,250gb,"12,5`",23400,used,https://www.kupindo.com/Laptopovi/47252801_HP-i5-4-GB-RAM-250-GB-Intel-HD-4000-Akcija,47252801
-Hewlett Packard,intel,i3,2,ddr3,4gb,hdd,500 gb,17.3`,23400,used,https://www.kupindo.com/Laptopovi/50217641_HP-4720s-i3-370M-4-Gb-DDR3-500Gb-ATi-Radeon-Akcija,50217641
-Acer,intel,i3,2,ddr3,6gb,hdd,500gb,"15,6`",23000,used,https://www.kupindo.com/Laptopovi/47095765_Acer-i3-6GB-RAM-500-GB-Intel-HD-Akcija,47095765
-Dell,intel,i5,4,ddr3,4gb,hdd,200 gb, 14``,23000,used,https://www.kupindo.com/Laptopovi/50218445_Dell-Latitude-E6410-i5-4gb-200gb-NVS-3100M-Akcija,50218445
-Hewlett Packard,intel,i5,2,ddr3,4gb,ssd,120gb, 13``,23000,defective,https://www.kupindo.com/Laptopovi/51160417_HP-Spectre-XT-Pro-13-b000-i5-4GB-120ssd-13-3-,51160417
-Lenovo,intel,i5,2,,4gb,ssd,, 12``,23000,used,https://www.kupindo.com/Laptopovi/54077349_Lenovo-Thinkpad-x240-Touch-i5-4210U-4GB-500GB-bat-12-h,54077349
-Hewlett Packard,intel,i7,2,ddr3,4gb,hdd,,12.1`,22950,used,https://www.kupindo.com/Laptopovi/47062465_HP-EliteBook-i7-4GB-RAM-160GB-Akcija,47062465
-Dell,intel,i7,2,ddr3,8gb,hdd,320 gb,Ostalo,22600,used,https://www.kupindo.com/Laptopovi/53046937_Dell-E6320-Intel-Core-i7,53046937
-Lenovo,intel,i5,2,ddr3,4gb,hdd,320gb,12.5`,22500,used,https://www.kupindo.com/Laptopovi/46438177_Lenovo-i5-4gb-320-gb-Intel-HD-Graphics-3000-Akcija,46438177
-Dell,intel,i5,2,ddr3,4gb,hdd,250 gb, 14``,22500,used,https://www.kupindo.com/Laptopovi/46454837_Dell-Latitude-i5-4gb-250-GB-Intel-HD-Graphics-Akcija,46454837
-Dell,intel,i5,2,ddr3,4gb,hdd,250gb, 14``,22500,used,https://www.kupindo.com/Laptopovi/50110345_Dell-Latitude-E5430-i5-3320M-4GB-250GB-Intel-Akcija,50110345
-Lenovo,intel,i5,2,ddr3,4gb,hdd,250gb,12.5`,22050,used,https://www.kupindo.com/Laptopovi/46437965_Lenovo-i5-4gb-250-gb-Intel-HD-Graphics-3000-Akcija,46437965
-Hewlett Packard,intel,i5,2,ddr3,4 gb,hdd,500 gb,15.6`,22050,used,https://www.kupindo.com/Laptopovi/46597977_HP-ProBook-i5-4gb-500-GB-DVE-GRAFIKE-Akcija,46597977
-Hewlett Packard,intel,i5,2,ddr3,4gb,hdd,160 gb,15.6`,22050,used,https://www.kupindo.com/Laptopovi/47138237_HP-i5-4-GB-RAM-160-GB-Intel-HD-Akcija,47138237
-Dell,intel,i5,2,ddr3,8gb,hdd,250 gb, 14``,22000,used,https://www.kupindo.com/Laptopovi/46454929_Dell-Latitude-i5-8gb-250-GB-Intel-HD-Graphics-Akcija,46454929
-Dell,intel,i5,2,ddr3,4gb,hdd,,12.5`,22000,used,https://www.kupindo.com/Laptopovi/50089149_Dell-Latitude-E6230-i5-4gb-320gb-Intel-HD-Akcija,50089149
-HP,intel,i5,2,,4 gb,ssd,,15``,22000,defective,https://www.kupindo.com/Laptopovi/51955701_HP-Elite-Book-840-i5-4210U,51955701
-Fujitsu,intel,i7,2,,4 gb,hdd,,15``,21800,used,https://www.kupindo.com/Laptopovi/54136331_Fujitsu-Lifebook-AH531-i7-2620m-500gb-4gb,54136331
-Lenovo,intel,i5,2,ddr3,4gb,hdd,160 gb, 14``,21600,used,https://www.kupindo.com/Laptopovi/46557353_Lenovo-i5-4gb-160-GB-Intel-HD-Graphics-3000-Akcija,46557353
-Acer,intel,i3,2,ddr3,3gb,hdd,250gb,15.6`,21600,used,https://www.kupindo.com/Laptopovi/47112437_Acer-i3-3-GB-RAM-250-GB-ATI-RADEON-Akcija,47112437
-Lenovo,intel,i3,2,ddr3,4gb,ssd,120gb, 13``,21500,used,https://www.kupindo.com/Laptopovi/47782545_Lenovo-IdeaPad-S300-i3-4Gb-120Gb-SSD,47782545
-Lenovo,intel,i5,2,ddr3,8gb,hdd,500 gb, 12``,21330,used,https://www.kupindo.com/Laptopovi/54056593_Lenovo-X240-i5-4300U-8gb-ddr3-500gb-Kamera-Win10Pro,54056593
-Hewlett Packard,intel,i5,2,ddr3,6gb,hdd,,15``,19080,defective,https://www.kupindo.com/Laptopovi/53992673_HP-Probook-4540S-I5-3210-2-5-GHz-6Gb-ATI-HD-7650M,53992673
-Fujitsu,intel,i3,2,ddr3,4gb,hdd,250 gb,15.6`,21150,used,https://www.kupindo.com/Laptopovi/47122337_Fujitsu-i3-4-GB-RAM-250-GB-Intel-HD-Akcija,47122337
-Acer,intel,i5,2,ddr3,4gb,hdd,500gb,15.6`,20700,used,https://www.kupindo.com/Laptopovi/47112601_Acer-i5-4-GB-RAM-500-GB-Nvidia-GT420-Akcija,47112601
-Dell,intel,i5,2,ddr3,8gb,hdd,, 14``,20550,used,https://www.kupindo.com/Laptopovi/53979497_Dell-Latitude-E6420-i5-2520M-dupla-grafika-8gb-ram-1600,53979497
-Hewlett Packard,intel,i5,2,ddr3,4gb,ssd,, 14``,20500,used,https://www.kupindo.com/Laptopovi/53957981_HP-EliteBook-8460p-14-i5-2520M-4GB-180GB-SSD-bat-6-h,53957981
-Lenovo,intel,i5,2,ddr3,4 gb,ssd,, 14``,20500,used,https://www.kupindo.com/Laptopovi/54187491_Lenovo-T420s-i5-2520M-ssd-240gb-4gb-rez-1600x900,54187491
-Dell,intel,i3,2,ddr3,4gb,hdd,320 gb,15.6`,20400,used,https://www.kupindo.com/Laptopovi/50218941_Dell-Vostro-3550-i3-4gb-320gb-Intel-HD-3000-Akcija,50218941
-Medion,intel,i3,2,ddr3,4gb,hdd,500 gb,15.6`,20250,used,https://www.kupindo.com/Laptopovi/47118161_Medion-Akoya-i3-4GB-RAM-500-GB-Intel-HD-Akcija,47118161
-Dell,intel,i5,2,ddr3,4gb,hdd,320 gb,Ostalo,20200,used,https://www.kupindo.com/Laptopovi/53046921_Dell-E6330-Intel-Core-i5,53046921
-Dell,intel,i3,2,ddr3,8 gb,hdd,1000 gb,15``,20160,used,https://www.kupindo.com/Laptopovi/53936037_DEll-Insipirion-15-6-Core-I3-3110M-8-GB-1-TB-nova-bat,53936037
-Lenovo,intel,i5,2,ddr3,4gb,hdd,500 gb, 14``,20145,used,https://www.kupindo.com/Laptopovi/54056469_Lenovo-T430-i5-3-gen-4gb-DDR3-500gb-Win-7-Kamera,54056469
-Lenovo,intel,i7,2,,4 gb,ssd,, 14``,20000,defective,https://www.kupindo.com/Laptopovi/53992601_Lenovo-ThinkPad-L420-I7-2670QM-14-4GB-250GB,53992601
-Dell,intel,i5,2,ddr3,4 gb,hdd,320gb,12.5`,19800,used,https://www.kupindo.com/Laptopovi/46994969_Dell-Latitude-i5-4gb-RAM-320gb-Akcija,46994969
-Lenovo,intel,i5,2,ddr3,4gb,hdd,, 14``,19800,used,https://www.kupindo.com/Laptopovi/50087417_Lenovo-ThinkPad-T410-i5-4gb-320gb-Intel-HD-Akcija,50087417
-Medion,intel,i3,2,ddr3,6gb,hdd,500gb,15``,19500,used,https://www.kupindo.com/Laptopovi/52092801_Medion-AKOYA-i3-2-Gen-6GB-500hdd-Dve-Grafike-,52092801
-Hewlett Packard,intel,i5,2,ddr3,4gb,ssd,120gb, 13``,19500,defective,https://www.kupindo.com/Laptopovi/52723273_HP-Folio-13-i5-2-Gen-4GB-SSD-13-3-,52723273
-Terra,intel,i3,2,ddr3,4gb,hdd,500gb,15.6,19500,used,https://www.kupindo.com/Laptopovi/53593109_TerraMobille-1748P-i3-3110-2-4Gh-4Gb-500Gb,53593109
-Hewlett Packard,intel,i3,2,,3gb,hdd,, 14``,19000,used,https://www.kupindo.com/Laptopovi/51476657_HP-ProBook-6470b-i3-3110m-3GB-ram-ALUMINIJUM,51476657
-Medion,intel,i3,2,,6gb,hdd,,15``,19000,used,https://www.kupindo.com/Laptopovi/53176025_Laptop-Medion-Akoya-P6630,53176025
-Hewlett Packard,intel,i5,2,ddr3,4 gb,hdd,250 gb, 14``,18900,used,https://www.kupindo.com/Laptopovi/47137881_HP-i5-4-GB-RAM-250-GB-Intel-HD-Akcija,47137881
-Hewlett Packard,intel,i3,2,ddr3,4gb,hdd,320 gb,13.3`,18800,used,https://www.kupindo.com/Laptopovi/47116953_HP-Probook-i3-4GB-RAM-320-GB-Intel-HD-Akcija,47116953
-Acer,intel,i3,2,ddr3,6gb,hdd,500gb,15.6,18500,used,https://www.kupindo.com/Laptopovi/52316089_Acer-E1-571-i3-6Gb-500Gb-HD3000-odlican-laptop,52316089
-Acer,intel,i5,2,ddr3,4gb,ssd,, 13``,18500,used,https://www.kupindo.com/Laptopovi/53798293_Acer-TimelineX-3830-i5-2450M-nov-SSD-128GB,53798293
-Medion,intel,i3,2,ddr3,4gb,hdd,160gb,15.6`,18450,used,https://www.kupindo.com/Laptopovi/47117485_Medion-Akoya-i3-4-GB-RAM-160-GB-Akcija,47117485
-Hewlett Packard,intel,i5,2,ddr3,2 gb,hdd,,15``,18100,used,https://www.kupindo.com/Laptopovi/41037259_Laptop-32-HP-Probook-6540b,41037259
-Hewlett Packard,intel,i3,2,ddr3,4gb,hdd,500gb,15.6`,18000,used,https://www.kupindo.com/Laptopovi/47106333_HP-i3-4GB-RAM-500-GB-Intel-HD-Akcija,47106333
-Hewlett Packard,intel,i3,2,ddr3,4gb,hdd,, 14``,18000,defective,https://www.kupindo.com/Laptopovi/51011269_HP-ProBook-6460b,51011269
-Fujitsu,intel,i5,2,,8gb,hdd,,15.6`` ,18000,used,https://www.kupindo.com/Laptopovi/53886021_Fujitsu-Lifebook-A530-i5,53886021
-Lenovo,intel,i3,2,ddr3,4gb,ssd,,15``,18000,defective,https://www.kupindo.com/Laptopovi/54164099_Lenovo-Flex-2-15-fullHD-Touch-i3-4030U-4GB-500GB-bat-3h,54164099
-Asus,intel,i5,2,ddr3,6gb,hdd,750gb,15``,17991,used,https://www.kupindo.com/Laptopovi/53142157_Laptop-Asus-k56c-15-6-I5-3-gen-6gb-750gb-poklon-GARAN,53142157
-Fujitsu,intel,i5,2,ddr3,8gb,hdd,500gb, 13``,17500,used,https://www.kupindo.com/Laptopovi/46515337_Laptop-Fujitsu-LIFEBOOK-S7-S762-i5-2-60GHz-8GB-RAM-HDD,46515337
-Dell,intel,i3,2,ddr3,4gb,hdd,250gb, 14``,17100,used,https://www.kupindo.com/Laptopovi/50111693_Dell-Latitude-E5420-i3-2330M-250GB-4GB-Intel-Akcija,50111693
-Asus,intel,i3,2,ddr3,4gb,hdd,250 gb,"15,6`",17000,used,https://www.kupindo.com/Laptopovi/47101453_Asus-i3-4-GB-RAM-250-GB-Akcija,47101453
-Lenovo,intel,i5,2,ddr3,4gb,hdd,, 13``,17000,used,https://www.kupindo.com/Laptopovi/52185265_Lenovo-ThinkPad-Edge-E330-i5-II-gen-4Gb-320Gb-4h,52185265
-Hewlett Packard,intel,i3,2,ddr3,3gb,hdd,320gb,15``,17000,used,https://www.kupindo.com/Laptopovi/53597533_PRELEP-HP-G62-15-6-i3-3GB-320hdd-Kamera,53597533
-Toshiba,intel,i3,2,ddr3,4gb,hdd,,"15,6`",16990,used,https://www.kupindo.com/Laptopovi/53826697_TOSHIBA-4GB-RAM-320HDD-2gb-graf-15-6-,53826697
-Lenovo,intel,i3,2,ddr3,4gb,hdd,320gb, 13``,16800,used,https://www.kupindo.com/Laptopovi/47880241_Lenovo-ThinkPad-Edge-E320-i3-4Gb-320Gb-13-3Inch,47880241
-Toshiba,intel,i5,2,ddr3,4gb,hdd,320 gb, 14``,16590,used,https://www.kupindo.com/Laptopovi/54056429_Toshiba-R840-i5-druga-gen-4gb-ddr3-320gb-usb-3-0,54056429
-Fujitsu,intel,i5,2,ddr3,4gb,hdd,320gb, 14``,16590,used,https://www.kupindo.com/Laptopovi/54056521_Fujitsu-S751-i5-druga-gen-4gb-ddr3-320gb-Win7PRO,54056521
-Samsung,intel,i3,2,ddr3,4gb,hdd,320gb,17.3,16500,used,https://www.kupindo.com/Laptopovi/51507573_Samsung-R730-i3-350-4Gb-320Gb-laptop,51507573
-Lenovo,intel,i5,2,,4gb,hdd,,13.3,16500,used,https://www.kupindo.com/Laptopovi/53701569_Lenovo-ThikPad-Edge-E330-i3-3230-2-6Gh-4Gb-500Gb,53701569
-Lenovo,intel,i5,2,,4 gb,ssd,, 12``,16400,used,https://www.kupindo.com/Laptopovi/54005009_Lenovo-ThinkPad-X220-i5-2520m-320gb-4gb,54005009
-Acer,intel,i5,2,ddr3,4gb,hdd,, 13``,16300,used,https://www.kupindo.com/Laptopovi/54214219_Acer-TimelineX-3830-i5-2450m-320gb-4gb,54214219
-Asus,intel,i3,2,ddr2,4gb,hdd,2TB,15``,16000,defective,https://www.kupindo.com/Laptopovi/45860541_Asus-X55S-C2Duo-2-4GHz-4GB-RAM-NVIDIA-9500GS-320GB,45860541
-Hewlett Packard,intel,i3,2,,4gb,hdd,, 13``,16000,used,https://www.kupindo.com/Laptopovi/51476197_PERFEKTAN-HP-ProBook-4330s-i3-2310m-ALUMINIUMSKI,51476197
-Hewlett Packard,intel,i5,2,,4 gb,hdd,160 gb,15``,16000,used,https://www.kupindo.com/Laptopovi/51830753_Laptop-HP-ProBook-6550-b,51830753
-Hewlett Packard,intel,i5,4,ddr3,4gb,hdd,,15``,16000,used,https://www.kupindo.com/Laptopovi/52578845_HP-Proobook-6550b-Core-i5-4GB-320GB,52578845
-Dell,intel,i5,2,,4gb,hdd,500gb, 14``,15500,used,https://www.kupindo.com/Laptopovi/47678921_Laptop-Dell-Latitude-E5410-i5-4GB-RAM-500GB-HDD-Disk,47678921
-Fujitsu,intel,i3,2,,2 gb,hdd,,15``,15300,used,https://www.kupindo.com/Laptopovi/36539635_Laptop-Fujicu-Amilo-Li3710-torba,36539635
-Fujitsu,intel,i7,2,ddr3,6gb,hdd,, 13``,15300,used,https://www.kupindo.com/Laptopovi/53992545_Fujitsu-Lifebook-S761-I7-2620-2-7GHz-6GB-250GB-13-3-,53992545
-Toshiba,intel,i5,4,ddr3,4gb,ssd,320gb, 14``,15000,used,https://www.kupindo.com/Laptopovi/54078061_Toshiba-Tecra-M11-14-i5-520M-4GB-320GB-bat-2-h,54078061
-Hewlett Packard,intel,i5,2,ddr3,4gb,hdd,750gb,15``,14579,defective,https://www.kupindo.com/Laptopovi/53978217_HP-PERFEKTAN-CEO-OD-ALU-15-6-I5-4gb-750gb-Bat-Nova-P,53978217
-Lenovo,intel,i3,2,ddr3,4 gb,hdd,, 14``,14500,used,https://www.kupindo.com/Laptopovi/54041113_Lenovo-B40-80LS-14-4-GB-500-GB-kao-nov-,54041113
-Hewlett Packard,intel,i5,2,ddr3,4gb,hdd,,12.5`,14400,used,https://www.kupindo.com/Laptopovi/50091021_HP-Elitebook-2540p-i5-4gb-120gb-Intel-HD-Akcija,50091021
-Hewlett Packard,intel,i5,2,,4 gb,hdd,160 gb,15``,14400,used,https://www.kupindo.com/Laptopovi/52318249_Laptop-HP-ProBook-6550b,52318249
-Lenovo,intel,i5,2,ddr3,4gb,hdd,500 gb, 12``,14220,used,https://www.kupindo.com/Laptopovi/54056529_Lenovo-X220-i5-druga-gen-4gb-ddr3-500gb-Win7Pro-Extra,54056529
-Toshiba,intel,i5,2,ddr3,4gb,hdd,250 gb, 14``,14220,used,https://www.kupindo.com/Laptopovi/54056749_Toshiba-M11-i5-M560-4gb-ddr3-250gb-Win-7-PRO-licenca-,54056749
-Hewlett Packard,intel,i5,2,ddr3,4gb,ssd,120gb, 13``,14000,defective,https://www.kupindo.com/Laptopovi/51160541_HP-Spectre-XT-Pro-13-b000-i5-4GB-120ssd,51160541
-Hewlett Packard,intel,i5,2,ddr3,4gb,hdd,120gb,15``,13200,used,https://www.kupindo.com/Laptopovi/52782265_HP-Probook-6550b-Najskuplja-HP-ova-klasa-sa-i5,52782265
-Fujitsu,intel,i5,2,ddr3,4gb,hdd,160gb, 14``,13000,used,https://www.kupindo.com/Laptopovi/54056573_Fujitsu-S710-i5-M560-4gb-ddr3-160gb-Win7PRO-,54056573
-Fujitsu,intel,i5,2,ddr3,2gb,hdd,160gb, 12``,12999,used,https://www.kupindo.com/Laptopovi/44496041_Fujitsu-Siemens-Germany-T730-i5-Kompletan-Ispravan,44496041
-Acer,intel,i3,2,ddr3,4gb,hdd,320gb, 13``,12420,used,https://www.kupindo.com/Laptopovi/52175889_Acer-13-3-LED-Intel-Core-I3-2-53ghz-4GB-320-GB-cam,52175889
-Hewlett Packard,intel,i3,2,ddr3,2 gb,hdd,160 gb,15``,12200,used,https://www.kupindo.com/Laptopovi/54127347_HP-Probook-15-6-LED-Core-I3-2-40-ghz,54127347
-Dell,intel,i3,2,ddr3,4gb,ssd,, 13``,11500,defective,https://www.kupindo.com/Laptopovi/54103327_Dell-3350-sa-i3-baterija-3-5h,54103327
-Hewlett Packard,intel,i5,2,ddr3,4 gb,ssd,,15``,10500,defective,https://www.kupindo.com/Laptopovi/49906641_HP-ProBook-4530s,49906641
-Asus,intel,i3,2,ddr3,4gb,ssd,, 13``,9700,used,https://www.kupindo.com/Laptopovi/54164199_Asus-X301A-13-Intel-B980-4GB-250GB-bat-3h,54164199
-Dell,intel,i3,2,ddr3,4gb,ssd,,15``,8000,defective,https://www.kupindo.com/Laptopovi/53914881_DELL-Inspiron-N5110-i3-2350M-4GB-500GB,53914881
-Hewlett Packard,intel,i7,2,ddr3,8gb,hdd,500gb,17.3,48500,used,https://www.kupindo.com/Laptopovi/54254507_HP-Pavilion-17-i7-4510u-2-6Gh-8Gb-500Gb-Nvidia-840M-2Gb,54254507
-Apple,intel,i5,2,ddr3,4gb,ssd,128gb, 13``,49500,used,https://www.kupindo.com/Laptopovi/54273143_MacBook-Air-13-Early2015-i5-1-6Gh-4Gb-128SSD-HD6000,54273143
+Asus,intel,i7,4,ddr4,16,hdd,2000,17.3,264990,new,https://www.kupindo.com/showcontent/2143/Laptopovi/48707351_ASUS-NOVO-NEKORISCENO-br-2-Akcija,48707351
+Asus,intel,i7,2,ddr4,16,ssd,256,17.3,249990,new,https://www.kupindo.com/showcontent/2143/Laptopovi/48705427_ASUS-NOVO-NEKORISCENO-Akcija,48705427
+Hewlett Packard,intel,i7,4,ddr4,8,ssd,256,15.6,189990,new,https://www.kupindo.com/showcontent/2143/Laptopovi/48815537_HP-Laptop-Omen-15-NOVO-NEKORISCENO-Akcija,48815537
+Hewlett Packard,intel,i7,4,ddr4,8,ssd,256,17.3,184990,new,https://www.kupindo.com/showcontent/2135/Laptopovi/48813673_HP-Laptop-Omen-17-NOVO-NEKORISCENO-Akcija,48813673
+Hewlett Packard,intel,i7,2,ddr3,8,hdd,128,13.3,159990,new,https://www.kupindo.com/showcontent/2135/Laptopovi/48774057_HP-notebook-13-NOVO-NEKORISCENO-Akcija,48774057
+Hewlett Packard,intel,i5,4,ddr4,8,ssd,256,17.3,149990,new,https://www.kupindo.com/showcontent/2139/Laptopovi/48819125_HP-Laptop-Omen-17-NOVO-NEKORISCENO-Akcija,48819125
+Hewlett Packard,intel,i5,2,ddr4,16,ssd,256,17.3,122990,new,https://www.kupindo.com/showcontent/2139/Laptopovi/48814321_HP-Laptop-17-NOVO-NEKORISCENO-Akcija,48814321
+Hewlett Packard,intel,i7,2,ddr4,16,hdd,1000,16,117440,new,https://www.kupindo.com/Laptopovi/54152203_HP-ProBook-450-G5-2UB57EAR-i7-8550U-16GB-SSD512GB-1-TB-,54152203
+Hewlett Packard,intel,i7,2,ddr4,16,hdd,1000,16,117440,new,https://www.kupindo.com/Laptopovi/54152323_HP-ProBook-470-G5-2XZ77ESR-i7-8550U-16GB-SSD256GB-1-TB-,54152323
+Hewlett Packard,intel,i5,2,ddr4,8,hdd,256,15.6,101990,new,https://www.kupindo.com/Laptopovi/48814889_HP-Laptop-250-NOVO-NEKORISCENO-Akcija,48814889
+Hewlett Packard,intel,i5,2,ddr4,8,ssd,256,15.6,96990,new,https://www.kupindo.com/Laptopovi/48814789_HP-Laptop-15-NOVO-NEKORISCENO-Akcija,48814789
+Dell,intel,i5,2,ddr4,4,ssd,256,15.6,91990,new,https://www.kupindo.com/Laptopovi/48699879_DELL-Inspiron-15-NOVO-NEKORISCENO-Akcija,48699879
+Acer,intel,i7,2,ddr4,8,ssd,250,17.3,88500,used,https://www.kupindo.com/Laptopovi/50261069_Acer-Aspire-V-Nitro-Black-Edition-i7-6700HQ-8GB-GTX960,50261069
+Lenovo,intel,i7,2,ddr4,8,hdd,500,15.6,88000,used,https://www.kupindo.com/Laptopovi/50957093_Lenovo-G570-i7-6600U-16Gb-ddr4-500Gb-HD520,50957093
+Hewlett Packard,intel,i5,2,ddr4,4,hdd,256,15.6,87990,new,https://www.kupindo.com/Laptopovi/48814601_HP-Laptop-250-NOVO-NEKORISCENO-Akcija,48814601
+Hewlett Packard,intel,i5,2,ddr4,8,ssd,256,15.6,87990,new,https://www.kupindo.com/Laptopovi/48815445_HP-Laptop-250-NOVO-NEKORISCENO-Akcija,48815445
+Apple,intel,i7,2,ddr3,8,hdd,1536,15,84000,used,https://www.kupindo.com/Laptopovi/54287603_MacBook-Pro-15-inch,54287603
+HP Omen,intel,i7,2,ddr3,8,hdd,1000,17,83000,used,https://www.kupindo.com/Laptopovi/53665689_Laptop-HP-Omen-17-i7-6700HQ-8GB-GTX965m-SSD-HDD,53665689
+Hewlett Packard,intel,i7,2,ddr4,16,ssd,256,15.6,80500,used,https://www.kupindo.com/Laptopovi/46556349_HP-EliteBook-i7-16gb-DDR4-256-GB-SSD-Akcija,46556349
+Lenovo,intel,i5,2,ddr4,8,ssd,256,15.6,78990,new,https://www.kupindo.com/Laptopovi/48692583_LENOVO-laptop-NOVO-NEKORISCENO-Akcija,48692583
+Hewlett Packard,intel,i5,2,ddr4,8,hdd,256,15.6,78990,new,https://www.kupindo.com/Laptopovi/48815105_HP-Laptop-250-NOVO-NEKORISCENO-Akcija,48815105
+Toshiba,intel,i7,2,ddr3,16,hdd,1000,15,78600,used,https://www.kupindo.com/Laptopovi/50917069_TOSHIBA-15-6-4K-Touchscreen-i7-5500U-16GB-480SSD-69,50917069
+Hewlett Packard,intel,i5,2,ddr4,4,hdd,500,15.6,77990,new,https://www.kupindo.com/Laptopovi/48812729_HP-Laptop-250-NOVO-NEKORISCENO-Akcija,48812729
+Hewlett Packard,intel,i7,2,ddr4,8,ssd,256,14,76950,used,https://www.kupindo.com/Laptopovi/46243097_HP-EliteBook-i7-8gb-256-GB-SSD-Akcija,46243097
+Lenovo,intel,i5,2,ddr4,8,hdd,1000,15.6,75990,new,https://www.kupindo.com/Laptopovi/48689315_LENOVO-320-NOVO-NEKORISCENO-Akcija,48689315
+CLEVO,intel,i7,2,ddr3,16,ssd,128,15,75000,used,https://www.kupindo.com/Laptopovi/52742321_CLEVO-i7-6700HQ-16gb-DDr3-128-ssd-500Gb-GTX960M-Full-HD,52742321
+Hewlett Packard,intel,i5,2,ddr4,4,hdd,128,15.6,74990,new,https://www.kupindo.com/Laptopovi/48772897_HP-laptop-250-NOVO-NEKORISCENO-Akcija,48772897
+Hewlett Packard,intel,i7,2,ddr4,8,ssd,128,15.6,74500,used,https://www.kupindo.com/Laptopovi/46556829_HP-EliteBook-i7-8gb-DDR4-128-GB-SSD-Akcija,46556829
+Lenovo,intel,i5,2,ddr4,8,ssd,120,12,74000,used,https://www.kupindo.com/Laptopovi/47265745_VRHUNSKI-Lenovo-ThinkPad-X270-i5-7-Generacija-,47265745
+Lenovo,intel,i5,2,ddr3,4,hdd,500,15.6,73990,new,https://www.kupindo.com/Laptopovi/48692207_LENOVO-V310-NOVO-NEKORISCENO-Akcija,48692207
+Acer,intel,i7,4,ddr3,20,hdd,1000,17.3,72000,used,https://www.kupindo.com/Laptopovi/46989565_Acer-Aspire-i7-20Gb-RAM-120GB-SSD-1TB-Akcija,46989565
+Apple,intel,i7,2,ddr3,8,hdd,750,15,72000,used,https://www.kupindo.com/Laptopovi/52060433_MacBook-Pro-15-Mid2012-i7-2-6Gh-8Gb-750Gb-Gtx650-1Gb,52060433
+Hewlett Packard,intel,i3,2,ddr4,4,hdd,1000,15.6,71990,new,https://www.kupindo.com/Laptopovi/48814221_HP-Laptop-15-NOVO-NEKORISCENO-Akcija,48814221
+Asus,intel,i7,2,ddr3,8,ssd,240,15,71500,used,https://www.kupindo.com/Laptopovi/35268219_Asus-S550C-Touch-Screen-Ultra-Slim,35268219
+Hewlett Packard,intel,i5,2,ddr4,4,hdd,500,15.6,70990,new,https://www.kupindo.com/Laptopovi/48773749_HP-laptop-15-NOVO-NEKORISCENO-Akcija,48773749
+Lenovo,intel,i7,2,ddr3,16,hdd,1000,15,70000,used,https://www.kupindo.com/Laptopovi/52925137_LENOVO-15-6-FULL-HD-i7-5600U-16GB-RAM-256GB-SSD-03,52925137
+Lenovo,intel,i7,2,ddr3,16,hdd,1000,15,70000,used,https://www.kupindo.com/Laptopovi/52925381_LENOVO-15-6-FULL-HD-i7-5600U-16GB-RAM-256GB-SSD-01,52925381
+Hewlett Packard,intel,i3,2,ddr4,4,ssd,256,15.6,65990,new,https://www.kupindo.com/Laptopovi/48815017_HP-Laptop-250-NOVO-NEKORISCENO-Akcija,48815017
+Dell,intel,i7,2,ddr3,8,hdd,500,15.6,65000,used,https://www.kupindo.com/Laptopovi/50390457_Dell-Precision-M4800-i7-4910-8Gb-500Gb-Qvadro-K2100M-2G,50390457
+Dell,intel,i7,2,ddr3,8,hdd,1000,15,65000,used,https://www.kupindo.com/Laptopovi/53903609_DELL-Gaming-i7-3GHz-8GB-1TB-15-6in-AMD-2GB,53903609
+Lenovo,intel,i5,2,ddr3,8,ssd,256,14,63450,used,https://www.kupindo.com/Laptopovi/46865893_Lenovo-i5-6300U-256-GB-SSD-8GB-Intel-HD-Akcija,46865893
+Apple,intel,i7,2,ddr3,8,hdd,500,15,62000,used,https://www.kupindo.com/Laptopovi/52060753_Apple-MacBook-Pro-15-Mid2012-i7-2-3Gh-8Gb-500Gb-Gtx650,52060753
+Lenovo,intel,i5,2,ddr3,16,ssd,256,15,62000,used,https://www.kupindo.com/Laptopovi/52712393_Lenovo-ThinkPad-T550-i5-5-Gen-16GB-250SSD-15-6-Full-HD,52712393
+Lenovo,intel,i5,2,ddr4,8,hdd,1000,16,60000,used,https://www.kupindo.com/Laptopovi/52131877_LENOVO-ideapad-520-i5-7200U-GTX940MX-4GB-DDR5-8GB-1TB,52131877
+Lenovo,intel,i3,2,ddr3,4,hdd,500,15.6,59990,new,https://www.kupindo.com/Laptopovi/48531881_LENOVO-110-NOVO-NEKORISCENO-Akcija,48531881
+Lenovo,intel,i3,2,ddr4,4,hdd,1000,15.6,58990,new,https://www.kupindo.com/Laptopovi/48687395_LENOVO-V110-NOVO-NEKORISCENO-br-2-Akcija,48687395
+Toshiba,intel,i7,2,ddr3,8,hdd,1000,15.6,58400,used,https://www.kupindo.com/Laptopovi/50195893_Toshiba-L50-i7-4510U-8GB-1TB-dve-grafike-Akcija,50195893
+Hewlett Packard,intel,i5,2,ddr4,8,hdd,2000,14,57150,used,https://www.kupindo.com/Laptopovi/46243409_HP-EliteBook-i5-8gb-256-GB-SSD-Akcija,46243409
+Lenovo,intel,i5,2,ddr3,8,ssd,128,14,57150,used,https://www.kupindo.com/Laptopovi/46866049_Lenovo-i5-6200U-128-GB-SSD-8GB-Intel-HD-Akcija,46866049
+Hewlett Packard,intel,i7,2,ddr3,8,hdd,750,15.6,56250,used,https://www.kupindo.com/Laptopovi/47009425_HP-Envy-i7-8-GB-RAM-750GB-dve-grafike-Akcija,47009425
+Lenovo,intel,i3,2,ddr4,4,hdd,500,15.6,55990,new,https://www.kupindo.com/Laptopovi/48688031_LENOVO-320-NOVO-NEKORISCENO-Akcija,48688031
+Acer,intel,i7,2,ddr3,12,hdd,640,17.3,55500,used,https://www.kupindo.com/Laptopovi/53781701_Gamer-Acer-V3-772G-17-3-FullHD-i7-12Gb-Gtx850-2Gb-640Gb,53781701
+Dell,intel,i5,2,ddr3,8,ssd,256,12,55350,used,https://www.kupindo.com/Laptopovi/46608269_Dell-Latitude-i5-8gb-256-GB-SSD-Akcija,46608269
+Apple,intel,i7,2,ddr3,8,ssd,128,13,54500,used,https://www.kupindo.com/Laptopovi/46235409_Mac-Book-Pro13-late-2011-i7-4Gb-120Gb-SSD,46235409
+Hewlett Packard,intel,i5,2,ddr3,8,ssd,128,15.6,54500,used,https://www.kupindo.com/Laptopovi/46556257_HP-EliteBook-i5-8gb-RAM-128-GB-SSD-Akcija,46556257
+Hewlett Packard,intel,i3,2,ddr4,4,hdd,500,15.6,53990,new,https://www.kupindo.com/Laptopovi/48812921_HP-Laptop-250-NOVO-NEKORISCENO-br-2-Akcija,48812921
+Dell,intel,i5,2,ddr4,8,hdd,1000,15,53990,used,https://www.kupindo.com/Laptopovi/50920557_Dell-Inspiron-15-5567-Intel-i5-7200U-8G-1TB-R7-M445,50920557
+Dell,intel,i5,2,ddr4,8,hdd,2000,14,53500,used,https://www.kupindo.com/Laptopovi/53479445_Dell-Latitude-e7470-i5-6300U-8Gb-DDR4-256Gb-FHD-3-4h,53479445
+Dell,intel,i5,4,ddr3,8,hdd,500,14,53000,used,https://www.kupindo.com/Laptopovi/36238623_Dell-411-Z-kao-nov-I5-Quad-8-Gb-500Gb-Hd-3200-,36238623
+Hewlett Packard,intel,i7,2,ddr3,16,ssd,128,14,52000,used,https://www.kupindo.com/Laptopovi/53957173_HP-zBook-14-fullHD-i7-4600U-16GB-256GB-SSD-nova-bat-,53957173
+Lenovo,intel,i7,2,ddr3,8,ssd,256,15,52000,used,https://www.kupindo.com/Laptopovi/54093623_Vrhunski-Lenovo-ThinkPad-S540-i7-8GB-SSD-2GB-Grafika,54093623
+Hewlett Packard,intel,i5,2,ddr4,8,ssd,256,15.6,51750,used,https://www.kupindo.com/Laptopovi/46702029_HP-ProBook-i5-8GB-256-GB-SSD-Akcija,46702029
+Apple,intel,i7,2,ddr3,8,hdd,250,15,51500,used,https://www.kupindo.com/Laptopovi/47809401_Mac-Book-Pro-15-Early-2011i7-2Gh-4G250Gb-Dual-grafika,47809401
+Clevo,intel,i7,2,ddr3,8,hdd,1000,17.3,51500,used,https://www.kupindo.com/Laptopovi/53640265_Clevo-Vision-gejmer-i7-4700-8Gb-1Tb-GTX765-2Gb,53640265
+Hewlett Packard,intel,i7,2,ddr3,8,hdd,750,17.3,50500,used,https://www.kupindo.com/Laptopovi/46987637_HP-DV7-i7-8gb-RAM-750GB-2-grafike-Akcija,46987637
+Hewlett Packard,intel,i5,2,ddr3,8,ssd,128,15.6,49950,used,https://www.kupindo.com/Laptopovi/46412881_HP-Elitebook-i5-8gb-128-GB-SSD-Akcija,46412881
+Apple,intel,i7,2,ddr3,6,hdd,250,15,49500,used,https://www.kupindo.com/Laptopovi/52114741_Mac-Book-Pro-15-Late-2011-i7-2-2Gh-6Gb-250Gb-HD6750-512,52114741
+Lenovo,intel,i7,4,ddr2,8,hdd,1000,15,49000,used,https://www.kupindo.com/Laptopovi/51215469_Lenovo-ThinkPad-W530-i7-QuadCore-8GB-1TB-15-6,51215469
+Fujitsu,intel,i5,2,ddr4,16,hdd,120,15,48500,used,https://www.kupindo.com/Laptopovi/49619105_TOP-Masina-i5-6-Gen-16GB-DDR4-SSD-15-6-IPS,49619105
+Fujitsu,intel,i5,2,ddr4,16,hdd,120,15,48500,used,https://www.kupindo.com/Laptopovi/49619125_TOP-Masina-druga-i5-6-Gen-16GB-DDR4-SSD-15-6-IPS,49619125
+Hewlett Packard,intel,i7,2,ddr3,8,hdd,500,17.3,48500,used,https://www.kupindo.com/Laptopovi/54254507_HP-Pavilion-17-i7-4510u-2-6Gh-8Gb-500Gb-Nvidia-840M-2Gb,54254507
+Lenovo,intel,i5,2,ddr3,8,ssd,256,14,48400,used,https://www.kupindo.com/Laptopovi/46413549_Lenovo-i5-8GB-Intel-HD-Graphics-256GB-SSD-Akcija,46413549
+Hewlett Packard,intel,i5,2,ddr4,8,ssd,256,12.5,48150,used,https://www.kupindo.com/Laptopovi/46547581_HP-EliteBook-i5-8GB-256-SSD-br-2-Akcija,46547581
+Dell,intel,i7,2,ddr3,8,ssd,256,14,48150,used,https://www.kupindo.com/Laptopovi/46607957_Dell-Latitude-i7-8gb-256-GB-SSD-Akcija,46607957
+CLEVO,intel,i7,2,ddr3,8,ssd,650,15,48000,used,https://www.kupindo.com/Laptopovi/48797873_Gamer-CLEVO-gejmerski-laptop-i7-GT650M-SSD,48797873
+Dell,intel,i5,2,ddr4,8,ssd,256,12,48000,used,https://www.kupindo.com/Laptopovi/52703753_Ultrabook-Dell-Latitude-E7270-i5-6Gen-8GB-SSD-Full-HD,52703753
+Asus,intel,i7,2,ddr3,8,hdd,500,15.6,47500,used,https://www.kupindo.com/Laptopovi/47007701_Asus-i7-8GB-RAM-500-GB-dve-grafike-Akcija,47007701
+Dell,intel,i5,2,ddr2,8,ssd,128,12,47250,used,https://www.kupindo.com/Laptopovi/46608417_Dell-Latitude-i5-8gb-128-GB-SSD-Akcija,46608417
+Dell,intel,i7,2,ddr3,8,ssd,128,14,47000,used,https://www.kupindo.com/Laptopovi/46285893_Dell-Latitude-i7-8gb-RAM-128-SSD-2-Grafike-Akcija,46285893
+Apple,intel,i7,2,ddr2,4,ssd,250,15,47000,defective,https://www.kupindo.com/Laptopovi/53610885_Apple-MacBook-15-Early-2011-i7-16GB-240GB-SSD,53610885
+Lenovo,intel,i7,2,ddr3,8,ssd,256,14,46000,used,https://www.kupindo.com/Laptopovi/46437485_Lenovo-i7-8gb-256-ssd-Intel-HD-Graphics-4400-Akcija,46437485
+Hewlett Packard,intel,i3,2,ddr4,4,hdd,500,15,45900,new,https://www.kupindo.com/Laptopovi/46718633_HP-15-bs008nw-1WA45EAR,46718633
+Dell,intel,i5,2,ddr3,4,hdd,500,15.6,45500,used,https://www.kupindo.com/Laptopovi/46598385_Dell-Latitude-i5-4gb-500-GB-intel-HD-520-Akcija,46598385
+Hewlett Packard,intel,i5,2,ddr2,8,ssd,256,12.5,45450,used,https://www.kupindo.com/Laptopovi/46547453_HP-EliteBook-i5-8GB-256-SSD-Akcija,46547453
+Hewlett Packard,intel,i7,2,ddr3,8,hdd,500,14,44550,used,https://www.kupindo.com/Laptopovi/46426689_HP-EliteBook-i7-8gb-500-GB-Akcija,46426689
+Apple,intel,i5,2,ddr3,8,ssd,120,13,43800,used,https://www.kupindo.com/Laptopovi/47782181_MacBook-Air-early-2014-i5-4Gb-20Gb-SSD,47782181
+Lenovo,intel,i5,2,ddr3,8,ssd,128,14,43600,used,https://www.kupindo.com/Laptopovi/46557093_Lenovo-i5-8GB-Intel-HD-Graphics-128GB-SSD-Akcija,46557093
+Hewlett Packard,intel,i7,2,ddr3,8,hdd,750,17.3,43500,used,https://www.kupindo.com/Laptopovi/50086501_HP-DV7-i7-2630qm-8gb-750gb-AtiRadeon-Akcija,50086501
+Apple,intel,i5,2,ddr3,4,hdd,250,13,43500,used,https://www.kupindo.com/Laptopovi/53810969_MacBook-Pro-13-2011God-i5-2-3Gh-4Gb-250Gb-HD3000,53810969
+Dell,intel,i3,2,ddr4,4,hdd,1000,16,42570,new,https://www.kupindo.com/Laptopovi/53712617_DELL-Inspiron-15-3567-NOT12785-Intel-Core-i3-7020U-2-3,53712617
+Fujitsu,intel,i7,4,ddr3,8,ssd,500,15,42500,used,https://www.kupindo.com/Laptopovi/46951893_Workstation-Fujitsu-CELSIUS-H720-i7-3-60GHz-8GB-SSD-500,46951893
+Dell,intel,i7,2,ddr3,8,ssd,256,15,42000,used,https://www.kupindo.com/Laptopovi/54413967_Dell-E6540-15-6-i7-4702qm-8gb-256gb-SSD-IPS-FullHD,54413967
+Asus,intel,i3,2,ddr4,8,hdd,1000,15,41990,used,https://www.kupindo.com/Laptopovi/53325941_Asus-VivoBook-S-S510UA-BR126T-INtel-i3-7100-4GB-1TB,53325941
+Lenovo,intel,i5,2,ddr3,8,ssd,128,12.5,41400,used,https://www.kupindo.com/Laptopovi/46597537_Lenovo-i5-8gb-128-GB-SSD-Intel-HD-5500-Akcija,46597537
+Dell,intel,i7,2,ddr3,6,hdd,500,17.3,41000,used,https://www.kupindo.com/Laptopovi/44833365_DELL-XPS-17-Intel-Core-i7-2630Q-6Gb-500Gb-17-3Inch-Led,44833365
+Acer,intel,i5,2,ddr3,8,hdd,500,17.3,41000,used,https://www.kupindo.com/Laptopovi/46546265_ACER-i5-8gb-500-gb-HDD-2-Grafike-Akcija,46546265
+Hewlett Packard,intel,i5,2,ddr4,8,ssd,256,14,41000,used,https://www.kupindo.com/Laptopovi/54170079_HP-Laptop-i5-8GB-SSD-256GB-14-GARANCIJA,54170079
+Lenovo,intel,i5,2,ddr3,8,ssd,512,14,40050,used,https://www.kupindo.com/Laptopovi/46281981_Lenovo-i5-8gb-512-ssd-Intel-HD-Graphics-4000-Akcija,46281981
+Asus,intel,i5,2,ddr3,8,hdd,1000,15,40000,used,https://www.kupindo.com/Laptopovi/52347929_Asus-S551LB-CJ044H,52347929
+Acer,intel,i5,2,ddr3,8,hdd,500,17.3,40000,used,https://www.kupindo.com/Laptopovi/53990297_Gejmer-Acer-Aspire-E1-572G-i5-4200U-8Gb-500Gb-GTX820,53990297
+Hewlett Packard,intel,i5,2,ddr2,8,ssd,128,14,40000,defective,https://www.kupindo.com/Laptopovi/54145207_14-HP-ProBook-i5-4200m-8gb-RAM-128gb-SSD-HD,54145207
+Dell,intel,i7,4,ddr3,4,hdd,1000,17,38000,defective,https://www.kupindo.com/Laptopovi/54314719_Dell-Precision-M6500-Radna-stanica-i7-8GB-DDR3-SSD-FX-1,54314719
+Hewlett Packard,intel,i5,2,ddr3,8,ssd,180,14,37350,used,https://www.kupindo.com/Laptopovi/46703209_HP-EliteBook-i5-8GB-180-GB-SSD-Akcija,46703209
+Asus,intel,i7,2,ddr3,6,hdd,500,15.6,37000,used,https://www.kupindo.com/Laptopovi/50109073_Asus-X53-i7-6gb-500gb-dve-grafike-Akcija,50109073
+Lenovo,intel,i5,2,ddr3,8,ssd,240,16,37000,used,https://www.kupindo.com/Laptopovi/51069889_BESPREKORAN-Lenovo-T530-i5-3320M-8gb-240gb-SSD-15-6inch,51069889
+Hewlett Packard,intel,i5,2,ddr2,8,hdd,1000,15,37000,used,https://www.kupindo.com/Laptopovi/54043501_HP-ProBook-6550b-I5,54043501
+Dell,intel,i7,4,ddr3,8,hdd,500,15,37000,used,https://www.kupindo.com/Laptopovi/54215311_TOP-Masina-Dell-XPS-JBL-i7-QuadCore-8GB-Dve-grafike-2,54215311
+Lenovo,intel,i5,2,ddr4,8,ssd,500,14,36900,defective,https://www.kupindo.com/Laptopovi/45144977_Laptop-Fujitsu-LIFEBOOK-E736-i5-2-40GHz-8GBRAM-SSD-500G,45144977
+Acer,intel,i7,2,ddr3,8,hdd,500,15.6,36500,used,https://www.kupindo.com/Laptopovi/49833073_Acer-Aspire-V5-573-i7-4500u-8Gb-500Gb-HD4000,49833073
+Toshiba,intel,i5,2,ddr3,8,hdd,320,15,36500,used,https://www.kupindo.com/Laptopovi/51669933_VRHUNSKA-Toshiba-tecra-A50-i5-4Gen-8GB-15-6-,51669933
+Lenovo,intel,i5,2,ddr3,8,ssd,240,14,36400,used,https://www.kupindo.com/Laptopovi/46420249_Lenovo-i5-8gb-240-ssd-Intel-HD-Graphics-4000-Akcija,46420249
+Dell,intel,i5,2,ddr3,8,hdd,1000,15,36000,used,https://www.kupindo.com/Laptopovi/52500693_Dell-Inspiron-5558-i5-5200U,52500693
+Hewlett Packard,intel,i5,2,ddr3,8,hdd,240,12,36000,used,https://www.kupindo.com/Laptopovi/53976981_HP-EliteBook-820-G1,53976981
+Apple,intel,i5,2,ddr3,8,hdd,500,15,35999,used,https://www.kupindo.com/Laptopovi/53963985_Apple-Macbook-Pro-i5-2-4Ghz-500GB-8GB-RAM-3H-BAT-GARANC,53963985
+Dell,intel,i5,2,ddr3,8,ssd,128,14,35550,used,https://www.kupindo.com/Laptopovi/46235253_Dell-Latitude-i5-8gb-RAM-128ssd-Dve-Grafike-Akcija,46235253
+Sony,intel,i5,2,ddr3,8,hdd,120,15,35000,used,https://www.kupindo.com/Laptopovi/51926593_Kao-NOV-Sony-VAIO-i5-8GB-SSD-Full-HD-Svetleca-Tastatu,51926593
+Lenovo,intel,i5,2,ddr3,8,hdd,1000,15,35000,used,https://www.kupindo.com/Laptopovi/53249273_Lenovo-IdeaPad-G50-80-i5-5-Gen-8GB-1TBhdd-15-6-,53249273
+Hewlett Packard,intel,i5,2,ddr3,8,ssd,120,14,35000,used,https://www.kupindo.com/Laptopovi/53327729_HP-EliteBook-840-G2-i5-5300U-8Gb-120Gb-SSD-FHD-4h,53327729
+Asus,intel,i3,2,ddr3,8,hdd,500,15,35000,used,https://www.kupindo.com/Laptopovi/53829349_Laptop-ASUS-15-inch-i3-8GB-RAM,53829349
+Asus,intel,i7,2,ddr2,8,hdd,1000,15,35000,used,https://www.kupindo.com/Laptopovi/54336943_Asus-K555l,54336943
+Lenovo,intel,i5,2,ddr3,8,ssd,256,12.5,34650,used,https://www.kupindo.com/Laptopovi/46427597_Lenovo-i5-8gb-256-gb-SSD-Intel-HD-4400-Akcija,46427597
+Lenovo,intel,i5,2,ddr3,4,hdd,500,14,34650,used,https://www.kupindo.com/Laptopovi/46597325_Lenovo-i5-4gb-500-GB-Intel-HD-4600-Akcija,46597325
+Hewlett Packard,intel,i7,2,ddr3,8,hdd,750,12.5,34650,used,https://www.kupindo.com/Laptopovi/47252925_HP-i7-8-GB-RAM-750-GB-Intel-HD-4000-Akcija,47252925
+Hewlett Packard,intel,i7,2,ddr3,4,ssd,120,15,34500,used,https://www.kupindo.com/Laptopovi/44488121_Hp-8560P-i7-2640m-4gB-120gB-ssd-15-6iNCH-LED,44488121
+Asus,intel,i7,2,ddr3,8,hdd,500,15.6,34000,used,https://www.kupindo.com/Laptopovi/46995633_Asus-i7-8gb-RAM-500gb-2-grafike-Akcija,46995633
+Lenovo,intel,i7,2,ddr3,8,ssd,500,14,34000,used,https://www.kupindo.com/Laptopovi/49996833_Laptop-Lenovo-ThinkPad-T430S-i7-2-90GHz-8GBRAM-SSD-500G,49996833
+Hewlett Packard,intel,i5,2,ddr3,8,ssd,128,14,33750,used,https://www.kupindo.com/Laptopovi/46546825_HP-ProBook-i5-8GB-128-SSD-Akcija,46546825
+Lenovo,intel,i5,2,ddr3,4,hdd,500,14,33200,used,https://www.kupindo.com/Laptopovi/46597013_Lenovo-i5-4gb-500-GB-Intel-HD-Graphics-4600-Akcija,46597013
+Hewlett Packard,intel,i5,2,ddr3,4,ssd,180,14,32850,used,https://www.kupindo.com/Laptopovi/46703025_HP-EliteBook-i5-4GB-180-GB-SSD-Akcija,46703025
+Hewlett Packard,intel,i7,2,ddr3,8,ssd,120,17,32399,used,https://www.kupindo.com/Laptopovi/53978473_HP-Pavilion-g7-17-HD-I7-3632QM-graf-2Gb-8ram-120Gb-ssd,53978473
+Sony,intel,i5,2,ddr3,8,hdd,750,15,32000,used,https://www.kupindo.com/Laptopovi/50783869_PRELEP-Sony-VAIO-i5-II-Gen-8GB-750hdd-1GB-Grafika,50783869
+Sony,intel,i5,2,ddr3,8,hdd,1000,17,32000,used,https://www.kupindo.com/Laptopovi/54115583_Sony-VAIO-17-3-i5-2-gen-8GB-1TBhdd-1GB-Grafika,54115583
+Asus,intel,i5,2,ddr3,6,hdd,500,15.6,31950,used,https://www.kupindo.com/Laptopovi/47253573_Asus-i5-6-GB-RAM-500-GB-DVE-GRAFIKE-Akcija,47253573
+Hewlett Packard,intel,i7,2,ddr3,8,hdd,500,17.3,31500,used,https://www.kupindo.com/Laptopovi/54406983_HP-Pavilion-DV7-i7-2670-2-2Gh-8Gb-500Gb-Ati-HD6750-2Gb,54406983
+Lenovo,intel,i5,2,ddr3,8,ssd,256,14,31050,used,https://www.kupindo.com/Laptopovi/46282013_Lenovo-i5-8gb-256-ssd-Intel-HD-Graphics-4000-Akcija,46282013
+Lenovo,intel,i7,2,ddr2,4,ssd,160,15.6,31050,used,https://www.kupindo.com/Laptopovi/46870093_Lenovo-Intel-i7-4GB-160GB-SSD-Akcija,46870093
+Dell,intel,i5,2,ddr3,4,hdd,500,14,31050,used,https://www.kupindo.com/Laptopovi/46993361_DELL-Latitude-i5-4GB-RAM-500GB-Akcija,46993361
+Dell,intel,i5,2,ddr3,8,ssd,128,12.5,31050,used,https://www.kupindo.com/Laptopovi/46993593_Dell-Latitude-i5-8gb-RAM-128gb-SSD-Akcija,46993593
+Samsung,intel,i5,2,ddr3,6,hdd,500,15,31000,used,https://www.kupindo.com/Laptopovi/50941973_Samsung-RV520-i5-2-Gen-6GB-500hdd-1GB-Grafika-,50941973
+Toshiba,intel,i5,2,ddr2,8,hdd,100,17,31000,used,https://www.kupindo.com/Laptopovi/52376669_Vrhunski-TOSHIBAS-Core-i5-ram-8gb-17-PREPORUKA,52376669
+Hewlett Packard,intel,i5,2,ddr3,4,hdd,500,15.6,30800,used,https://www.kupindo.com/Laptopovi/46864633_HP-ProBook-i5-4200M-4GB-500-GB-Akcija,46864633
+Acer,intel,i5,2,ddr3,4,hdd,500,15.6,30600,used,https://www.kupindo.com/Laptopovi/47005109_Acer-Aspire-i5-4gb-RAM-500-GB-dve-grafike-Akcija,47005109
+Dell,intel,i5,2,ddr3,4,hdd,500,15.6,30600,used,https://www.kupindo.com/Laptopovi/47102345_Dell-i5-4-GB-RAM-500-GB-Intel-HD-Akcija,47102345
+Hewlett Packard,intel,i5,2,ddr3,4,hdd,320,15.6,30600,used,https://www.kupindo.com/Laptopovi/50224129_HP-8570p-i5-4GB-320GB-Intel-HD-4000-Akcija,50224129
+Sony,intel,i5,2,ddr3,8,ssd,256,15,30500,used,https://www.kupindo.com/Laptopovi/54060385_Sony-Vaio-Fit-15E-i5-3337u-8Gb-256Gb-SSD-FHD-BluRay,54060385
+Acer,intel,i5,2,ddr3,8,hdd,500,17,30500,used,https://www.kupindo.com/Laptopovi/54357679_Acer-Aspire-V3-771G-i5-3210M-8Gb-500Gb-GT-630M-2h-17-,54357679
+Acer,intel,i7,2,ddr3,8,hdd,500,15.6,30500,used,https://www.kupindo.com/Laptopovi/54387731_Gejmer-Acer-Aspire-5755G-i7-2670QM-8Gb-500Gb-GT630-2Gb,54387731
+Samsung,intel,i3,2,ddr2,8,ssd,120,15,30000,used,https://www.kupindo.com/Laptopovi/25529029_lap-top-SAMSUNG,25529029
+Acer,intel,i5,2,ddr3,8,hdd,752,15,30000,defective,https://www.kupindo.com/Laptopovi/53956365_lap-top-Acer-v3-571g,53956365
+Acer,intel,i7,2,ddr2,8,ssd,240,15.6,30000,used,https://www.kupindo.com/Laptopovi/54032673_Acer-Aspire-5750G-Core-i7-SSD-8GB-Extra,54032673
+Lenovo,intel,i3,2,ddr3,8,hdd,1000,15,30000,defective,https://www.kupindo.com/Laptopovi/54398703_Laptop-Lenovo-G500-i3-8gb-1TB-2gb,54398703
+Hewlett Packard,intel,i5,2,ddr3,4,hdd,320,14,29999,defective,https://www.kupindo.com/Laptopovi/36864267_hp-eliteBook-8470p,36864267
+Lenovo,intel,i7,2,ddr3,4,hdd,320,14,29500,used,https://www.kupindo.com/Laptopovi/46557329_Lenovo-i7-4gb-320-gb-dve-grafike-Akcija,46557329
+Lenovo,intel,i5,2,ddr3,8,ssd,128,14,29250,used,https://www.kupindo.com/Laptopovi/46282021_Lenovo-i5-8gb-128-ssd-Intel-HD-Graphics-4000-Akcija,46282021
+Dell,intel,i5,2,ddr3,4,ssd,500,15,29100,used,https://www.kupindo.com/Laptopovi/53693169_Dell-Latitude-E6540-i5-4310M-ssd-128gb-full-HD,53693169
+Hewlett Packard,intel,i5,2,ddr3,8,ssd,180,15,29000,used,https://www.kupindo.com/Laptopovi/53081249_HP-EliteBook-8570p-i5-III-gen-8Gb-180Gb-SSD-HD-7570m,53081249
+Dell,intel,i7,2,ddr3,8,ssd,120,15,29000,defective,https://www.kupindo.com/Laptopovi/53630005_Dell-Laptop-sa-4-jezgra-i-8-niti-8GB-Ram-120gb-SSD,53630005
+Toshiba,intel,i5,2,ddr3,8,ssd,500,19,28799,used,https://www.kupindo.com/Laptopovi/41797493_TOSHIBA-Satellite-P500-190,41797493
+Clevo,intel,i5,2,ddr3,4,hdd,500,15,28500,used,https://www.kupindo.com/Laptopovi/48672613_Gejmer-Clevo-W150HR-i5-2410-4Gb-500Gb-Gt555-2Gb,48672613
+Toshiba,intel,i5,2,ddr3,8,ssd,256,13,28440,used,https://www.kupindo.com/Laptopovi/54056277_Toshiba-Z30-i5-4-gen-8gb-ddr3-256gb-SSD-licenca-w,54056277
+Lenovo,intel,i5,2,ddr3,4,hdd,500,14,28440,used,https://www.kupindo.com/Laptopovi/54056413_Lenovo-T440p-i5-4-gen-4gb-DDR3-500gb-Win-10-licenca-G,54056413
+Dell,intel,i5,2,ddr3,8,hdd,500,14,28440,used,https://www.kupindo.com/Laptopovi/54056489_DeLL-E7440-i5-4-gen-8gb-ddr3-500gb-Lic-Win-10-GTA,54056489
+Toshiba,intel,i5,2,ddr3,8,hdd,500,14,28440,used,https://www.kupindo.com/Laptopovi/54056509_Toshiba-Z40-i5-4-gen-8gb-ddr3-500gb-HDMI-win-10-GTA-V,54056509
+Lenovo,intel,i5,2,ddr3,4,hdd,500,15.6,28400,used,https://www.kupindo.com/Laptopovi/46439809_Lenovo-i5-4gb-500-gb-Intel-HD-Graphics-4000-Akcija,46439809
+Hewlett Packard,intel,i5,2,ddr3,4,hdd,320,14,28400,used,https://www.kupindo.com/Laptopovi/46547109_HP-ProBook-i5-4GB-320-GB-Akcija,46547109
+Hewlett Packard,intel,i7,2,ddr3,8,hdd,250,12.5,28350,used,https://www.kupindo.com/Laptopovi/46288781_HP-EliteBook-i7-8gb-ddr3-250-GB-Intel-HD-Akcija,46288781
+Hewlett Packard,intel,i7,2,ddr3,4,hdd,320,12.5,28350,used,https://www.kupindo.com/Laptopovi/47229953_HP-i7-4GB-RAM-320-GB-Intel-HD-4000-Akcija,47229953
+Fujitsu,intel,i7,4,ddr3,8,hdd,100,15,28000,used,https://www.kupindo.com/Laptopovi/45148033_Workstation-Fujitsu-CELSIUS-H710-i7-3-30GHz-8GB-HDD-500,45148033
+Hewlett Packard,intel,i5,2,ddr3,8,ssd,160,15,28000,used,https://www.kupindo.com/Laptopovi/53511861_HP-EliteBook-8560p-i5-2540m-8Gb-160Gb-SSD-HD-6470m-3h,53511861
+Dell,intel,i7,4,ddr3,8,ssd,120,17,28000,used,https://www.kupindo.com/Laptopovi/54148971_Dell-Precision-M6500-Core-i7-8Gb-SSD-Nvidia-17-LED,54148971
+Dell,intel,i5,2,ddr3,8,ssd,128,14,28000,used,https://www.kupindo.com/Laptopovi/54357215_Dell-Latitude-e7440-i5-4300U-8Gb-128Gb-SSD-HDMI-LED,54357215
+Lenovo,intel,i5,2,ddr2,4,ssd,120,15,27900,defective,https://www.kupindo.com/Laptopovi/53350401_Lenovo-V310-15ISK-Intel-i5-6200U-4GB-DDR4-120GB-SSD-2-b,53350401
+Dell,intel,i5,2,ddr3,8,ssd,128,14,27600,used,https://www.kupindo.com/Laptopovi/46236053_Dell-Latitude-i5-4gb-128ssd-Intel-HD-Graphics-Akcija,46236053
+Lenovo,intel,i5,2,ddr2,8,ssd,128,14,27500,used,https://www.kupindo.com/Laptopovi/53922821_Lenovo-ThinkPad-L440-i5-4300M-8gb-ssd-128,53922821
+MODULA axxiv,intel,i5,2,ddr3,4,hdd,400,15,27500,defective,https://www.kupindo.com/Laptopovi/53956325_MODULA-axxiv-i5,53956325
+Hewlett Packard,intel,i7,2,ddr3,8,hdd,250,12.5,27450,used,https://www.kupindo.com/Laptopovi/46289205_HP-EliteBook-i7-4gb-ddr3-250-GB-Intel-HD-Akcija,46289205
+Lenovo,intel,i5,2,ddr3,8,ssd,256,12.5,27450,used,https://www.kupindo.com/Laptopovi/46429193_Lenovo-i5-8gb-256-gb-SSD-Intel-HD-4000-Akcija,46429193
+Lenovo,intel,i5,2,ddr2,4,hdd,500,15.6,27450,used,https://www.kupindo.com/Laptopovi/46870473_Lenovo-Intel-i5-4GB-500GB-Akcija,46870473
+Hewlett Packard,intel,i5,2,ddr3,8,hdd,500,15,27000,used,https://www.kupindo.com/Laptopovi/53608721_HP-Elitebook-8650p-6GB-i5-na-2-5GHz-500GB-HDD,53608721
+Acer,intel,i5,2,ddr3,4,hdd,750,17,27000,used,https://www.kupindo.com/Laptopovi/53915333_Laptop-Acer-Aspire-7750G-17-3-Intel-i5-2450M-4GB-Grafi,53915333
+Asus,intel,i5,2,ddr3,4,hdd,500,17,27000,used,https://www.kupindo.com/Laptopovi/54336679_Prelep-ASUS-N73JF-17-3-i5-4GB-500hdd-Dve-Grafike,54336679
+Lenovo,intel,i3,2,ddr2,4,ssd,128,13,26991,used,https://www.kupindo.com/Laptopovi/49623509_lenovo-u330-i3-4th-Allu-Touch-SSD-Slim-Light-Keyboard,49623509
+Dell,intel,i5,2,ddr3,4,hdd,320,14,26799,used,https://www.kupindo.com/Laptopovi/40529895_Dell-Inspirion-4110-i5-laptop,40529895
+Lenovo,intel,i3,2,ddr3,8,ssd,120,17.3,26500,used,https://www.kupindo.com/Laptopovi/44879605_Lenovo-G70-i3-4005U-4Gb-120Gb-SSD,44879605
+Lenovo,intel,i5,2,ddr3,8,ssd,120,12,26500,defective,https://www.kupindo.com/Laptopovi/46569473_Lenovo-ThinkPad-X240-Core-i5-8Gb-120Gb-SSD-12-5-LED,46569473
+Asus,intel,i5,2,ddr3,4,hdd,500,15,26500,used,https://www.kupindo.com/Laptopovi/48346621_GEJMER-Acer-Aspire-5755G-i5-2450M-4Gb-500Gb-GT630-2Gb,48346621
+Dell,intel,i5,2,ddr3,8,ssd,160,15,26500,used,https://www.kupindo.com/Laptopovi/53312437_Dell-Latitude-e5530-i5-3340M-8Gb-160Gb-SSD-FHD-3-4h,53312437
+Hewlett Packard,intel,i5,2,ddr3,8,ssd,160,15,26500,used,https://www.kupindo.com/Laptopovi/53456081_HP-EliteBook-8560p-i5-2540m-8Gb-160Gb-SSD-HD-6470m-3h,53456081
+Fujitsu,intel,i5,2,ddr3,8,hdd,500,13,26500,used,https://www.kupindo.com/Laptopovi/53493145_Laptop-Fujitsu-LIFEBOOK-E7-E734-i5-2-40GHz-8GBRAM-500GB,53493145
+Dell,intel,i5,2,ddr3,8,hdd,1000,15,26500,used,https://www.kupindo.com/Laptopovi/53815217_Dell-Latitude-e6530-i5-3340-8Gb-1TB-HD-3h-baterija,53815217
+Terra Mobile,intel,i5,2,ddr3,8,ssd,500,15,26500,used,https://www.kupindo.com/Laptopovi/53815481_Terra-Germany-1529H-i5-4210M-8Gb-SSD-HD4600-4-5h,53815481
+Hewlett Packard,intel,i5,2,ddr3,8,ssd,120,14,26500,used,https://www.kupindo.com/Laptopovi/54044237_HP-EliteBook-9470m-Folio-i5-3427U-8Gb-120Gb-SSD-3-4h,54044237
+Hewlett Packard,intel,i5,2,ddr3,8,ssd,128,17,26500,used,https://www.kupindo.com/Laptopovi/54167359_HP-ProBook-4730s-i5-2450-8Gb-SSD-ATI-7470m-17-LED,54167359
+Fujitsu,intel,i5,2,ddr3,4,hdd,500,15.6,26400,used,https://www.kupindo.com/Laptopovi/46242573_Fujitsu-i5-4gb-ddr3-500-gb-intel-HD-4000-Akcija,46242573
+Dell,intel,i5,2,ddr3,8,hdd,320,14,26100,used,https://www.kupindo.com/Laptopovi/46454661_Dell-Latitude-i5-8gb-320-GB-Intel-HD-Graphics-Akcija,46454661
+Fujitsu,intel,i5,2,ddr3,8,hdd,320,14,26000,used,https://www.kupindo.com/Laptopovi/46418241_Fujitsu-Lifebook-i5-8gb-ddr3-320-GB-Akcija,46418241
+Acer,intel,i3,2,ddr3,4,hdd,500,15.6,26000,used,https://www.kupindo.com/Laptopovi/47005213_Acer-Aspire-i3-4gb-RAM-500-GB-Intel-HD-Akcija,47005213
+Asus,intel,i5,2,ddr3,8,ssd,240,15,26000,defective,https://www.kupindo.com/Laptopovi/54150299_Asus-F555LN-i5-4Gen-8GB-240gbSSD-2GB-Grafika,54150299
+Hewlett Packard,intel,i3,4,ddr3,8,hdd,1000,15,25700,used,https://www.kupindo.com/Laptopovi/54380307_HP-350-G2-I3-8gb-1tb,54380307
+Lenovo,intel,i5,4,ddr3,4,ssd,120,14,25650,used,https://www.kupindo.com/Laptopovi/47008061_Lenovo-i5-4gb-RAM-120gb-SSD-Akcija,47008061
+Hewlett Packard,intel,i5,2,ddr3,4,hdd,320,15,25650,used,https://www.kupindo.com/Laptopovi/47122273_HP-i5-4-GB-RAM-500-GB-Intel-HD-Akcija,47122273
+Hewlett Packard,intel,i5,2,ddr3,8,hdd,320,12.5,25650,used,https://www.kupindo.com/Laptopovi/47252701_HP-i5-8-GB-RAM-320-GB-Intel-HD-4000-Akcija,47252701
+Fujitsu,intel,i5,2,ddr3,8,ssd,500,14,25600,used,https://www.kupindo.com/Laptopovi/48211801_Laptop-Fujitsu-LIFEBOOK-S752-i5-2-60GHz-8GBRAM-SSD-500G,48211801
+Toshiba,intel,i7,2,ddr3,4,hdd,320,15,25500,used,https://www.kupindo.com/Laptopovi/50172173_Laptop-Toshiba-Satellite-A660-1H1-i7-263QM-2-00GHz-4GB,50172173
+Dell,intel,i5,2,ddr3,8,hdd,320,15,25500,used,https://www.kupindo.com/Laptopovi/53430381_Dell-Latitude-e6520-i5-2520-8Gb-320Gb-HD-2h-baterija,53430381
+Hewlett Packard,intel,i5,2,ddr3,8,ssd,128,15,25500,used,https://www.kupindo.com/Laptopovi/53846689_HP-ProBook-6570b-i5-III-gen-8Gb-128Gb-SSD-4h-baterija,53846689
+Dell,intel,i5,2,ddr3,4,ssd,120,15,25199,used,https://www.kupindo.com/Laptopovi/53978485_GEJMER-I5-4310M\RAM4gb\ssd120gb\SVETLECA-TAST\bat-NOVA,53978485
+Acer,intel,i3,2,ddr3,8,hdd,500,15.6,25000,used,https://www.kupindo.com/Laptopovi/47004925_Acer-Aspire-i3-4gb-RAM-500GB-Intel-HD-Akcija,47004925
+Dell,intel,i7,2,ddr3,8,hdd,250,15,25000,used,https://www.kupindo.com/Laptopovi/52945449_Profesionalni-Laptop-Dell-Latitude-E6520-8GB-i7-2720QM,52945449
+Lenovo,intel,i5,2,ddr3,4,hdd,500,12,25000,used,https://www.kupindo.com/Laptopovi/53245425_Lenovo-ThinkPad-X240-Tachscreen-i5-4Gen-4GB-500hdd,53245425
+Hewlett Packard,intel,i5,2,ddr3,4,hdd,320,15,25000,used,https://www.kupindo.com/Laptopovi/54338143_HP-Pavilion-g6-15-6-i5-2-Gen-4GB-320hdd-Dve-Grafike,54338143
+Dell,intel,i3,2,ddr3,8,hdd,500,15,24800,used,https://www.kupindo.com/Laptopovi/53215997_Dell-Latitude-3540-i3-4010-8GB-500GB-SSHD,53215997
+Hewlett Packard,intel,i5,2,ddr3,8,hdd,250,15.6,24750,used,https://www.kupindo.com/Laptopovi/46286397_Hp-i5-4gb-ddr3-250-GB-NVIDIA-NVS-5100M-Akcija,46286397
+Lenovo,intel,i5,2,ddr3,4,hdd,320,12.5,24750,used,https://www.kupindo.com/Laptopovi/46429313_Lenovo-i5-4gb-320-gb-Intel-HD-Graphics-4000-Akcija,46429313
+Hewlett Packard,intel,i5,2,ddr3,4,hdd,250,15.6,24750,used,https://www.kupindo.com/Laptopovi/50193405_HP-8560p-i5-2520M-4gb-250-GB-AMD-Radeon-4670-Akcija,50193405
+Hewlett Packard,intel,i3,2,ddr3,4,hdd,250,15,24500,used,https://www.kupindo.com/Laptopovi/54302275_PRELEP-HP-15-i3-5-Gen-4GB-Kamera-HDMi-15-6-,54302275
+Asus,intel,i5,2,ddr3,8,hdd,250,15,24499,used,https://www.kupindo.com/Laptopovi/47787481_Asus-PRO-Advanced-B53J-i5-8GB-ram-250-HDD-adapter-GARAN,47787481
+Dell,intel,i3,2,ddr2,4,hdd,320,15.6,24300,used,https://www.kupindo.com/Laptopovi/46608689_Dell-Latitude-i3-4gb-320-GB-intel-HD-Akcija,46608689
+Hewlett Packard,intel,i5,2,ddr3,4,hdd,250,14,24300,used,https://www.kupindo.com/Laptopovi/50223457_HP-8470p-i5-4GB-250GB-Intel-HD-4000-Akcija,50223457
+Dell,intel,i3,2,ddr3,8,hdd,500,15,24200,used,https://www.kupindo.com/Laptopovi/53585733_Dell-Latitude-3540-i3-4030-8GB-500GB-sshd,53585733
+Lenovo,intel,i5,2,ddr2,4,ssd,320,14,24200,used,https://www.kupindo.com/Laptopovi/53966337_Lenovo-ThinkPad-L440-i5-4300M-320gb-4gb,53966337
+Toshiba,intel,i7,2,ddr2,8,hdd,100,15.6,24000,used,https://www.kupindo.com/Laptopovi/53856481_Toshiba-Satelite-C855-Core-i7-3610QM,53856481
+Asus,intel,i5,2,ddr3,6,hdd,750,15,24000,used,https://www.kupindo.com/Laptopovi/54070149_TOP-Masina-Asus-X53S-i3-2Gen-6GB-750hdd-Dve-Grafike-,54070149
+Dell,intel,i5,2,ddr3,4,hdd,320,14,23850,used,https://www.kupindo.com/Laptopovi/46454505_Dell-Latitude-i5-4gb-320-GB-Intel-HD-Graphics-Akcija,46454505
+Lenovo,intel,i5,2,ddr3,4,hdd,320,14,23600,used,https://www.kupindo.com/Laptopovi/46557333_Lenovo-i5-4gb-320-gb-Intel-HD-Graphics-3000-Akcija,46557333
+Dell,intel,i5,2,ddr3,4,hdd,320,13,23600,defective,https://www.kupindo.com/Laptopovi/53948493_dell-E4310,53948493
+Samsung,intel,i7,2,ddr2,8,hdd,500,15,23600,used,https://www.kupindo.com/Laptopovi/53966377_Samsung-NP300E5A-i7-2620M-500gb-4gb,53966377
+Toshiba,intel,i5,2,ddr3,4,hdd,1000,15,23500,defective,https://www.kupindo.com/Laptopovi/54245807_Toshiba-Satellite-L50-B-i5-4Gen-4GB-1TBhdd-Dve-Grafike,54245807
+Hewlett Packard,intel,i5,2,ddr3,4,hdd,320,14.1,23400,used,https://www.kupindo.com/Laptopovi/46991841_HP-EliteBook-i5-4-GB-RAM-320GB-Akcija,46991841
+Hewlett Packard,intel,i5,2,ddr3,4,hdd,250,12.5,23400,used,https://www.kupindo.com/Laptopovi/47252801_HP-i5-4-GB-RAM-250-GB-Intel-HD-4000-Akcija,47252801
+Hewlett Packard,intel,i3,2,ddr3,4,hdd,500,17.3,23400,used,https://www.kupindo.com/Laptopovi/50217641_HP-4720s-i3-370M-4-Gb-DDR3-500Gb-ATi-Radeon-Akcija,50217641
+Acer,intel,i3,2,ddr3,6,hdd,500,15.6,23000,used,https://www.kupindo.com/Laptopovi/47095765_Acer-i3-6GB-RAM-500-GB-Intel-HD-Akcija,47095765
+Dell,intel,i5,4,ddr3,4,hdd,200,14,23000,used,https://www.kupindo.com/Laptopovi/50218445_Dell-Latitude-E6410-i5-4gb-200gb-NVS-3100M-Akcija,50218445
+Hewlett Packard,intel,i5,2,ddr3,4,ssd,120,13,23000,defective,https://www.kupindo.com/Laptopovi/51160417_HP-Spectre-XT-Pro-13-b000-i5-4GB-120ssd-13-3-,51160417
+Lenovo,intel,i5,2,ddr2,4,ssd,500,12,23000,used,https://www.kupindo.com/Laptopovi/54077349_Lenovo-Thinkpad-x240-Touch-i5-4210U-4GB-500GB-bat-12-h,54077349
+Fujitsu,intel,i5,2,ddr3,8,hdd,320,14,22500,used,https://www.kupindo.com/Laptopovi/46418073_Fujitsu-Lifebook-i5-4gb-ddr3-320-GB-Akcija,46418073
+Lenovo,intel,i5,2,ddr3,4,hdd,320,12.5,22500,used,https://www.kupindo.com/Laptopovi/46438177_Lenovo-i5-4gb-320-gb-Intel-HD-Graphics-3000-Akcija,46438177
+Dell,intel,i5,2,ddr3,4,hdd,250,14,22500,used,https://www.kupindo.com/Laptopovi/46454837_Dell-Latitude-i5-4gb-250-GB-Intel-HD-Graphics-Akcija,46454837
+Dell,intel,i5,2,ddr3,4,hdd,250,14,22500,used,https://www.kupindo.com/Laptopovi/50110345_Dell-Latitude-E5430-i5-3320M-4GB-250GB-Intel-Akcija,50110345
+Lenovo,intel,i5,2,ddr3,4,hdd,250,12.5,22050,used,https://www.kupindo.com/Laptopovi/46437965_Lenovo-i5-4gb-250-gb-Intel-HD-Graphics-3000-Akcija,46437965
+Hewlett Packard,intel,i5,2,ddr3,4,hdd,500,15.6,22050,used,https://www.kupindo.com/Laptopovi/46597977_HP-ProBook-i5-4gb-500-GB-DVE-GRAFIKE-Akcija,46597977
+Hewlett Packard,intel,i5,2,ddr3,4,hdd,160,15.6,22050,used,https://www.kupindo.com/Laptopovi/47138237_HP-i5-4-GB-RAM-160-GB-Intel-HD-Akcija,47138237
+Dell,intel,i5,2,ddr3,8,hdd,250,14,22000,used,https://www.kupindo.com/Laptopovi/46454929_Dell-Latitude-i5-8gb-250-GB-Intel-HD-Graphics-Akcija,46454929
+Dell,intel,i5,2,ddr3,4,hdd,320,12.5,22000,used,https://www.kupindo.com/Laptopovi/50089149_Dell-Latitude-E6230-i5-4gb-320gb-Intel-HD-Akcija,50089149
+HP,intel,i5,2,ddr2,4,ssd,512,15,22000,defective,https://www.kupindo.com/Laptopovi/51955701_HP-Elite-Book-840-i5-4210U,51955701
+Fujitsu,intel,i7,2,ddr2,4,hdd,500,15,21800,used,https://www.kupindo.com/Laptopovi/54136331_Fujitsu-Lifebook-AH531-i7-2620m-500gb-4gb,54136331
+Lenovo,intel,i5,2,ddr3,4,hdd,160,14,21600,used,https://www.kupindo.com/Laptopovi/46557353_Lenovo-i5-4gb-160-GB-Intel-HD-Graphics-3000-Akcija,46557353
+Acer,intel,i3,2,ddr3,3,hdd,250,15.6,21600,used,https://www.kupindo.com/Laptopovi/47112437_Acer-i3-3-GB-RAM-250-GB-ATI-RADEON-Akcija,47112437
+Lenovo,intel,i3,2,ddr3,4,ssd,120,13,21500,used,https://www.kupindo.com/Laptopovi/47782545_Lenovo-IdeaPad-S300-i3-4Gb-120Gb-SSD,47782545
+Lenovo,intel,i5,2,ddr3,8,hdd,500,12,21330,used,https://www.kupindo.com/Laptopovi/54056593_Lenovo-X240-i5-4300U-8gb-ddr3-500gb-Kamera-Win10Pro,54056593
+Hewlett Packard,intel,i5,2,ddr3,8,hdd,320,12.5,21150,used,https://www.kupindo.com/Laptopovi/46289705_HP-EliteBook-i5-4gb-ddr3-320-GB-Intel-HD-Akcija,46289705
+Fujitsu,intel,i3,2,ddr3,4,hdd,250,15.6,21150,used,https://www.kupindo.com/Laptopovi/47122337_Fujitsu-i3-4-GB-RAM-250-GB-Intel-HD-Akcija,47122337
+Hewlett Packard,intel,i7,2,ddr3,6,hdd,500,17,21100,used,https://www.kupindo.com/Laptopovi/54214635_HP-G72-i7-6gb-ram-500gb,54214635
+Acer,intel,i7,2,ddr2,8,hdd,500,15,21000,used,https://www.kupindo.com/Laptopovi/49921625_PackardBell-i7-720qm-nov-hdd-500gb-4gb-15-6-,49921625
+Acer,intel,i5,2,ddr3,4,hdd,500,15.6,20700,used,https://www.kupindo.com/Laptopovi/47112601_Acer-i5-4-GB-RAM-500-GB-Nvidia-GT420-Akcija,47112601
+Dell,intel,i5,2,ddr3,8,hdd,320,14,20550,used,https://www.kupindo.com/Laptopovi/53979497_Dell-Latitude-E6420-i5-2520M-dupla-grafika-8gb-ram-1600,53979497
+Hewlett Packard,intel,i5,2,ddr3,4,ssd,180,14,20500,used,https://www.kupindo.com/Laptopovi/53957981_HP-EliteBook-8460p-14-i5-2520M-4GB-180GB-SSD-bat-6-h,53957981
+Lenovo,intel,i5,2,ddr3,4,ssd,240,14,20500,used,https://www.kupindo.com/Laptopovi/54187491_Lenovo-T420s-i5-2520M-ssd-240gb-4gb-rez-1600x900,54187491
+Dell,intel,i3,2,ddr3,4,hdd,320,15.6,20400,used,https://www.kupindo.com/Laptopovi/50218941_Dell-Vostro-3550-i3-4gb-320gb-Intel-HD-3000-Akcija,50218941
+Medion,intel,i3,2,ddr3,4,hdd,500,15.6,20250,used,https://www.kupindo.com/Laptopovi/47118161_Medion-Akoya-i3-4GB-RAM-500-GB-Intel-HD-Akcija,47118161
+Acer,intel,i3,2,ddr3,8,hdd,320,15,20199,used,https://www.kupindo.com/Laptopovi/31570389_Acer-Aspire-i3-procesor-5742-Series-ODLICAN-GARANCIJA,31570389
+Dell,intel,i3,2,ddr3,8,hdd,1000,15,20160,used,https://www.kupindo.com/Laptopovi/53936037_DEll-Insipirion-15-6-Core-I3-3110M-8-GB-1-TB-nova-bat,53936037
+Lenovo,intel,i5,2,ddr3,4,hdd,500,14,20145,used,https://www.kupindo.com/Laptopovi/54056469_Lenovo-T430-i5-3-gen-4gb-DDR3-500gb-Win-7-Kamera,54056469
+Lenovo,intel,i7,2,ddr2,4,ssd,250,14,20000,defective,https://www.kupindo.com/Laptopovi/53992601_Lenovo-ThinkPad-L420-I7-2670QM-14-4GB-250GB,53992601
+WORTMANN,intel,i3,2,ddr2,8,ssd,120,13,19999,used,https://www.kupindo.com/Laptopovi/52019785_WORTMANN-TERRA-MOBILE-1341-KAO-NOV-BESPLATNO-SLANJE,52019785
+Dell,intel,i5,2,ddr3,4,hdd,320,12.5,19800,used,https://www.kupindo.com/Laptopovi/46994969_Dell-Latitude-i5-4gb-RAM-320gb-Akcija,46994969
+Lenovo,intel,i5,2,ddr3,4,hdd,320,14,19800,used,https://www.kupindo.com/Laptopovi/50087417_Lenovo-ThinkPad-T410-i5-4gb-320gb-Intel-HD-Akcija,50087417
+Medion,intel,i3,2,ddr3,6,hdd,500,15,19500,used,https://www.kupindo.com/Laptopovi/52092801_Medion-AKOYA-i3-2-Gen-6GB-500hdd-Dve-Grafike-,52092801
+Hewlett Packard,intel,i5,2,ddr3,4,ssd,120,13,19500,defective,https://www.kupindo.com/Laptopovi/52723273_HP-Folio-13-i5-2-Gen-4GB-SSD-13-3-,52723273
+Terra,intel,i3,2,ddr3,4,hdd,500,15.6,19500,used,https://www.kupindo.com/Laptopovi/53593109_TerraMobille-1748P-i3-3110-2-4Gh-4Gb-500Gb,53593109
+Hewlett Packard,intel,i5,2,ddr3,6,hdd,320,15,19080,defective,https://www.kupindo.com/Laptopovi/53992673_HP-Probook-4540S-I5-3210-2-5-GHz-6Gb-ATI-HD-7650M,53992673
+Sony,intel,i5,2,ddr3,6,hdd,500,13,19000,used,https://www.kupindo.com/Laptopovi/54320511_Sony-VAIO-i5-6GB-500GBhdd-Wif-13-3,54320511
+Hewlett Packard,intel,i5,2,ddr3,4,hdd,250,14,18900,used,https://www.kupindo.com/Laptopovi/47137881_HP-i5-4-GB-RAM-250-GB-Intel-HD-Akcija,47137881
+Hewlett Packard,intel,i3,2,ddr3,4,hdd,320,13.3,18800,used,https://www.kupindo.com/Laptopovi/47116953_HP-Probook-i3-4GB-RAM-320-GB-Intel-HD-Akcija,47116953
+Medion,intel,i7,2,ddr3,8,hdd,100,17,18500,used,https://www.kupindo.com/Laptopovi/49922121_Medion-Akoya-i7-620-17-3-led-odlican,49922121
+Lenovo,intel,i5,2,ddr2,8,hdd,500,14,18500,used,https://www.kupindo.com/Laptopovi/52304809_Lenovo-ThinkPad-T420s-i5-2520m-500gb-rez-1600x900,52304809
+Acer,intel,i3,2,ddr3,6,hdd,500,15.6,18500,used,https://www.kupindo.com/Laptopovi/52316089_Acer-E1-571-i3-6Gb-500Gb-HD3000-odlican-laptop,52316089
+Hewlett Packard,intel,i5,2,ddr3,8,hdd,750,15,18500,used,https://www.kupindo.com/Laptopovi/54139443_HP-ProBook-6560b-i5-II-gen-4Gb-750Gb-4h-baterija,54139443
+Medion,intel,i3,2,ddr3,4,hdd,160,15.6,18450,used,https://www.kupindo.com/Laptopovi/47117485_Medion-Akoya-i3-4-GB-RAM-160-GB-Akcija,47117485
+Hewlett Packard,intel,i3,2,ddr3,4,hdd,500,15.6,18000,used,https://www.kupindo.com/Laptopovi/47106333_HP-i3-4GB-RAM-500-GB-Intel-HD-Akcija,47106333
+Hewlett Packard,intel,i3,2,ddr3,4,hdd,250,14,18000,defective,https://www.kupindo.com/Laptopovi/51011269_HP-ProBook-6460b,51011269
+Lenovo,intel,i3,2,ddr3,4,ssd,500,15,18000,defective,https://www.kupindo.com/Laptopovi/54164099_Lenovo-Flex-2-15-fullHD-Touch-i3-4030U-4GB-500GB-bat-3h,54164099
+Asus,intel,i5,2,ddr3,6,hdd,750,15,17991,used,https://www.kupindo.com/Laptopovi/53142157_Laptop-Asus-k56c-15-6-I5-3-gen-6gb-750gb-poklon-GARAN,53142157
+Fujitsu,intel,i5,2,ddr3,8,hdd,500,13,17500,used,https://www.kupindo.com/Laptopovi/46515337_Laptop-Fujitsu-LIFEBOOK-S7-S762-i5-2-60GHz-8GB-RAM-HDD,46515337
+Lenovo,intel,i5,2,ddr2,8,hdd,320,14,17500,used,https://www.kupindo.com/Laptopovi/54226519_Lenovo-ThinkPad-T420s-i5-2520m-320gb-4gb-1600x900,54226519
+Hewlett Packard,intel,i5,2,ddr3,2,hdd,320,15,17400,used,https://www.kupindo.com/Laptopovi/41037259_Laptop-32-HP-Probook-6540b,41037259
+Dell,intel,i3,2,ddr3,4,hdd,250,14,17100,used,https://www.kupindo.com/Laptopovi/50111693_Dell-Latitude-E5420-i3-2330M-250GB-4GB-Intel-Akcija,50111693
+Asus,intel,i3,2,ddr3,4,hdd,250,15.6,17000,used,https://www.kupindo.com/Laptopovi/47101453_Asus-i3-4-GB-RAM-250-GB-Akcija,47101453
+Lenovo,intel,i5,2,ddr3,4,hdd,320,13,17000,used,https://www.kupindo.com/Laptopovi/52185265_Lenovo-ThinkPad-Edge-E330-i5-II-gen-4Gb-320Gb-4h,52185265
+Medion,intel,i5,2,ddr3,8,hdd,320,17,17000,used,https://www.kupindo.com/Laptopovi/53476825_Medion-Akoya-E7218-i5-2520M-4Gb-320Gb-17-3-LED-HD3000,53476825
+Hewlett Packard,intel,i3,2,ddr3,3,hdd,320,15,17000,used,https://www.kupindo.com/Laptopovi/53597533_PRELEP-HP-G62-15-6-i3-3GB-320hdd-Kamera,53597533
+Toshiba,intel,i3,2,ddr3,4,hdd,320,15.6,16990,used,https://www.kupindo.com/Laptopovi/53826697_TOSHIBA-4GB-RAM-320HDD-2gb-graf-15-6-,53826697
+Toshiba,intel,i5,2,ddr2,8,hdd,320,13,16900,used,https://www.kupindo.com/Laptopovi/53797169_Toshiba-R830-i5-2520M-320GB-4GB,53797169
+Lenovo,intel,i3,2,ddr3,4,hdd,320,13,16800,used,https://www.kupindo.com/Laptopovi/47880241_Lenovo-ThinkPad-Edge-E320-i3-4Gb-320Gb-13-3Inch,47880241
+Toshiba,intel,i5,2,ddr3,4,hdd,320,14,16590,used,https://www.kupindo.com/Laptopovi/54056429_Toshiba-R840-i5-druga-gen-4gb-ddr3-320gb-usb-3-0,54056429
+Fujitsu,intel,i5,2,ddr3,4,hdd,320,14,16590,used,https://www.kupindo.com/Laptopovi/54056521_Fujitsu-S751-i5-druga-gen-4gb-ddr3-320gb-Win7PRO,54056521
+Samsung,intel,i3,2,ddr3,4,hdd,320,17.3,16500,used,https://www.kupindo.com/Laptopovi/51507573_Samsung-R730-i3-350-4Gb-320Gb-laptop,51507573
+Lenovo,intel,i5,2,ddr2,4,ssd,320,12,16400,used,https://www.kupindo.com/Laptopovi/54005009_Lenovo-ThinkPad-X220-i5-2520m-320gb-4gb,54005009
+Acer,intel,i5,2,ddr3,4,hdd,320,13,16300,used,https://www.kupindo.com/Laptopovi/54214219_Acer-TimelineX-3830-i5-2450m-320gb-4gb,54214219
+Asus,intel,i3,2,ddr2,4,hdd,2000,15,16000,defective,https://www.kupindo.com/Laptopovi/45860541_Asus-X55S-C2Duo-2-4GHz-4GB-RAM-NVIDIA-9500GS-320GB,45860541
+Dell,intel,i5,2,ddr2,8,hdd,500,12,16000,used,https://www.kupindo.com/Laptopovi/51476873_Dell-6230-i5-3340m-4gb-ram-SVETLECA-Tasatura,51476873
+Hewlett Packard,intel,i5,2,ddr2,4,hdd,160,15,16000,used,https://www.kupindo.com/Laptopovi/51830753_Laptop-HP-ProBook-6550-b,51830753
+Hewlett Packard,intel,i5,4,ddr3,4,hdd,320,15,16000,used,https://www.kupindo.com/Laptopovi/52578845_HP-Proobook-6550b-Core-i5-4GB-320GB,52578845
+Dell,intel,i5,2,ddr2,4,hdd,500,14,15500,used,https://www.kupindo.com/Laptopovi/47678921_Laptop-Dell-Latitude-E5410-i5-4GB-RAM-500GB-HDD-Disk,47678921
+Lenovo,intel,i5,2,ddr3,8,hdd,250,14,15500,used,https://www.kupindo.com/Laptopovi/54273519_Lenovo-ThinkPad-T410-i5-4Gb-DDR3-250Gb-14-LED-3h,54273519
+Lenovo,intel,i5,2,ddr3,8,hdd,250,14,15500,used,https://www.kupindo.com/Laptopovi/54275015_Lenovo-ThinkPad-L412-i5-4Gb-DDR3-250Gb-14-LED-3h,54275015
+Medion,intel,i3,2,ddr3,4,hdd,320,17,15500,defective,https://www.kupindo.com/Laptopovi/54278095_Medion-Akoya-E7214-i3-350M-4Gb-320Gb-17-3-LED-2hr,54278095
+Acer,intel,i3,2,ddr3,8,hdd,320,13,15400,used,https://www.kupindo.com/Laptopovi/52175889_Acer-13-3-LED-Intel-Core-I3-2-53ghz-8GB-DDR3-320-GB,52175889
+Toshiba,intel,i5,4,ddr3,4,ssd,320,14,15000,used,https://www.kupindo.com/Laptopovi/54078061_Toshiba-Tecra-M11-14-i5-520M-4GB-320GB-bat-2-h,54078061
+Lenovo,intel,i3,2,ddr2,4,ssd,320,13,15000,used,https://www.kupindo.com/Laptopovi/54301299_Lenovo-Thinkpad-E320-13-3-i3-2330M-4GB-320GB-bat-5h,54301299
+Hewlett Packard,intel,i5,2,ddr3,4,hdd,120,12.5,14400,used,https://www.kupindo.com/Laptopovi/50091021_HP-Elitebook-2540p-i5-4gb-120gb-Intel-HD-Akcija,50091021
+Hewlett Packard,intel,i5,2,ddr2,4,hdd,160,15,14400,used,https://www.kupindo.com/Laptopovi/52318249_Laptop-HP-ProBook-6550b,52318249
+Lenovo,intel,i5,2,ddr3,4,hdd,500,12,14220,used,https://www.kupindo.com/Laptopovi/54056529_Lenovo-X220-i5-druga-gen-4gb-ddr3-500gb-Win7Pro-Extra,54056529
+Toshiba,intel,i5,2,ddr3,4,hdd,250,14,14220,used,https://www.kupindo.com/Laptopovi/54056749_Toshiba-M11-i5-M560-4gb-ddr3-250gb-Win-7-PRO-licenca-,54056749
+Hewlett Packard,intel,i5,2,ddr3,4,ssd,120,13,14000,defective,https://www.kupindo.com/Laptopovi/51160541_HP-Spectre-XT-Pro-13-b000-i5-4GB-120ssd,51160541
+Fujitsu,intel,i7,2,ddr3,6,hdd,250,13,13770,used,https://www.kupindo.com/Laptopovi/53992545_Fujitsu-Lifebook-S761-I7-2620-2-7GHz-6GB-250GB-13-3-,53992545
+Lenovo,intel,i3,2,ddr3,4,hdd,500,14,13300,used,https://www.kupindo.com/Laptopovi/54041113_Lenovo-B40-80LS-14-4-GB-500-GB-kao-nov-,54041113
+Hewlett Packard,intel,i5,2,ddr3,4,hdd,120,15,13200,used,https://www.kupindo.com/Laptopovi/52782265_HP-Probook-6550b-Najskuplja-HP-ova-klasa-sa-i5,52782265
+Medion,intel,i3,2,ddr2,4,hdd,750,16,13000,defective,https://www.kupindo.com/Laptopovi/32626089_MEDION-AKOYA-MD-98730-I3-ZA-DELOVE-ILI-KOMPLET,32626089
+Fujitsu,intel,i5,2,ddr3,4,hdd,160,14,13000,used,https://www.kupindo.com/Laptopovi/54056573_Fujitsu-S710-i5-M560-4gb-ddr3-160gb-Win7PRO-,54056573
+Fujitsu,intel,i5,2,ddr3,2,hdd,160,12,12999,used,https://www.kupindo.com/Laptopovi/44496041_Fujitsu-Siemens-Germany-T730-i5-Kompletan-Ispravan,44496041
+Hewlett Packard,intel,i3,2,ddr3,3,hdd,160,15,12400,used,https://www.kupindo.com/Laptopovi/54127347_HP-Probook-15-6-LED-Core-I3-2-40-ghz,54127347
+Dell,intel,i3,2,ddr3,8,hdd,250,15,11999,used,https://www.kupindo.com/Laptopovi/54356023_DELL-E6510-i3-Ispravan-Kompletan-250-Gb,54356023
+Dell,intel,i3,2,ddr3,4,hdd,320,15,10800,defective,https://www.kupindo.com/Laptopovi/51039285_Dell-N5040,51039285
+Hewlett Packard,intel,i5,2,ddr3,4,ssd,520,15,10500,defective,https://www.kupindo.com/Laptopovi/49906641_HP-ProBook-4530s,49906641
+Asus,intel,i3,2,ddr3,4,ssd,250,13,9700,used,https://www.kupindo.com/Laptopovi/54164199_Asus-X301A-13-Intel-B980-4GB-250GB-bat-3h,54164199
+Hewlett Packard,intel,i3,2,ddr2,8,hdd,160,15,9600,used,https://www.kupindo.com/Laptopovi/52744377_Laptop-HP-6710b-T9300-Core2Duo-3Gb-DDR2,52744377
+Dell,intel,i3,2,ddr3,4,ssd,500,15,8000,defective,https://www.kupindo.com/Laptopovi/53914881_DELL-Inspiron-N5110-i3-2350M-4GB-500GB,53914881
+Dell,intel,i3,2,ddr2,8,hdd,160,12,7000,used,https://www.kupindo.com/Laptopovi/50283897_Mali-Laptop-Dell-1220-1-T6670-Core2Duo-3Gb-DDR2,50283897
+Dell,intel,i3,2,ddr2,8,hdd,160,12,7000,used,https://www.kupindo.com/Laptopovi/50344453_Mali-Laptop-Dell-1220-4-T6670-Core2Duo-3Gb-DDR2,50344453
+Dell,intel,i3,2,ddr2,8,hdd,160,12,7000,used,https://www.kupindo.com/Laptopovi/50344517_Mali-Laptop-Dell-1220-5-T6670-Core2Duo-3Gb-DDR2,50344517

@@ -112,7 +112,6 @@ def translate_condition(condition):
 
 	return condition
 
-
 def get_links(base_url):
 
 	print "Collectiong urls started.."
@@ -141,23 +140,30 @@ def get_links(base_url):
 
 	print "Total pages: %d" % int(pagination_limit)
 
+	limit = 0
+
 	for page_number in range(1, int(pagination_limit)):
 
-		driver.get("https://www.kupindo.com/Racunari-i-oprema/Laptop-racunari-delovi-i-oprema/Laptopovi/artikli/1473/cena_DESC_strana_" + str(page_number))
-		bs_page_urls = BeautifulSoup(driver.page_source, 'html.parser')
+		# if limit < 3:
+		if limit <= int(pagination_limit):
 
-		laptops_container = bs_page_urls.find_all('div', attrs={'class': 'product'})
+			driver.get("https://www.kupindo.com/Racunari-i-oprema/Laptop-racunari-delovi-i-oprema/Laptopovi/artikli/1473/cena_DESC_strana_" + str(page_number))
+			bs_page_urls = BeautifulSoup(driver.page_source, 'html.parser')
 
-		for laptop_item in laptops_container:
+			laptops_container = bs_page_urls.find_all('div', attrs={'class': 'product'})
 
-			link = laptop_item.find('a', attrs={'class':'item_link'})['href']
+			for laptop_item in laptops_container:
 
-			get_id_regex = re.search(r'(/Laptopovi/)\d+.+', link)
-			if get_id_regex:
-				laptop_id = re.search(r'\d+.+', get_id_regex.group()).group().split("_")[0]
+				link = laptop_item.find('a', attrs={'class':'item_link'})['href']
 
-				if check_does_exist(laptop_id, "link") == False:
-					links.append(Link(laptop_id, link))
+				get_id_regex = re.search(r'(/Laptopovi/)\d+.+', link)
+				if get_id_regex:
+					laptop_id = re.search(r'\d+.+', get_id_regex.group()).group().split("_")[0]
+
+					if check_does_exist(laptop_id, "link") == False:
+						links.append(Link(laptop_id, link))
+
+			limit += 1
 
 	print "Total links found: %d" % len(links)
 
@@ -188,13 +194,16 @@ def get_details(description):
 	if ram_generation_regex:
 		ram_gen = re.search(r'(ddr)[234]', ram_generation_regex.group())
 		if ram_gen:
-			ram_generation = ram_gen.group() 	
+			ram_generation = ram_gen.group()
 
 	ram_amount_regex = re.search(r'(memorija|ram)[^\S\n\t]*[:]?[^\S\n\t]*(ddr)?[234]?[^\S\n\t]*\d+[^\S\n\t]*(gb)', description_lower)
 	if ram_amount_regex:
 		ram_r = re.search(r'\d+[^\S\n\t]*(gb)', ram_amount_regex.group())
 		if ram_r:
-			ram_amount = ram_r.group()
+			ram_amount = re.search(r'\d+', ram_r.group()).group()
+
+		if int(ram_amount) > 32:
+			ram_amount = "8"
 
 	# get storage type and amount
 
@@ -202,25 +211,43 @@ def get_details(description):
 	if ssd_regex:
 		storage_type = "ssd"
 
-	storage_amount_regex = re.search(r'(disk)[^\S\n\t]*[:]?[^\S\n\t].*\d+[^\S\n\t]*.*(gb)', description_lower)
+	storage_amount_regex = re.search(r'(disk)[^\S\n\t]*[:]?[^\S\n\t].*\d+[^\S\n\t]*.*(gb)*', description_lower)
 	if storage_amount_regex:
-		storage_temp = re.search(r'\d+[ ]?(gb)', storage_amount_regex.group())
+		storage_temp = re.search(r'\d+[ ]?(gb)*', storage_amount_regex.group())
 		if storage_temp:
-			storage_amount = storage_temp.group()
+			storage_amount = re.search(r'\d+', storage_temp.group()).group()
+
+	if storage_amount == "":
+		storage_amount_regex = re.search(r'(hdd)[^\S\n\t]*[:]?[^\S\n\t].*\d+[^\S\n\t]*.*(gb)*', description_lower)
+		if storage_amount_regex:
+			storage_temp = re.search(r'\d+[ ]?(gb)*', storage_amount_regex.group())
+			if storage_temp:
+				storage_amount = re.search(r'\d+', storage_temp.group()).group()
+
+	if storage_amount == "":
+		storage_amount_regex = re.search(r'(ssd)[^\S\n\t]*[:]?[^\S\n\t].*\d+[^\S\n\t]*.*(gb)*', description_lower)
+		if storage_amount_regex:
+			storage_temp = re.search(r'\d+[ ]?(gb)*', storage_amount_regex.group())
+			if storage_temp:
+				storage_amount = re.search(r'\d+', storage_temp.group()).group()
 
 	storage_amount_regex_terabite = re.search(r'\d[^\S\n\t]*(tb)', description_lower)
 	if storage_amount_regex_terabite:
 		storage_tb = re.search(r'\d', storage_amount_regex_terabite.group())
 		if storage_tb:
-			storage_amount = storage_tb.group() + str("TB")
+			storage_amount = re.search(r'\d+', storage_tb.group()).group() 
+
+	if storage_amount != "":
+		if int(storage_amount) == 1:
+				storage_amount = "1000"
+				storage_type = "hdd"
+
+		if int(storage_amount) == 2:
+			storage_amount = "2000"
 			storage_type = "hdd"
 
-	# undo fixed values if laptop details can't be found		
-
-	if ram_amount == "" and processor_number == "":
-		storage_type = ""
-		number_of_cores = ""
-
+		if int(storage_amount) < 100 or int(storage_amount) > 2000:
+			storage_amount = ""
 
 	return processor_brand, processor_number, number_of_cores, ram_generation, ram_amount, storage_type, storage_amount
 
@@ -257,7 +284,8 @@ def get_laptop_info():
 				price = ""
 				price_search = re.search(r'\d+[.]\d+', laptop_page.find("span", attrs={"class": "input-group-addon"}).text)
 				if price_search:
-					price = price_search.group().replace(".", "")
+					print price
+					price = int(price_search.group().replace(".", ""))
 
 				# get laptop condition
 				condition = ""
@@ -274,13 +302,38 @@ def get_laptop_info():
 				description = laptop_page.find('div', attrs={'id': 'opis'}).find_all('p')
 
 				try:
-					screen_size = description[0].find_all('strong')[0].text
+					screen_size = re.search(r'\d+[,.]*\d*', (description[0].find_all('strong')[0].text).strip()).group().replace(",", '.')
 					laptop_brand = description[0].find_all('strong')[1].text
 					processor_brand, processor_number, number_of_cores, ram_generation, ram_amount, storage_type, storage_amount = get_details(description[1].text)
-				except:
+				except Exception as e:
+					print e
 					search_status = False
 
-				if search_status and processor_number != "" and ram_amount != "":
+				# insert human knowledge
+
+				if ram_generation == "":
+					if price < 50000:
+						ram_generation = "ddr2"
+					if price >= 50000 and price < 100000:
+						ram_generation = "ddr3"
+					if price > 100000:
+						ram_generation = "ddr4"
+
+				if ram_amount == "":
+					if price < 50000:
+						ram_amount = 4
+					if price < 50000 and condition == "used":
+						ram_amount = "8"
+					if price >= 50000 and price < 100000:
+						ram_amount = "8"
+					if price >= 100000 and price < 150000 and condition == "used":
+						ram_amount = "16"
+					if price >= 100000 and price < 150000 and condition == "new":
+						ram_amount = "8"
+					if price >= 150000:
+						ram_amount = "16"
+
+				if search_status and processor_number != "" and price != "" and storage_amount != "" and ram_amount != "":
 					laptops.append(Laptop(laptop_brand, processor_brand, processor_number, number_of_cores, ram_generation, ram_amount, storage_type, storage_amount, screen_size, price, condition, link.url, link.laptop_id))
 				
 				print count, link.display()

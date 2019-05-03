@@ -15,7 +15,6 @@ import matplotlib.pyplot as plt
 def load_data(fileName):
     return pd.read_csv(fileName)
 
-
 def format_data(data):
     data['processor_number'] = data['processor_number'].map({'i7': 7, 'i5': 5, 'i3': 3, 'amd': 2})
     data['number_of_cores'] = data['number_of_cores'].map({4: 4, 2: 2})
