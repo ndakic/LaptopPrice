@@ -9,4 +9,5 @@ export interface Laptop {
     storageAmount: string;
     screenSize: string;
     condition: string;
+    url: string;
 }

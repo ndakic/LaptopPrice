@@ -1,0 +1,39 @@
+<div class="laptop">
+  <div class="card">
+      <div class="card-header header-elements-inline">
+        <h5 class="card-title">Your Laptop Specs</h5> 
+      </div>
+      <table class="table datatable-basic">
+        <thead>
+          <tr>
+            <th>Laptop Brand</th>
+            <th>Processor Brand</th>
+            <th>Processor Model</th>
+            <th>Procesor Cores</th>
+            <th>RAM Generation</th>
+            <th>RAM Amount</th>
+            <th>Storage Type</th>
+            <th>Storage Amount</th>
+            <th>Screen size</th>
+            <th>Condition</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="{{laptop.url}}" target="_blank">{{laptop.laptopBrand}}</a></td>
+            <td>{{laptop.processorBrand}}</td>
+            <td>{{laptop.processorModel}}</td>
+            <td>{{laptop.processorCores}}</td>
+            <td>{{laptop.ramGeneration}}</td>
+            <td>{{laptop.ramAmount}}</td>
+            <td>{{laptop.storageType}}</td>
+            <td>{{laptop.storageAmount}}</td>
+            <td>{{laptop.screenSize}}</td>
+            <td *ngIf="laptop.condition === 'new'"><span class="badge badge-success">{{laptop.condition}}</span></td>
+            <td *ngIf="laptop.condition === 'used'"><span class="badge badge-secondary">{{laptop.condition}}</span></td>
+            <td *ngIf="laptop.condition === 'defective'"><span class="badge badge-info">{{laptop.condition}}</span></td>
+          </tr>
+        </tbody>
+      </table>
+  </div>
+</div>

@@ -1,71 +1,73 @@
-<div class="laptop-container d-sm-flex">
-  <div class="laptop">
-    <div class="card">
-        <div class="card-header header-elements-inline">
-          <h5 class="card-title">Laptops</h5>
-        </div>
-        <table class="table datatable-basic">
-          <thead>
-            <tr>
-              <th>Laptop Brand</th>
-              <th>Processor Brand</th>
-              <th>Processor Model</th>
-              <th>Procesor Cores</th>
-              <th>RAM Generation</th>
-              <th>RAM Amount</th>
-              <th>Storage Type</th>
-              <th>Storage Amount</th>
-              <th>Screen size</th>
-              <th>Price</th>
-              <th>Condition</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr *ngFor="let laptop of laptops | paginate: { itemsPerPage: 10, currentPage: p }; let i = index">
-              <td><a href="{{laptop.url}}" target="_blank">{{laptop.brand}}</a></td>
-              <td>{{laptop.processorBrand}}</td>
-              <td>{{laptop.processorModel}}</td>
-              <td>{{laptop.cores}}</td>
-              <td>{{laptop.ramGeneration}}</td>
-              <td>{{laptop.ramAmount}}</td>
-              <td>{{laptop.storageType}}</td>
-              <td>{{laptop.storageAmount}}</td>
-              <td>{{laptop.screenSize}}</td>
-              <td>{{laptop.price}}din</td>
-              <td *ngIf="laptop.condition === 'new'"><span class="badge badge-success">{{laptop.condition}}</span></td>
-              <td *ngIf="laptop.condition === 'used'"><span class="badge badge-secondary">{{laptop.condition}}</span></td>
-              <td *ngIf="laptop.condition === 'defective'"><span class="badge badge-info">{{laptop.condition}}</span></td>
-            </tr>
-          </tbody>
-        </table>
-    </div>
-    <pagination-controls (pageChange)="p = $event"></pagination-controls>
-  </div>
-
-  <div class="scrapper">
+<block-ui>
+  <div class="laptop-container d-sm-flex">
+    <div class="laptop">
       <div class="card">
           <div class="card-header header-elements-inline">
-            <h5 class="card-title">Scraper</h5>
+            <h5 class="card-title">Laptops</h5>
           </div>
           <table class="table datatable-basic">
             <thead>
               <tr>
-                <th>Source</th>
-                <th>Date</th>
-                <th>Total</th>
-                <th>Status</th>
+                <th>Laptop Brand</th>
+                <th>Processor Brand</th>
+                <th>Processor Model</th>
+                <th>Procesor Cores</th>
+                <th>RAM Generation</th>
+                <th>RAM Amount</th>
+                <th>Storage Type</th>
+                <th>Storage Amount</th>
+                <th>Screen size</th>
+                <th>Price</th>
+                <th>Condition</th>
               </tr>
             </thead>
             <tbody>
-              <tr *ngFor="let info of scraperInfo">
-                <td>{{info.source}}</td>
-                <td>{{info.date | date: 'dd/MM/yyyy'}}</td>
-                <td>{{info.total}}</td>
-                <td><span class="badge badge-success">{{info.status}}</span></td>
+              <tr *ngFor="let laptop of laptops | paginate: { itemsPerPage: 10, currentPage: p }; let i = index">
+                <td><a href="{{laptop.url}}" target="_blank">{{laptop.brand}}</a></td>
+                <td>{{laptop.processorBrand}}</td>
+                <td>{{laptop.processorModel}}</td>
+                <td>{{laptop.cores}}</td>
+                <td>{{laptop.ramGeneration}}</td>
+                <td>{{laptop.ramAmount}}</td>
+                <td>{{laptop.storageType}}</td>
+                <td>{{laptop.storageAmount}}</td>
+                <td>{{laptop.screenSize}}</td>
+                <td>{{laptop.price}}din</td>
+                <td *ngIf="laptop.condition === 'new'"><span class="badge badge-success">{{laptop.condition}}</span></td>
+                <td *ngIf="laptop.condition === 'used'"><span class="badge badge-secondary">{{laptop.condition}}</span></td>
+                <td *ngIf="laptop.condition === 'defective'"><span class="badge badge-info">{{laptop.condition}}</span></td>
               </tr>
             </tbody>
           </table>
-        </div>
+      </div>
+      <pagination-controls (pageChange)="p = $event"></pagination-controls>
+    </div>
+  
+    <div class="scrapper">
+        <div class="card">
+            <div class="card-header header-elements-inline">
+              <h5 class="card-title">Scraper</h5>
+            </div>
+            <table class="table datatable-basic">
+              <thead>
+                <tr>
+                  <th>Source</th>
+                  <th>Date</th>
+                  <th>Total</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let info of scraperInfo">
+                  <td>{{info.source}}</td>
+                  <td>{{info.date | date: 'dd/MM/yyyy'}}</td>
+                  <td>{{info.total}}</td>
+                  <td *ngIf="info.status === 'success'"><span class="badge badge-success">{{info.status}}</span></td>
+                  <td *ngIf="info.status === 'error'"><span class="badge badge-danger">{{info.status}}</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+    </div>
   </div>
-
-</div>
+</block-ui>

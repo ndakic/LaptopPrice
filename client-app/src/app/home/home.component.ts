@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { LaptopService } from '../laptop/services/laptop.service';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
+import { BlockUI, NgBlockUI } from 'ng-block-ui';
+import { environment } from 'src/environments/environment';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -8,6 +11,8 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+
+  @BlockUI() blockUI: NgBlockUI;
 
   public laptopBrands: any;
   public processorBrands: any;
@@ -23,7 +28,8 @@ export class HomeComponent implements OnInit {
   inputForm: FormGroup;
 
   constructor(
-    public laptopService: LaptopService
+    public laptopService: LaptopService,
+    private router: Router
   ) { }
 
   ngOnInit() {
@@ -84,8 +90,11 @@ export class HomeComponent implements OnInit {
   get laptopCondition() { return this.inputForm.get('laptopCondition'); }
 
 
-  test() {
-    console.log(this.inputForm.value);
+  laptopData() {
+    if (this.inputForm.valid) {
+      this.blockUI.start('Please wait..');
+      this.delay(3000);
+    }
   }
 
   loadData() {
@@ -100,5 +109,11 @@ export class HomeComponent implements OnInit {
     this.laptopService.getAllScreenSizes().subscribe(sizes => this.screenSizes = sizes);
     this.laptopService.getAllLaptopConditions().subscribe(conditions => this.laptopConditions = conditions);
   }
+
+  async delay(ms: number) {
+    await new Promise(resolve => setTimeout(() => resolve(), ms));
+    this.blockUI.stop();
+    this.router.navigate(['/result']);
+}
 
 }

@@ -4,6 +4,7 @@ import { LaptopComponent } from './laptop/laptop.component';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { ResultComponent } from './result/result.component';
 
 const routes: Routes = [
   {
@@ -19,6 +20,11 @@ const routes: Routes = [
   {
     path: 'about',
     component: AboutComponent,
+    canActivate: []
+  },
+  {
+    path: 'result',
+    component: ResultComponent,
     canActivate: []
   },
   { path: '**', redirectTo: 'laptop' }

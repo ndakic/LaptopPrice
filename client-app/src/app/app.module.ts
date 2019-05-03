@@ -13,6 +13,8 @@ import { MatSelectModule } from '@angular/material/select';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { BlockUIModule } from 'ng-block-ui';
+import { ResultComponent } from './result/result.component';
 
 @NgModule({
   declarations: [
@@ -20,10 +22,12 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     LaptopComponent,
     AboutComponent,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    ResultComponent
   ],
   imports: [
     BrowserModule,
+    BlockUIModule.forRoot(),
     BrowserAnimationsModule,
     AppRoutingModule,
     HttpClientModule,

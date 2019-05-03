@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { LaptopService } from './services/laptop.service';
+import { NgBlockUI, BlockUI } from 'ng-block-ui';
 
 @Component({
   selector: 'app-laptop',
@@ -8,13 +9,18 @@ import { LaptopService } from './services/laptop.service';
 })
 export class LaptopComponent implements OnInit {
 
+  @BlockUI() blockUI: NgBlockUI;
+
   public laptops: any;
   public scraperInfo: any;
 
   constructor(public laptopService: LaptopService) { }
 
   ngOnInit() {
+    this.blockUI.start('Loading data..');
     this.laptopService.getLaptops().subscribe(response => this.laptops = response);
-    this.laptopService.getScraperInfo().subscribe(response => this.scraperInfo = response);
+    this.laptopService.getScraperInfo().subscribe(response => {
+      this.scraperInfo = response;
+      this.blockUI.stop(); });
   }
 }
