@@ -1,4 +1,4 @@
-export interface Laptop {
+export class Laptop {
     laptopBrand: string;
     processorBrand: string;
     processorModel: string;

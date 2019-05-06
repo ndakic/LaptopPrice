@@ -15,6 +15,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BlockUIModule } from 'ng-block-ui';
 import { ResultComponent } from './result/result.component';
+import { LaptopService } from './laptop/services/laptop.service';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,7 @@ import { ResultComponent } from './result/result.component';
     FormsModule,
     ReactiveFormsModule
   ],
-  providers: [],
+  providers: [LaptopService],
   bootstrap: [AppComponent],
   exports: [
     HttpClientModule

@@ -2,14 +2,22 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders, HttpErrorResponse } from '@angular/common/http';
 import { environment } from 'src/environments/environment';
 import { catchError } from 'rxjs/operators';
-import { throwError } from 'rxjs';
+import { throwError, BehaviorSubject } from 'rxjs';
+import { Laptop } from '../models/laptop';
 
 @Injectable({
   providedIn: 'root'
 })
 export class LaptopService {
 
+  private laptop = new BehaviorSubject(new Laptop());
+  sub = this.laptop.asObservable();
+
   constructor(private http: HttpClient) { }
+
+  setLaptopSpecs(laptop: Laptop) {
+    this.laptop.next(laptop);
+  }
 
   getLaptops() {
     const httpHeaders = new HttpHeaders({
