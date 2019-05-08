@@ -7,9 +7,10 @@ import { Laptop } from '../laptop/models/laptop';
   templateUrl: './result.component.html',
   styleUrls: ['./result.component.css']
 })
-export class ResultComponent implements OnInit, OnDestroy {
+export class ResultComponent implements OnInit {
 
   public laptop: Laptop;
+  public laptopPrice: any;
 
   constructor(
     public laptopService: LaptopService
@@ -18,23 +19,22 @@ export class ResultComponent implements OnInit, OnDestroy {
    }
 
   ngOnInit() {
+    this.laptopPrice = 0;
 
-    if (localStorage.getItem('laptop') !== null) {
-      this.laptop = JSON.parse(localStorage.getItem('laptop'));
+    if (this.laptopService.getLaptopSpecs()) {
+      this.laptop = this.laptopService.getLaptopSpecs();
+      this.laptopPrice = this.getLaptopPrice(this.laptop);
+      localStorage.setItem('laptopSpecs', JSON.stringify(this.laptop));
+      localStorage.setItem('laptopPrice', this.getLaptopPrice(this.laptop).toString());
+    } else {
+      if (localStorage.getItem('laptopSpecs') !== null) {
+        this.laptop = JSON.parse(localStorage.getItem('laptopSpecs'));
+        this.laptopPrice = localStorage.getItem('laptopPrice');
+      }
     }
-
-    this.laptopService.sub.subscribe(laptop => {
-      if (laptop.laptopBrand) {
-        this.laptop = laptop;
-      }
-      if (localStorage.getItem('laptop') === null) {
-        localStorage.setItem('laptop', JSON.stringify(this.laptop));
-      }
-    });
   }
 
-  ngOnDestroy() {
-    localStorage.removeItem('laptop');
+  getLaptopPrice(laptop) {
+    return Math.floor(Math.random() * 100) * 1000;
   }
 }
-

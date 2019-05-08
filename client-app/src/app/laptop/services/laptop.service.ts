@@ -10,13 +10,16 @@ import { Laptop } from '../models/laptop';
 })
 export class LaptopService {
 
-  private laptop = new BehaviorSubject(new Laptop());
-  sub = this.laptop.asObservable();
+  private laptop: any;
 
   constructor(private http: HttpClient) { }
 
   setLaptopSpecs(laptop: Laptop) {
-    this.laptop.next(laptop);
+    this.laptop = laptop;
+  }
+
+  getLaptopSpecs() {
+    return this.laptop;
   }
 
   getLaptops() {

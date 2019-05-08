@@ -4,3 +4,23 @@
     margin-right: auto;
     margin-top: 50px;
 }
+
+.result {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+.advent-pro-font {
+    font-size: 2em;
+    font-family: 'Advent Pro', sans-serif;
+    color: rgb(58, 58, 58);
+}
+
+.laptop-price {
+    font-size: 3em;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
