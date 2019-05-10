@@ -45,6 +45,6 @@ export class ResultComponent implements OnInit {
   }
 
   getLaptopPrice(laptop) {
-    return this.http.post(environment.predictionApi + '/home/predict-price', laptop);
+    return this.http.post(environment.predictionApi + '/predict-price', laptop);
   }
 }

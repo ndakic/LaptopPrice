@@ -4,9 +4,9 @@
 
 export const environment = {
   production: false,
-  apiUrlPrefix: 'http://localhost:9005',
-  app: 'http:localhost:4200',
-  predictionApi: 'http://localhost:8000'
+  apiUrlPrefix: 'http://ec2-18-188-202-98.us-east-2.compute.amazonaws.com',
+  app: 'http://localhost:4200',
+  predictionApi: 'http://ec2-52-15-172-186.us-east-2.compute.amazonaws.com'
 };
 
 /*
