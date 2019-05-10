@@ -5,7 +5,8 @@
 export const environment = {
   production: false,
   apiUrlPrefix: 'http://localhost:9005',
-  app: 'http:localhost:4200'
+  app: 'http:localhost:4200',
+  predictionApi: 'http://localhost:8000'
 };
 
 /*

@@ -1,6 +1,10 @@
+// tslint:disable: no-string-literal
+
 import { Component, OnInit, Input, OnDestroy } from '@angular/core';
 import { LaptopService } from '../laptop/services/laptop.service';
 import { Laptop } from '../laptop/models/laptop';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-result',
@@ -13,7 +17,8 @@ export class ResultComponent implements OnInit {
   public laptopPrice: any;
 
   constructor(
-    public laptopService: LaptopService
+    public laptopService: LaptopService,
+    private http: HttpClient,
   ) {
     this.laptop = new Laptop();
    }
@@ -23,7 +28,9 @@ export class ResultComponent implements OnInit {
 
     if (this.laptopService.getLaptopSpecs()) {
       this.laptop = this.laptopService.getLaptopSpecs();
-      this.laptopPrice = this.getLaptopPrice(this.laptop);
+      this.getLaptopPrice(this.laptop).subscribe(response => {
+        this.laptopPrice = response['result'];
+      });
       localStorage.setItem('laptopSpecs', JSON.stringify(this.laptop));
       localStorage.setItem('laptopPrice', this.getLaptopPrice(this.laptop).toString());
     } else {
@@ -32,9 +39,12 @@ export class ResultComponent implements OnInit {
         this.laptopPrice = localStorage.getItem('laptopPrice');
       }
     }
+    this.getLaptopPrice(this.laptop).subscribe(response => {
+    this.laptopPrice = response['result'];
+    });
   }
 
   getLaptopPrice(laptop) {
-    return Math.floor(Math.random() * 100) * 1000;
+    return this.http.post(environment.predictionApi + '/home/predict-price', laptop);
   }
 }
