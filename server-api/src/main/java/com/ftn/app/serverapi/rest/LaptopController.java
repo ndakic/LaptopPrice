@@ -32,6 +32,11 @@ public class LaptopController {
         return laptopService.getAllLaptops();
     }
 
+    @GetMapping("/search/{term}")
+    public List<Laptop> getLaptopsByBrand(@PathVariable String term){
+        return laptopService.searchLaptopsByBrand(term);
+    }
+
     @GetMapping("/all-laptop-brands")
     public List<String> getAllLaptopBrands(){
         return laptopService.getAllLaptopBrands();

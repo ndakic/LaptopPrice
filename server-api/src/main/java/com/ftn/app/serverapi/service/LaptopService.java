@@ -22,6 +22,10 @@ public class LaptopService {
         return laptopRepository.getOneById(id).orElse(null);
     }
 
+    public List<Laptop> searchLaptopsByBrand(String term) {
+        return laptopRepository.findByBrandIgnoreCaseContaining(term);
+    }
+
     public List<Laptop> getAllLaptops(){
         return laptopRepository.findAllByOrderByPriceDesc();
     }

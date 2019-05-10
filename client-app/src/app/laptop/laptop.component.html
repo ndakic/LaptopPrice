@@ -4,6 +4,13 @@
       <div class="card">
           <div class="card-header header-elements-inline">
             <h5 class="card-title">Laptops</h5>
+            <form (ngSubmit)="searchLaptopBrands($event)">
+              <div class="search">
+                <input class='search-input' name='brand' placeholder="Laptop brand.." [(ngModel)]="brand">
+                <button type="submit" class="btn btn-outline-success" data-toggle="dropdown">search</button>
+                <button type="button" (click)="reset()" class="btn btn-outline-success reset-button" data-toggle="dropdown">reset</button>
+              </div>
+            </form>
           </div>
           <table class="table datatable-basic">
             <thead>

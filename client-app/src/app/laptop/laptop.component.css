@@ -17,3 +17,15 @@
     flex-shrink: 1;
     margin-left: 20px;
 }
+
+.btn {
+    padding: 0.3rem 1rem;
+}
+
+.search-input {
+    margin-right: 20px;
+}
+
+.reset-button {
+    margin-left: 5px;
+}

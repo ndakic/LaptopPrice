@@ -15,6 +15,8 @@ public interface LaptopRepository extends JpaRepository<Laptop, Long> {
 
     List<Laptop> findAllByOrderByPriceDesc();
 
+    List<Laptop> findByBrandIgnoreCaseContaining(String brand);
+
     @Query(value = "SELECT DISTINCT brand from Laptop WHERE brand <> '' order by brand asc")
     List<String> findAllLaptopBrands();
 

@@ -13,6 +13,7 @@ export class LaptopComponent implements OnInit {
 
   public laptops: any;
   public scraperInfo: any;
+  public brand: any;
 
   constructor(public laptopService: LaptopService) { }
 
@@ -23,4 +24,15 @@ export class LaptopComponent implements OnInit {
       this.scraperInfo = response;
       this.blockUI.stop(); });
   }
+
+  searchLaptopBrands(event) {
+    this.laptopService.searchLaptopsByBrand(this.brand).subscribe(response => {
+      this.laptops = response;
+    });
+  }
+
+  reset() {
+    this.laptopService.getLaptops().subscribe(response => this.laptops = response);
+  }
+
 }

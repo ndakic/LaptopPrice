@@ -22,6 +22,10 @@ export class LaptopService {
     return this.laptop;
   }
 
+  searchLaptopsByBrand(term: string) {
+    return this.http.get(environment.apiUrlPrefix + '/api/laptop/search/' + term);
+  }
+
   getLaptops() {
     const httpHeaders = new HttpHeaders({
       'Content-Type': 'application/json'
