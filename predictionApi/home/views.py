@@ -15,6 +15,8 @@ def index(request):
 @csrf_exempt
 def predictPrice(request):
 
+	print (prediction.create_dict(json.loads(request.body.decode("utf-8"))))
+
 	result = prediction.predict_price_mlr(prediction.create_dict(json.loads(request.body.decode("utf-8"))))
 
 	return JsonResponse({'result': round(result[0], 2)})

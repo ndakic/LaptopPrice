@@ -4,6 +4,7 @@
 import pandas as pd
 import numpy as np
 import math
+import os
 
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
@@ -12,7 +13,7 @@ from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 
 
-laptopFileName = '/home/daka/Desktop/LaptopPrice/scripts/data/laptops.csv'
+laptopFileName = os.path.abspath(os.curdir) + "/data/laptops.csv" # temp solution. Load data from db later
 
 
 def load_data(fileName):
@@ -69,6 +70,8 @@ def predict_price_slr(data):
 def predict_price_mlr(data):
 
     pd_data, formated_data = get_data()
+
+    print (formated_data)
 
     mlr = LinearRegression()
 
