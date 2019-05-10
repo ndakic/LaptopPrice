@@ -2,7 +2,7 @@
 
 <h4> Description </h4>
 
-<b> If you want to sell your Laptop but you are not sure for how much you can sell it. </b>
+<b> If you want to sell your Laptop but you are not sure for how much you can sell it. </b> <br>
 <b> You can use this app to choose specs and predict laptop price. </b>
 
 
@@ -22,5 +22,5 @@
 <h4> Data Scrapper </h4>
 
 - Python scripts which:
-    - Collects as many as possible laptops from website <a href="https://www.kupindo.com/"> kupindo.com</a>.
+    - Collects as many as possible laptops from website <a href="https://www.kupindo.com/" target="_blank"> kupindo.com</a>.
     - Insert collected data into DB
