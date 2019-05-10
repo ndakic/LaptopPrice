@@ -9,6 +9,8 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import train_test_split
 
+from tabulate import tabulate
+
 import matplotlib.pyplot as plt
 
 
@@ -72,24 +74,17 @@ def predict_price_mlr(data):
     mlr = LinearRegression()
 
     X = formated_data.drop(['price', 'processor_brand', 'laptop_brand', 'laptop_id', 'url'], axis=1)
+
+    # print (tabulate(X))
   
     X_train, X_test, y_train, y_test = train_test_split(X, formated_data.price, test_size=0.10, random_state=5)     # Split the data in training and test sets
 
     mlr.fit(X_train, y_train)   # Fitting a linear model
 
-    y_test_pred = mlr.predict(X_test)
+    grades = [data['processor_number'],data['number_of_cores'], data['ram_generation'], data['ram_amount'], data['storage_type'], data['storage_amount'], data['screen_size'], data['condition']]
+    data_frame_object = pd.DataFrame(data=[grades], columns=['processor_number', 'number_of_cores', 'ram_generation', 'ram_amount', 'storage_type', 'storage_amount', 'screen_size', 'condition' ])
 
-    # print X_test.to_string()
-    # print y_test_pred 
-
-    print "Multiple Linear Regression RMSE: " + str(math.sqrt((mean_squared_error(y_test, y_test_pred))))
-
-    grades = [data['processor_number'],data['number_of_cores'], data['ram_amount'], data['storage_type'], data['ram_generation'], 
-    data['storage_amount'], data['condition'], data['screen_size']]
-    data_frame_object = pd.DataFrame(data=[grades], columns=['processor_number', 'number_of_cores', 'ram_amount', 'storage_type', 'ram_generation', 
-        'storage_amount', 'condition', 'screen_size'])
-
-    result = mlr.predict(data_frame_object)
+    result = mlr.predict(data_frame_object.values.reshape(1, -1))
     
     return result
 
@@ -98,12 +93,12 @@ if __name__ == '__main__':
 
     test = {}
     test['processor_number'] = 7
-    test['number_of_cores'] = 4
-    test['ram_amount'] = 16
-    test['storage_type'] = 3
-    test['ram_generation'] = 4
-    test['storage_amount'] = 100
-    test['condition'] = 6
-    test['screen_size'] = 13
+    test['number_of_cores'] = 2
+    test['ram_generation'] = 3
+    test['ram_amount'] = 8
+    test['storage_type'] = 1
+    test['storage_amount'] = 320
+    test['screen_size'] = 14.0
+    test['condition'] = 5
 
     print predict_price_mlr(test)
