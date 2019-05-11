@@ -28,7 +28,10 @@ export class LaptopService {
 
   getLaptops() {
     const httpHeaders = new HttpHeaders({
-      'Content-Type': 'application/json'
+      'Content-Type': 'application/json',
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET,POST,PATCH,DELETE,PUT,OPTIONS',
+      'Access-Control-Allow-Headers': 'Origin, Content-Type, X-Auth-Token, content-type'
     });
 
     return this.http.get(environment.apiUrlPrefix + '/api/laptop/all', { headers: httpHeaders}).pipe

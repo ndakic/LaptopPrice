@@ -45,6 +45,13 @@ export class ResultComponent implements OnInit {
   }
 
   getLaptopPrice(laptop) {
-    return this.http.post(environment.predictionApi + '/predict-price', laptop);
+    const httpHeaders = new HttpHeaders({
+      'Content-Type': 'application/json',
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET,POST,PATCH,DELETE,PUT,OPTIONS',
+      'Access-Control-Allow-Headers': 'Origin, Content-Type, X-Auth-Token, content-type'
+    });
+
+    return this.http.post(environment.predictionApi + '/predict-price', laptop, { headers : httpHeaders});
   }
 }
