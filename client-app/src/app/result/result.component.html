@@ -1,43 +1,46 @@
-<div class="laptop">
-  <div class="card">
-      <div class="card-header header-elements-inline">
-        <h5 class="card-title">Laptop Specs</h5> 
+<div style="overflow-x:auto;">
+  <div class="d-flex d-sm-flex">
+    <div class="laptop">
+      <div class="card">
+          <div class="card-header header-elements-inline">
+            <h5 class="card-title">Laptop Specs</h5> 
+          </div>
+          <table class="table datatable-basic">
+            <thead>
+              <tr>
+                <th>Laptop Brand</th>
+                <th>Processor Brand</th>
+                <th>Processor Model</th>
+                <th>Procesor Cores</th>
+                <th>RAM Generation</th>
+                <th>RAM Amount</th>
+                <th>Storage Type</th>
+                <th>Storage Amount</th>
+                <th>Screen size</th>
+                <th>Condition</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>{{laptop.laptopBrand}}</td>
+                <td>{{laptop.processorBrand}}</td>
+                <td>{{laptop.processorModel}}</td>
+                <td>{{laptop.processorCores}}</td>
+                <td>{{laptop.ramGeneration}}</td>
+                <td>{{laptop.ramAmount}}</td>
+                <td>{{laptop.storageType}}</td>
+                <td>{{laptop.storageAmount}}</td>
+                <td>{{laptop.screenSize}}</td>
+                <td *ngIf="laptop.condition === 'new'"><span class="badge badge-success">{{laptop.condition}}</span></td>
+                <td *ngIf="laptop.condition === 'used'"><span class="badge badge-secondary">{{laptop.condition}}</span></td>
+                <td *ngIf="laptop.condition === 'defective'"><span class="badge badge-info">{{laptop.condition}}</span></td>
+              </tr>
+            </tbody>
+          </table>
       </div>
-      <table class="table datatable-basic">
-        <thead>
-          <tr>
-            <th>Laptop Brand</th>
-            <th>Processor Brand</th>
-            <th>Processor Model</th>
-            <th>Procesor Cores</th>
-            <th>RAM Generation</th>
-            <th>RAM Amount</th>
-            <th>Storage Type</th>
-            <th>Storage Amount</th>
-            <th>Screen size</th>
-            <th>Condition</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>{{laptop.laptopBrand}}</td>
-            <td>{{laptop.processorBrand}}</td>
-            <td>{{laptop.processorModel}}</td>
-            <td>{{laptop.processorCores}}</td>
-            <td>{{laptop.ramGeneration}}</td>
-            <td>{{laptop.ramAmount}}</td>
-            <td>{{laptop.storageType}}</td>
-            <td>{{laptop.storageAmount}}</td>
-            <td>{{laptop.screenSize}}</td>
-            <td *ngIf="laptop.condition === 'new'"><span class="badge badge-success">{{laptop.condition}}</span></td>
-            <td *ngIf="laptop.condition === 'used'"><span class="badge badge-secondary">{{laptop.condition}}</span></td>
-            <td *ngIf="laptop.condition === 'defective'"><span class="badge badge-info">{{laptop.condition}}</span></td>
-          </tr>
-        </tbody>
-      </table>
+    </div>
   </div>
 </div>
-
 <div class="result text-center">
   <div class="advent-pro-font">
       Predicted Laptop Price
