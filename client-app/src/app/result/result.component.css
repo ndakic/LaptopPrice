@@ -26,3 +26,17 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.tip-logo {
+    flex-grow: 1;
+    width: 20%;
+}
+
+.tip-text {
+    flex-grow: 4;
+    width: 80%;
+}
+
+.mt-9 {
+    margin-top: 80px;
+}

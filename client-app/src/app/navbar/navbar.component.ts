@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { LaptopService } from '../laptop/services/laptop.service';
+import { Laptop } from '../laptop/models/laptop';
 
 @Component({
   selector: 'app-navbar',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  public laptop: Laptop;
+
+  constructor(
+    public laptopService: LaptopService
+  ) { }
 
   ngOnInit() {
+  }
+
+  checkResult() {
+    return this.laptopService.getLaptopFromCookie() !== null;
   }
 
 }

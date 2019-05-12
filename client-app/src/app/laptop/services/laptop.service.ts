@@ -22,6 +22,13 @@ export class LaptopService {
     return this.laptop;
   }
 
+  getLaptopFromCookie() {
+    if (localStorage.getItem('laptopSpecs') !== null) {
+      return JSON.parse(localStorage.getItem('laptopSpecs'));
+    }
+    return null;
+  }
+
   searchLaptopsByBrand(term: string) {
     return this.http.get(environment.apiUrlPrefix + '/api/laptop/search/' + term);
   }
