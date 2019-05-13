@@ -25,7 +25,7 @@ export class LaptopComponent implements OnInit {
       this.blockUI.stop(); });
   }
 
-  searchLaptopBrands(event) {
+  searchLaptopBrands() {
     this.laptopService.searchLaptopsByBrand(this.brand).subscribe(response => {
       this.laptops = response;
     });
