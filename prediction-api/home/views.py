@@ -15,10 +15,16 @@ def index(request):
 @csrf_exempt
 def predictPrice(request):
 
-	print (prediction.create_dict(json.loads(request.body.decode("utf-8"))))
+	params = json.loads(request.body.decode("utf-8"))
 
-	result = prediction.predict_price_mlr(prediction.create_dict(json.loads(request.body.decode("utf-8"))))
+	data = [params['processorModel'], params['processorCores'], params['ramAmount'], params['storageType'], params['storageAmount'],
+			params['ramGeneration'], params['condition'], params['screenSize'],]
 
-	return JsonResponse({'result': round(result[0], 2)})
+	columns = ["processor_model", "cores", "ram_amount", "storage_type", "storage_amount", "ram_generation", "condition", "screen_size"]
 
+	dataFrame = prediction.format_data(pd.DataFrame(data=[data], columns=columns))
+
+	result, rmse = prediction.predict_price_mlr(dataFrame)
+
+	return JsonResponse({'result': round(result[0]), "RMSE": round(rmse)})
 
