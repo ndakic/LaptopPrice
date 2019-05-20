@@ -5,6 +5,7 @@ import { LaptopService } from '../laptop/services/laptop.service';
 import { Laptop } from '../laptop/models/laptop';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { environment } from 'src/environments/environment';
+import { BlockUI, NgBlockUI } from 'ng-block-ui';
 
 @Component({
   selector: 'app-result',
@@ -14,7 +15,14 @@ import { environment } from 'src/environments/environment';
 export class ResultComponent implements OnInit {
 
   public laptop: Laptop;
-  public laptopPrice: any;
+  public laptopPriceKNN: any;
+  public laptopPriceMLR: any;
+  public laptopPriceKnnRMSE: any;
+  public laptopPriceMlrRMSE: any;
+  public showSimilarLaptops = false;
+  public similarLaptops: any;
+
+  @BlockUI() blockUI: NgBlockUI;
 
   constructor(
     public laptopService: LaptopService,
@@ -24,34 +32,57 @@ export class ResultComponent implements OnInit {
    }
 
   ngOnInit() {
-    this.laptopPrice = 0;
+    this.laptopPriceKNN = 0;
+    this.laptopPriceMLR = 0;
+    this.laptopPriceKnnRMSE = 0;
+    this.laptopPriceMlrRMSE = 0;
 
     if (this.laptopService.getLaptopSpecs()) {
       this.laptop = this.laptopService.getLaptopSpecs();
-      this.getLaptopPrice(this.laptop).subscribe(response => {
-        this.laptopPrice = response['result'];
+      this.blockUI.start('Please wait..');
+      this.getLaptopPriceKNN(this.laptop).subscribe(response => {
+        this.laptopPriceKNN = response['result'];
+        this.laptopPriceKnnRMSE = response['RMSE'];
+        localStorage.setItem('laptopSpecs', JSON.stringify(this.laptop));
+        localStorage.setItem('laptopPriceKNN', this.laptopPriceKNN.toString());
+        localStorage.setItem('laptopPriceKnnRMSE', this.laptopPriceKnnRMSE.toString());
+        this.blockUI.stop();
       });
-      localStorage.setItem('laptopSpecs', JSON.stringify(this.laptop));
-      localStorage.setItem('laptopPrice', this.getLaptopPrice(this.laptop).toString());
+      this.getLaptopPriceMLR(this.laptop).subscribe(response => {
+        this.laptopPriceMLR = response['result'];
+        this.laptopPriceMlrRMSE = response['RMSE'];
+        localStorage.setItem('laptopSpecs', JSON.stringify(this.laptop));
+        localStorage.setItem('laptopPriceMLR', this.laptopPriceMLR.toString());
+        localStorage.setItem('laptopPriceMlrRMSE', this.laptopPriceMlrRMSE.toString());
+      });
     } else {
       if (localStorage.getItem('laptopSpecs') !== null) {
         this.laptop = JSON.parse(localStorage.getItem('laptopSpecs'));
-        this.laptopPrice = localStorage.getItem('laptopPrice');
+        this.laptopPriceKNN = localStorage.getItem('laptopPriceKNN');
+        this.laptopPriceMLR = localStorage.getItem('laptopPriceMLR');
+        this.laptopPriceKnnRMSE = localStorage.getItem('laptopPriceKnnRMSE');
+        this.laptopPriceMlrRMSE = localStorage.getItem('laptopPriceMlrRMSE');
       }
     }
-    this.getLaptopPrice(this.laptop).subscribe(response => {
-    this.laptopPrice = response['result'];
-    });
   }
 
-  getLaptopPrice(laptop) {
+  getLaptopPriceMLR(laptop) {
     const httpHeaders = new HttpHeaders({
       'Content-Type': 'application/json',
       'Access-Control-Allow-Origin': '*',
       'Access-Control-Allow-Methods': 'GET,POST,PATCH,DELETE,PUT,OPTIONS',
       'Access-Control-Allow-Headers': 'Origin, Content-Type, X-Auth-Token, content-type'
     });
+    return this.http.post(environment.predictionApi + '/predict-price-mlr', laptop, { headers : httpHeaders});
+  }
 
-    return this.http.post(environment.predictionApi + '/predict-price', laptop, { headers : httpHeaders});
+  getLaptopPriceKNN(laptop) {
+    const httpHeaders = new HttpHeaders({
+      'Content-Type': 'application/json',
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET,POST,PATCH,DELETE,PUT,OPTIONS',
+      'Access-Control-Allow-Headers': 'Origin, Content-Type, X-Auth-Token, content-type'
+    });
+    return this.http.post(environment.predictionApi + '/predict-price-knn', laptop, { headers : httpHeaders});
   }
 }

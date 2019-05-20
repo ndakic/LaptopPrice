@@ -70,7 +70,6 @@ export class HomeComponent implements OnInit {
         Validators.required,
       ])
     });
-
     this.loadData();
   }
 
@@ -97,10 +96,8 @@ export class HomeComponent implements OnInit {
 
   laptopData() {
     if (this.inputForm.valid) {
-      // this.blockUI.start('Please wait..');
       this.setSpec();
       this.laptopService.setLaptopSpecs(this.laptop);
-      // this.delay(3000);
       this.router.navigate(['/result']);
     }
   }
@@ -130,11 +127,4 @@ export class HomeComponent implements OnInit {
     this.laptop.screenSize = this.inputForm.get('screenSize').value;
     this.laptop.condition = this.inputForm.get('laptopCondition').value;
   }
-
-  async delay(ms: number) {
-    await new Promise(resolve => setTimeout(() => resolve(), ms));
-    // this.blockUI.stop();
-    // this.router.navigate(['/result']);
-  }
-
 }

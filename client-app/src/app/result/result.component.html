@@ -1,3 +1,4 @@
+<block-ui>
 <div style="overflow-x:auto;">
   <div class="d-flex d-sm-flex">
     <div class="laptop">
@@ -42,14 +43,22 @@
   </div>
 </div>
 <div class="result text-center">
-  <div class="advent-pro-font">
+  <div class="result-title">
       Predicted Laptop Price
   </div>
   <div class="laptop-price advent-pro-font">
-    {{ laptopPrice }} din
-    <hr>
+    <div class="ml-method"> KNN </div>
+    <div class="predicted-price"> {{ laptopPriceKNN }} </div>
+    <div class="rmse"> RMSE: {{ laptopPriceMlrRMSE }} </div>
   </div>
-
+  <hr>
+  <div class="laptop-price advent-pro-font">
+      <div class="ml-method"> MLR </div>
+      <div class="predicted-price"> {{ laptopPriceMLR }} </div>
+      <div class="rmse"> RMSE: {{ laptopPriceKnnRMSE }} </div>
+      <hr>
+  </div>
+ 
   <div class="table-responsive mt-9">
     <table class="table text-nowrap">
       <tbody>
@@ -114,3 +123,4 @@
     </table>
   </div>
 </div>
+</block-ui>

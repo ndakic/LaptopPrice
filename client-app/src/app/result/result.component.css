@@ -14,17 +14,45 @@
     margin-top: 80px;
 }
 
-.advent-pro-font {
+.result-title {
     font-size: 2em;
+    font-family: 'Advent Pro', sans-serif;
+    color: rgb(58, 58, 58);
+    margin-bottom: 50px;
+}
+
+.advent-pro-font {
     font-family: 'Advent Pro', sans-serif;
     color: rgb(58, 58, 58);
 }
 
 .laptop-price {
-    font-size: 3em;
-    width: 30%;
+    display: flex;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.ml-method {
+   
+    flex-grow:1;
+    font-size: 1.5em;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.predicted-price {
+    flex-grow:3;
+    font-size: 4em;
+    margin-left: 40px;
+}
+
+.rmse {
+    flex-grow:2;
+    font-size: 1.5em;
+    margin-top: auto;
+    margin-bottom: auto;
+    font: italic;
 }
 
 .tip-logo {

@@ -33,6 +33,10 @@ export class LaptopService {
     return this.http.get(environment.apiUrlPrefix + '/api/laptop/search/' + term);
   }
 
+  getLaptopsByPriceAndCondition(lbound, ubound, condition) {
+    return this.http.get(environment.apiUrlPrefix + '/api/laptop/' + lbound + '/' + ubound + '/' + condition);
+  }
+
   getLaptops() {
     const httpHeaders = new HttpHeaders({
       'Content-Type': 'application/json',
