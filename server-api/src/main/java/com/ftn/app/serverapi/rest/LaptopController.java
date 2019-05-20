@@ -32,6 +32,11 @@ public class LaptopController {
         return laptopService.getAllLaptops();
     }
 
+    @GetMapping("/{lbound}/{ubound}/{condition}")
+    public List<Laptop> getLaptopsByBrand(@PathVariable Integer lbound, @PathVariable Integer ubound, @PathVariable String condition){
+        return laptopService.getAllLaptopsByPriceBoundsAndCondition(lbound, ubound, condition);
+    }
+
     @GetMapping("/search/{term}")
     public List<Laptop> getLaptopsByBrand(@PathVariable String term){
         return laptopService.searchLaptopsByBrand(term);

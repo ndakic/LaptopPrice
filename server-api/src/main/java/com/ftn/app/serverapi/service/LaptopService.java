@@ -26,6 +26,10 @@ public class LaptopService {
         return laptopRepository.findByBrandIgnoreCaseContaining(term);
     }
 
+    public List<Laptop> getAllLaptopsByPriceBoundsAndCondition(Integer lbound, Integer ubound, String condition){
+        return laptopRepository.findAllByPriceBoundsAndCondition(lbound, ubound, condition);
+    }
+
     public List<Laptop> getAllLaptops(){
         return laptopRepository.findAllByOrderByPriceDesc();
     }
