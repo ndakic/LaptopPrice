@@ -8,6 +8,9 @@ from . import prediction
 import json
 import pandas as pd
 
+# NOTE: columns order after drop: condition, cores, processor_model, ram_amount, ram_generation, screen_size, storage_amount, storage_type
+
+columns = ["condition", "cores", "processor_model", "ram_amount", 'ram_generation', "storage_type"]
 
 def index(request):
     return HttpResponse("Hello From Django!")
@@ -17,10 +20,7 @@ def predictPriceMLR(request):
 
 	params = json.loads(request.body.decode("utf-8"))
 
-	data = [params['processorModel'], params['processorCores'], params['ramAmount'], params['storageType'], params['storageAmount'],
-			params['ramGeneration'], params['condition'], params['screenSize'],]
-
-	columns = ["processor_model", "cores", "ram_amount", "storage_type", "storage_amount", "ram_generation", "condition", "screen_size"]
+	data = [params['condition'],  params['processorCores'], params['processorModel'], params['ramAmount'], params['ramGeneration'], params['storageType']]
 
 	dataFrame = prediction.format_mlr_data(pd.DataFrame(data=[data], columns=columns))
 
@@ -33,18 +33,7 @@ def predictPriceKNN(request):
 
 	params = json.loads(request.body.decode("utf-8"))
 
-	# column orders: condition, cores, processor_model, ram_amount, ram_generation, screen_size, storage_amount, storage_type
-
-	# data = [params['condition'], params['processorCores'], params['processorModel'], params['ramAmount'], params['ramGeneration'], 
-	# 		 params['screenSize'], params['storageAmount'], params['storageType']]
-
-	# columns = ["condition", "cores", "processor_model", "ram_amount", "ram_generation" , "screen_size", "storage_amount", "storage_type"]
-
-	data = [params['condition'], params['processorCores'], params['processorModel'], params['ramAmount']]
-
-	columns = ["condition", "cores", "processor_model", "ram_amount"]
-
-
+	data = [params['condition'], params['processorCores'], params['processorModel'], params['ramAmount'], params['ramGeneration'], params['storageType']]
 
 	dataFrame = prediction.format_knn_data(pd.DataFrame(data=[data], columns=columns))
 
