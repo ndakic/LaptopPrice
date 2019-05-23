@@ -44,7 +44,8 @@
 .predicted-price {
     flex-grow:3;
     font-size: 4em;
-    margin-left: 40px;
+    /* margin-left: 40px; */
+    padding-left: 55px;
 }
 
 .rmse {
@@ -67,4 +68,8 @@
 
 .mt-9 {
     margin-top: 80px;
+}
+
+hr {
+    width: 50%;
 }

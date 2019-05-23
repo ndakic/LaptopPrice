@@ -31,7 +31,8 @@
             </thead>
             <tbody>
               <tr *ngFor="let laptop of laptops | paginate: { itemsPerPage: 10, currentPage: p }; let i = index">
-                <td><a href="{{laptop.url}}" target="_blank">{{laptop.brand}}</a></td>
+                <td *ngIf='laptop.url'><a href="{{laptop.url}}" target="_blank">{{laptop.brand}}</a></td>
+                <td *ngIf='!laptop.url'>{{laptop.brand}}</td>
                 <td>{{laptop.processorBrand}}</td>
                 <td>{{laptop.processorModel}}</td>
                 <td>{{laptop.cores}}</td>
