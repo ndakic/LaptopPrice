@@ -22,7 +22,7 @@ def predictPriceMLR(request):
 
 	data = [params['condition'],  params['processorCores'], params['processorModel'], params['ramAmount'], params['ramGeneration'], params['storageType']]
 
-	dataFrame = prediction.format_mlr_data(pd.DataFrame(data=[data], columns=columns))
+	dataFrame = prediction.format_data(pd.DataFrame(data=[data], columns=columns))
 
 	result, rmse = prediction.predict_price_mlr(dataFrame)
 
@@ -35,7 +35,7 @@ def predictPriceKNN(request):
 
 	data = [params['condition'], params['processorCores'], params['processorModel'], params['ramAmount'], params['ramGeneration'], params['storageType']]
 
-	dataFrame = prediction.format_knn_data(pd.DataFrame(data=[data], columns=columns))
+	dataFrame = prediction.format_data(pd.DataFrame(data=[data], columns=columns))
 
 	result, rmse = prediction.predict_price_knn(dataFrame)
 

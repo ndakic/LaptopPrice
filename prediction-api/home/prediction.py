@@ -91,29 +91,24 @@ def predict_price_knn(data):
 
 	X_train, X_test, y_train, y_test = train_test_split(X, formated_data.price, test_size=0.10, random_state=5)
 
-	# creating odd list of K for KNN
-	# num_list = list(range(1,50))
+	num_list = list(range(1,50)) # creating odd list of K for KNN
 
-	# subsetting just the odd ones
-	# neighbors = list(filter(lambda x: x % 2 != 0, num_list))
+	neighbors = list(filter(lambda x: x % 2 != 0, num_list)) # subsetting just the odd ones
 
-	# empty list that will hold cv scores
-	# cv_scores = []
+	cv_scores = []	# empty list that will hold cv scores
 
-	# perform 10-fold cross validation
-	# for k in neighbors: 
-	# 	knn = KNeighborsClassifier(n_neighbors=k) # Finds the K-neighbors of a point.
-	# 	scores = cross_val_score(knn, X_train, y_train, cv=5)
-	# 	cv_scores.append(scores.mean())
+	# perform n-fold cross validation
+	for k in neighbors: 
+		knn = KNeighborsClassifier(n_neighbors=k) # Finds the K-neighbors of a point.
+		scores = cross_val_score(knn, X_train, y_train, cv=9)
+		cv_scores.append(scores.mean())
 
-	# changing to misclassification error
-	# MSE = [1 - x for x in cv_scores]
+	MSE = [1 - x for x in cv_scores] # changing to misclassification error
 
-	# determining best k
-	# optimal_k = MSE.index(min(MSE))
-	# print ("The optimal number of neighbors is %d" % optimal_k)
+	optimal_k = MSE.index(min(MSE)) # determining best k
+	print ("The optimal number of neighbors is %d" % optimal_k)
 
-	neigh = KNeighborsRegressor(n_neighbors=8, weights='distance')
+	neigh = KNeighborsRegressor(n_neighbors=optimal_k, weights='distance')
 	neigh.fit(X_train, y_train)
 
 	rmse = math.sqrt(mean_squared_error(y_test, neigh.predict(X_test)))
