@@ -107,8 +107,6 @@ def translate_condition(condition):
 		return "new"
 	if condition.lower() == "polovan bez oštećenja":
 		return "used"
-	if condition.lower() == "polovan sa vidljivim znacima korišćenja":
-		return "defective"
 
 	return condition
 
@@ -310,6 +308,9 @@ def get_laptop_info():
 					search_status = False
 
 				# insert human knowledge
+
+				if price < 50000:
+					number_of_cores = 2
 
 				if ram_generation == "":
 					if price < 50000:
