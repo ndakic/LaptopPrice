@@ -23,6 +23,22 @@ root_path = sys.argv[1]
 links = []
 laptops = []
 
+def get_chrome_options():
+
+	user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36'
+
+	chrome_options = Options()  
+	chrome_options.add_argument('user-agent=%s' % user_agent)
+	chrome_options.add_argument("--headless")
+	chrome_options.add_argument('--no-sandbox')
+	chrome_options.add_argument('start-maximized')
+	chrome_options.add_argument('disable-infobars')
+	chrome_options.add_argument("--disable-extensions")
+	chrome_options.add_argument('--dns-prefetch-disable')
+	chrome_options.add_argument("--disable-dev-shm-usage")
+
+	return chrome_options
+
 def check_file_name(file_name):
 
 	my_file = Path(root_path + "data/" + file_name + ".csv")
@@ -114,19 +130,7 @@ def get_links(base_url):
 
 	print "Collectiong urls started.."
 
-	user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36'
-
-	chrome_options = Options()  
-	chrome_options.add_argument('user-agent=%s' % user_agent)
-	chrome_options.add_argument("--headless")
-	chrome_options.add_argument('--no-sandbox')
-	chrome_options.add_argument('start-maximized')
-	chrome_options.add_argument('disable-infobars')
-	chrome_options.add_argument("--disable-extensions")
-	chrome_options.add_argument('--dns-prefetch-disable')
-	chrome_options.add_argument("--disable-dev-shm-usage")
-
-	driver = webdriver.Chrome(executable_path=root_path + "scraper/chromedriver", chrome_options=chrome_options)
+	driver = webdriver.Chrome(executable_path=root_path + "scraper/chromedriver", chrome_options=get_chrome_options())
 	driver.set_page_load_timeout(30)
 
 	pagination_limit = "1"
@@ -253,19 +257,7 @@ def get_laptop_info():
 
 	print "Getting laptops info started.."
 
-	user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36'
-
-	chrome_options = Options()  
-	chrome_options.add_argument('user-agent=%s' % user_agent)
-	chrome_options.add_argument("--headless")
-	chrome_options.add_argument('--no-sandbox')
-	chrome_options.add_argument('start-maximized')
-	chrome_options.add_argument('disable-infobars')
-	chrome_options.add_argument("--disable-extensions")
-	chrome_options.add_argument('--dns-prefetch-disable')
-	chrome_options.add_argument("--disable-dev-shm-usage")
-
-	driver = webdriver.Chrome(executable_path=root_path + "scraper/chromedriver", chrome_options=chrome_options)
+	driver = webdriver.Chrome(executable_path=root_path + "scraper/chromedriver", chrome_options=get_chrome_options())
 	driver.set_page_load_timeout(30)
 
 	count = 0
