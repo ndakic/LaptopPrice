@@ -146,10 +146,11 @@ def get_links(base_url):
 
 	for page_number in range(1, int(pagination_limit)):
 
-		# if limit < 3:
 		if limit <= int(pagination_limit):
 
-			driver.get("https://www.kupindo.com/Racunari-i-oprema/Laptop-racunari-delovi-i-oprema/Laptopovi/artikli/1473/cena_DESC_strana_" + str(page_number))
+			driver.get("https://www.kupindo.com/Racunari-i-oprema/Laptop-racunari-delovi-i-oprema/Laptopovi/artikli/1473/cena_DESC_strana_" 
+				+ str(page_number))
+
 			bs_page_urls = BeautifulSoup(driver.page_source, 'html.parser')
 
 			laptops_container = bs_page_urls.find_all('div', attrs={'class': 'product'})
@@ -198,7 +199,8 @@ def get_details(description):
 		if ram_gen:
 			ram_generation = ram_gen.group()
 
-	ram_amount_regex = re.search(r'(memorija|ram)[^\S\n\t]*[:]?[^\S\n\t]*(ddr)?[234]?[^\S\n\t]*\d+[^\S\n\t]*(gb)', description_lower)
+	ram_regex = r'(memorija|ram)[^\S\n\t]*[:]?[^\S\n\t]*(ddr)?[234]?[^\S\n\t]*\d+[^\S\n\t]*(gb)'
+	ram_amount_regex = re.search(ram_regex, description_lower)
 	if ram_amount_regex:
 		ram_r = re.search(r'\d+[^\S\n\t]*(gb)', ram_amount_regex.group())
 		if ram_r:
