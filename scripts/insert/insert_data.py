@@ -7,6 +7,7 @@ import csv
 
 from datetime import datetime
 from model.laptop import Laptop
+from django.db import transaction
 
 root_path = sys.argv[1]
 
@@ -42,6 +43,7 @@ if __name__ == "__main__":
 	format_today = today.strftime("%Y-%m-%d %H:%M:%S") # 2019-04-21 00:00:00.000000
 	seq_con.execute("SELECT last_value FROM scraper_seq")
 	next_value = seq_con.fetchall()[0][0]
+	scraper_status = "success"
 
 	try:
 		for laptop in laptops:
@@ -49,27 +51,31 @@ if __name__ == "__main__":
 			check_laptop = "select l.brand from laptop l where id = %d" % long(laptop.laptop_id)
 			laptop_con.execute(check_laptop)
 
+			if laptop.ram_amount == '':
+				laptop.ram_amount = 0
+			if laptop.storage_amount == '':
+				laptop.storage_amount = 0
+			if laptop.price == '':
+				laptop.price = 0
+
 			if len(laptop_con.fetchall()) == 0:
-				values = '\'%s\', \'%s\', \'%s\', \'%d\', \'%s\', \'%s\', \'%s\', \'%s\', \'%s\', \'%s\', \'%s\', \'%s\', \'%s\'' % (laptop.laptop_id, laptop.laptop_brand, laptop.number_of_cores, int(laptop.price), laptop.processor_brand, laptop.processor_number, laptop.ram_amount, laptop.ram_generation, laptop.screen_size, laptop.storage_amount, laptop.storage_type, laptop.condition, laptop.url)
+				values = '\'%s\', \'%s\', \'%s\', %d, \'%s\', \'%s\', %d, \'%s\', \'%s\', %d, \'%s\', \'%s\', \'%s\'' % (laptop.laptop_id, laptop.laptop_brand, laptop.number_of_cores, int(laptop.price), laptop.processor_brand, laptop.processor_number, int(laptop.ram_amount), laptop.ram_generation, laptop.screen_size, int(laptop.storage_amount), laptop.storage_type, laptop.condition, laptop.url)
 				insert_query = "INSERT INTO laptop (id, brand, cores, price, processor_brand, processor_model, ram_amount, ram_generation, screen_size, storage_amount, storage_type, condition, url) VALUES (%s)" % values
 				print "Insert laptop:", insert_query
 				laptop_con.execute(insert_query)
 			else:
 				print "Laptop %d already exist in DB." % long(laptop.laptop_id) 
 		
-		scraper_values = "\'%d\', \'%s\', \'%s\', \'%s\', \'%s\'" % (next_value, "kupindo", format_today, str(len(laptops)), "success")
-		scraper_insert = "INSERT INTO scraper (id, source, date, total, status) values (%s)" % scraper_values
-		print scraper_insert
-		scraper_con.execute(scraper_insert)
 	except Exception as e:
 		print e
-		scraper_values = "\'%d\', \'%s\', \'%s\', \'%s\', \'%s\'" % (next_value, "kupindo", format_today, str(len(laptops)), "error")
-		scraper_con.execute("INSERT INTO scraper (id, source, date, total, status) values (%s)" % scraper_values)
+		scraper_status = "error"
+		transaction.rollback()
 
+	scraper_values = "\'%d\', \'%s\', \'%s\', \'%s\', \'%s\'" % (next_value, "kupindo", format_today, str(len(laptops)), scraper_status)
+	scraper_con.execute("INSERT INTO scraper (id, source, date, total, status) values (%s)" % scraper_values)
   
 	set_seq = "SELECT setval('scraper_seq', %d, true)" % (long(next_value) + 1)
 	seq_con.execute(set_seq)
 
 	conn.commit()
-
 	conn.close()

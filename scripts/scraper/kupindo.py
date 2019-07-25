@@ -116,7 +116,19 @@ def check_does_exist(laptop_id, purpose):
 		
 	return status
 
+def check_brand(brand):
+
+	brands = ['apple', 'hewlett packard', 'hp omen', 'hp', 'dell', 'acer', 'terra', 'terra mobile', 'lenovo', 
+			  'samsung', 'medion', 'clevo', 'sony', 'asus', 'compaq', 'fujitsu', 'packard bell', 'toshiba']
+
+	for b in brands:
+		if brand == b:
+			return True
+
+	return False
+
 def translate_condition(condition):
+
 	if condition.lower() == "novo":
 		return "new"
 	if condition.lower() == "nekorišćen":
@@ -124,7 +136,57 @@ def translate_condition(condition):
 	if condition.lower() == "polovan bez oštećenja":
 		return "used"
 
+	if condition.lower() == "polovan sa vidljivim znacima korišćenja":
+		return "defective"
+	if condition.lower() == "neispravno":
+		return "defective"
+
 	return condition
+
+def insert_human_knowledge(number_of_cores, ram_generation, ram_amount, storage_amount, processor_number, storage_type, condition, price):
+
+	# check number of cores
+	if number_of_cores == "":
+		if processor_number == 'i5' and price < 80000: number_of_cores = 2
+		if processor_number == 'i5' and price >= 80000 and condition == 'used': number_of_cores = 4
+		if processor_number == "i7": number_of_cores = 4
+		if processor_number == "i3": number_of_cores = 2
+
+	# check ram generation
+	if ram_generation == "":
+		if price < 50000: ram_generation = "ddr2"
+		if price >= 50000 and price < 100000: ram_generation = "ddr3"
+		if price > 100000: ram_generation = "ddr4"
+
+	# check ram amount
+	if ram_amount == "":
+		if price < 50000 and condition == "new": ram_amount = 4
+		if price < 50000 and condition == "used": ram_amount = 8
+		if price >= 50000 and price < 100000: ram_amount = 8
+		if price >= 100000 and price < 150000 and condition == "used": ram_amount = 16
+		if price >= 100000 and price < 150000 and condition == "new": ram_amount = 8
+		if price >= 150000: ram_amount = 16
+
+	# check storage amount
+	if storage_amount == "":
+		if price < 50000: storage_amount = 250
+		if price >= 50000: storage_amount = 500
+
+	# check condition
+	if processor_number == 'i5' and condition == 'used' and ram_amount == 8 and storage_type == 'ssd' and price < 25000:
+		condition = 'defective'
+	if processor_number == 'i5' and condition == 'used' and ram_amount == 8 and storage_type == 'hdd' and price < 20000:
+		condition = 'defective'
+	if processor_number == 'i7' and condition == 'used' and ram_amount <= 8 and price < 25000: condition = 'defective'
+
+	# set typical if empty
+	if number_of_cores == '':
+		number_of_cores = 2
+	if storage_type == '':
+		storage_type = 'hdd'
+
+
+	return number_of_cores, ram_generation, ram_amount, storage_amount, processor_number, storage_type, condition
 
 def get_links(base_url):
 
@@ -148,8 +210,7 @@ def get_links(base_url):
 
 		if limit <= int(pagination_limit):
 
-			driver.get("https://www.kupindo.com/Racunari-i-oprema/Laptop-racunari-delovi-i-oprema/Laptopovi/artikli/1473/cena_DESC_strana_" 
-				+ str(page_number))
+			driver.get(base_url + str(page_number))
 
 			bs_page_urls = BeautifulSoup(driver.page_source, 'html.parser')
 
@@ -171,18 +232,12 @@ def get_links(base_url):
 	print "Total links found: %d" % len(links)
 
 def get_details(description):
-	processor_brand = ""
-	processor_number = ""
-	number_of_cores = 2
-	ram_generation = ""
-	ram_amount = ""
-	storage_type = "hdd"
-	storage_amount = ""
+
+	processor_brand, processor_number, number_of_cores, ram_generation, ram_amount, storage_type, storage_amount = "", "", "", "", "", "", ""
 
 	description_lower = description.lower()
 
 	# get processor brand, number and number_of_cores
-
 	if "quad" in description_lower:
 		number_of_cores = 4
 
@@ -192,7 +247,6 @@ def get_details(description):
 		processor_brand = "intel"
 
 	# get ram_generation and ram_amount	
-
 	ram_generation_regex = re.search(r'(memorija|ram)+.+(ddr)\d?', description_lower)
 	if ram_generation_regex:
 		ram_gen = re.search(r'(ddr)[234]', ram_generation_regex.group())
@@ -210,7 +264,6 @@ def get_details(description):
 			ram_amount = "8"
 
 	# get storage type and amount
-
 	ssd_regex = re.search(r'(ssd)', description_lower)
 	if ssd_regex:
 		storage_type = "ssd"
@@ -265,9 +318,9 @@ def get_laptop_info():
 	count = 0
 
 	for link in links:
-		if check_does_exist(link.laptop_id, "laptop") == False:
+		if not check_does_exist(link.laptop_id, "laptop"):
 			try:
-				time.sleep(1)
+				# time.sleep(1)
 				
 				driver.get(link.url)
 				laptop_page = BeautifulSoup(driver.page_source, 'html.parser')
@@ -276,7 +329,6 @@ def get_laptop_info():
 				price = ""
 				price_search = re.search(r'\d+[.]\d+', laptop_page.find("span", attrs={"class": "input-group-addon"}).text)
 				if price_search:
-					print price
 					price = int(price_search.group().replace(".", ""))
 
 				# get laptop condition
@@ -296,46 +348,21 @@ def get_laptop_info():
 				try:
 					screen_size = re.search(r'\d+[,.]*\d*', (description[0].find_all('strong')[0].text).strip()).group().replace(",", '.')
 					laptop_brand = description[0].find_all('strong')[1].text
+					print (laptop_brand.lower())
 					processor_brand, processor_number, number_of_cores, ram_generation, ram_amount, storage_type, storage_amount = get_details(description[1].text)
 				except Exception as e:
 					print e
 					search_status = False
 
-				# insert human knowledge
+				# insert human knowledge if component is empty
+				number_of_cores, ram_generation, ram_amount, storage_amount, processor_number, storage_type, condition = insert_human_knowledge(number_of_cores, ram_generation, ram_amount, storage_amount, processor_number, storage_type, condition, price)
 
-				if price < 50000:
-					number_of_cores = 2
-
-				if ram_generation == "":
-					if price < 50000:
-						ram_generation = "ddr2"
-					if price >= 50000 and price < 100000:
-						ram_generation = "ddr3"
-					if price > 100000:
-						ram_generation = "ddr4"
-
-				if ram_amount == "":
-					if price < 50000:
-						ram_amount = 4
-					if price < 50000 and condition == "used":
-						ram_amount = "8"
-					if price >= 50000 and price < 100000:
-						ram_amount = "8"
-					if price >= 100000 and price < 150000 and condition == "used":
-						ram_amount = "16"
-					if price >= 100000 and price < 150000 and condition == "new":
-						ram_amount = "8"
-					if price >= 150000:
-						ram_amount = "16"
-
-				if search_status and processor_number != "" and price != "" and storage_amount != "" and ram_amount != "":
-					laptops.append(Laptop(laptop_brand, processor_brand, processor_number, number_of_cores, ram_generation, ram_amount, storage_type, storage_amount, screen_size, price, condition, link.url, link.laptop_id))
+				if search_status and processor_number != "" and price != "" and check_brand(laptop_brand.lower()):
+					laptops.append(Laptop(laptop_brand.lower(), processor_brand, processor_number, number_of_cores, ram_generation, ram_amount, 
+						storage_type, storage_amount, screen_size, price, condition, link.url, link.laptop_id))
 				
 				print count, link.display()
 				count += 1
-
-				# if count == 10:
-				# 	break
 
 			except Exception as e:
 				print e
