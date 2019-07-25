@@ -41,9 +41,6 @@ def load_data_from_db():
 
 
 def format_data(data):
-	# data['brand'] = data['brand'].map({'apple': 15, 'hewlett packard': 14, 'hp omen': 14, 'hp': 14, 'dell': 13,
-	# 	'acer': 12, 'terra': 11, 'terra mobile': 11, 'lenovo': 10, 'samsung': 9, 'medion': 8, 'clevo': 7, 'sony': 6, 'asus': 5,
-	# 	'compaq': 4, 'fujitsu': 3, 'packard bell': 2, 'toshiba': 1})
 	data['processor_model'] = data['processor_model'].map({'i7': 7, 'i5': 5, 'i3': 3})
 	data['ram_generation'] = data['ram_generation'].map({'ddr4': 4, 'ddr3': 3, 'ddr2': 2})
 	data['storage_type'] = data['storage_type'].map({'ssd': 2, 'hdd': 1})
