@@ -22,7 +22,9 @@ def predict_price_mlr(request):
 	data = [params['condition'],  params['processorCores'], params['processorModel'], params['ramAmount'],
 			params['ramGeneration'], params['storageType']]
 
-	result, rmse = prediction.predict_price_mlr(pd.DataFrame(data=[data], columns=columns))
+	user_input = prediction.transform_input(pd.DataFrame(data=[data], columns=columns))
+
+	result, rmse = prediction.predict_price_mlr(user_input)
 
 	return JsonResponse({'result': round(result[0]), "RMSE": round(rmse)})
 

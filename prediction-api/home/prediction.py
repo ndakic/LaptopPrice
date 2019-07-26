@@ -97,8 +97,8 @@ def predict_price_mlr(data):
 	mlr = LinearRegression()
 
 	# Split the data in training and test sets
-	x_train, x_test, y_train, y_test = train_test_split(data_with_dummies_var, loaded_data.price, test_size=0.10, random_state=5)
-
+	x_train, x_test, y_train, y_test = train_test_split(data_with_dummies_var, loaded_data.price, 
+                                                        test_size=0.10, random_state=5)
 	mlr.fit(x_train, y_train)  # Fitting a linear model
 
 	print('Coefficients: \n', mlr.coef_, "Score: ", mlr.score(x_train, y_train))
@@ -107,28 +107,24 @@ def predict_price_mlr(data):
 
 	rmse = math.sqrt((mean_squared_error(y_test, y_test_pred)))
 
-	user_input = transform_input(data)
-
-	result = mlr.predict(user_input.iloc[0].values.reshape(1, -1))
+	result = mlr.predict(data.iloc[0].values.reshape(1, -1))
 
 	return result, rmse
 
 
-# K Nearest Neighbors
+# K-Nearest Neighbors
 def predict_price_knn(data):
 
 	formated_data = format_data(load_data_from_db())
 
 	# Drop columns
-	print ("formated: ", formated_data)
 	x = formated_data.drop(['price', 'processor_brand', 'id', 'url', 'screen_size', 'brand', 'storage_amount'], axis=1)
 
 	x_train, x_test, y_train, y_test = train_test_split(x, formated_data.price, test_size=0.10, random_state=5)
-	print ("system: ", x_train.iloc[0])
 
 	num_list = list(range(1, 50))  # creating odd list of K for KNN
 
-	neighbors = list(filter(lambda x: x % 2 != 0, num_list))  # subsetting just the odd ones
+	neighbors = list(filter(lambda i: i % 2 != 0, num_list))  # subsetting just the odd ones
 
 	cv_scores = []  # empty list that will hold cv scores
 
@@ -138,7 +134,7 @@ def predict_price_knn(data):
 		scores = cross_val_score(knn, x_train, y_train, cv=9)
 		cv_scores.append(scores.mean())
 
-	mse = [1 - x for x in cv_scores]  # changing to misclassification error
+	mse = [1 - cv for cv in cv_scores]  # changing to misclassification error
 
 	optimal_k = mse.index(min(mse))  # determining best k
 	print ("The optimal number of neighbors is %d" % optimal_k)
