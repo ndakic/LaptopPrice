@@ -1,6 +1,4 @@
 #!/bin/sh
 
-root="/home/daka/Desktop/LaptopPrice/scripts/"
-
-python scraper/kupindo.py $root
-python insert/insert_data.py $root
+python3 scraper/kupindo.py
+python3 insert/insert_data.py
