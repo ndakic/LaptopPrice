@@ -31,7 +31,7 @@ class Laptop:
 		return "id: {} laptop brand: {} processor number: {} condition: {} price: {}".format(self._laptop_id, self._laptop_brand, self._processor_number,
 		                               self._condition, self._price)
 
-		# setters
+	# setters
 	def set_condition(self, condition):
 		if condition.lower() == "novo":
 			self._condition = Condition.NEW.value
