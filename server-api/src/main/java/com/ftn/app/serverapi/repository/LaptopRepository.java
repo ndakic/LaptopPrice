@@ -19,7 +19,8 @@ public interface LaptopRepository extends JpaRepository<Laptop, Long> {
     List<Laptop> findByBrandIgnoreCaseContaining(String brand);
 
     @Query(value = "SELECT l from Laptop l where price > :lbound and price < :ubound and condition = :condition")
-    List<Laptop> findAllByPriceBoundsAndCondition(@Param("lbound") Integer lbound, @Param("ubound") Integer ubound, @Param("condition") String condition);
+    List<Laptop> findAllByPriceBoundsAndCondition(@Param("lbound") Integer lbound, @Param("ubound") Integer ubound, 
+                                                                                   @Param("condition") String condition);
 
     @Query(value = "SELECT DISTINCT brand from Laptop WHERE brand <> '' order by brand asc")
     List<String> findAllLaptopBrands();
@@ -52,3 +53,4 @@ public interface LaptopRepository extends JpaRepository<Laptop, Long> {
     List<String> findAllLaptopConditions();
 
 }
+

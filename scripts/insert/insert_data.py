@@ -13,7 +13,7 @@ laptops = []
 
 def load_laptops(file_name):
 
-	with open("data/" + file_name + '.csv', 'rt') as csvfile:
+	with open("../data/" + file_name + '.csv', 'rt') as csvfile:
 		loaded_data = list(csv.reader(csvfile, delimiter=","))[1:] # skip header
 
 		for laptop in loaded_data:
@@ -32,6 +32,7 @@ def insert_data_in_db():
 		conn = psycopg2.connect("host=server-api-db.c1yne3bmdpup.us-east-2.rds.amazonaws.com dbname=server_db user=ndakic password=postgres")
 	except:
 		print("I am unable to connect to the database")
+		raise SystemExit
 
 	seq_con = conn.cursor()
 	laptop_con = conn.cursor()
