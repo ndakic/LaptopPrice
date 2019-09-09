@@ -42,7 +42,10 @@
 ![Screenshot](screenshots/laptops.png)
 
 ### Choose laptop specs
-<img src="screenshots/choose-specs.png" width="48%" height="100%" style="margin-left: 130px;">
+<p align="center"">
+ <img src="screenshots/choose-specs.png" width="48%" height="100%">
+</p>
+
 
 
 ### App result
