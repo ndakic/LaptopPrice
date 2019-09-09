@@ -37,12 +37,16 @@
 - Docker
 - AWS EC2
 
+ 
+ <br>
+ <br>
+ <br>
 
 ### Preview laptops and scraper status
 ![Screenshot](screenshots/laptops.png)
 
-### Choose laptop specs
-<p align="center"">
+<h3 align="center"> Choose laptop specs </h3>
+<p align="center">
  <img src="screenshots/choose-specs.png" width="48%" height="100%">
 </p>
 
