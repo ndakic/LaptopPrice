@@ -1,9 +1,12 @@
 # Predict Laptop Price
 
+<b> Abstract </b> : This project uses machine learning methods to predict laptop price. </br>
+Beside ML predictions, focus of this project (Bachelor Thesis) is put on architecture and deployment of all used aplications.
+
 <h4> Server App </h4>
 
 - Language: Java
-- Framework: Spring with MVC architecture
+- Framework: Spring
 - Project management tool: Maven
 - Database: PostgreSQL
 
