@@ -1,7 +1,7 @@
 # Predict Laptop Price
 
 <b> Abstract </b> : This project uses machine learning methods to predict laptop price. </br>
-Beside ML predictions, focus of this project (Bachelor Thesis) is put on architecture and deployment of all used aplications.
+Beside ML predictions, focus of this project (Bachelor Thesis) is put on architecture and deployment.
 
 <h4> Server App </h4>
 
@@ -24,7 +24,7 @@ Beside ML predictions, focus of this project (Bachelor Thesis) is put on archite
 - Framework: Django
 - Machine Learning methods used for prediction:
     - Multiple Linear Regression (MLR)
-    - K-Nearest neighbors (KNN)
+    - K-Nearest Neighbors (KNN)
 
 <h4> Data Scrapper </h4>
 
@@ -33,7 +33,7 @@ Beside ML predictions, focus of this project (Bachelor Thesis) is put on archite
 - Library: BeautifulSoup
 - PostgreSQL adapter: Psycopg
 - Collects as many as possible laptops from website <a href="https://www.kupindo.com/" target="_blank"> kupindo.com</a>
-    - Insert collected data into DB
+    - Collected data are inserted into DB (PSQL)
 
 <h4> Deployment </h4>
  
