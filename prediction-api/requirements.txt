@@ -1,4 +1,4 @@
-Django==2.2.1
+Django==2.2.21
 django-cors-headers==2.5.3
 matplotlib==2.0.2
 numpy==1.16.3
